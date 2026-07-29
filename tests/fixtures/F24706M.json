@@ -1,0 +1,85 @@
+{
+  "sku": "F24706M",
+  "vendor": "Lappset",
+  "name": "JUHA TODDLER PLAY HOUSE",
+  "description": "Juha Toddler Play House creates a welcoming space for the youngest children to explore, imagine and interact on a low level without fall height.",
+  "category": {
+    "vendor_category": "Prime",
+    "gebal_category": "",
+    "play_type": "Sensory / Interactive Play Equipment",
+    "theme_&_style": ""
+  },
+  "technical": {
+    "dimensions": {
+      "length_mm": 1690,
+      "width_mm": 1690,
+      "height_mm": 1450
+    },
+    "age_group": {
+      "min": 4,
+      "max": 12
+    },
+    "number_of_users": 6,
+    "materials": [
+      "Metal frame"
+    ],
+    "weight_kg": 99.337,
+    "installation_time_h": 6.0,
+    "foundation": {
+      "type": [
+        "Deep mounting",
+        "Surface mounting"
+      ],
+      "depth_mm": ""
+    }
+  },
+  "safety": {
+    "cfh_mm": 600,
+    "safety_zone": {
+      "length_mm": 0,
+      "width_mm": 0
+    },
+    "surfacing_depth_mm": "",
+    "compliance_standard": "EN 1176-1:2017"
+  },
+  "commercial": {
+    "cost": 15950.0,
+    "currency": "AED"
+  },
+  "media": {
+    "top_view_cad_file": {
+      "file_name": "F24706M_top_view.dwg",
+      "file_type": "dwg",
+      "url": "https://example.invalid/products/F24706M/cad/F24706M_top_view.dwg",
+      "media_id": "F24706M-top-view",
+      "vendor_revision": "2026-07-21",
+      "asset_name": "F24706M top view DWG",
+      "description": "Top-view CAD drawing for normalized input regression.",
+      "content_type": "application/acad",
+      "document_information": "Top view",
+      "purpose": "top view",
+      "vendor_asset_classification": "CAD"
+    },
+    "product_media": {
+      "primary": "products/F24706M/primary/F24706M_juha_toddler_play_house.png",
+      "technical_drawings": [
+        "products/F24706M/technical_drawings/F24706M_juha_toddler_play_house.png"
+      ],
+      "other_images": [
+        "products/F24706M/other_images/F24706M_juha_toddler_play_house_1.jpg"
+      ],
+      "variants": {
+        "bloom": "products/F24706M/variants/bloom/F24706M_bloom.png",
+        "ember": "products/F24706M/variants/ember/F24706M_ember.png",
+        "meadow": "products/F24706M/variants/meadow/F24706M_meadow.png",
+        "mist": "products/F24706M/variants/mist/F24706M_mist.png",
+        "snow": "products/F24706M/variants/snow/F24706M_snow.png"
+      }
+    },
+    "parts_media": []
+  },
+  "material_submittal": {
+    "installation_instructions": "products/F24706M/material_submittal/F24706M_installation_instructions.pdf",
+    "product_sheet": "products/F24706M/material_submittal/F24706M_product_sheet.pdf"
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 262.471165 210.106603" fill="none" stroke-linecap="round" stroke-linejoin="round" style="background:transparent" data-source-layer="Lime green">
+
+
+<g vector-effect="non-scaling-stroke" stroke-width="1.5" transform="translate(510.047775 8153.383921) scale(1 -1)">
+<g data-layer="Lime green" data-entity-type="CIRCLE"><circle cx="-406.547775" cy="8046.777318" r="50.170049" fill="none" stroke="#000000" /></g>
+<g data-layer="Lime green" data-entity-type="POLYLINE"><path d="M -494.047775 8009.277318 L -494.047775 8084.277318 A 50 50 0 0 0 -444.047775 8134.277318 L -369.047775 8134.277318 A 50 50 0 0 0 -319.047775 8084.277318 L -319.047775 8009.277318 A 50 50 0 0 0 -369.047775 7959.277318 L -444.047775 7959.277318 A 50 50 0 0 0 -494.047775 8009.277318 Z" fill="none" stroke="#7ca500" data-closed="true" /></g>
+<g data-layer="Lime green" data-entity-type="MTEXT"><text x="-263.57661" y="8137.383921" fill="#7ca500" font-family="sans-serif" font-size="2.5">LIME GREEN</text></g>
+</g>
+</svg>

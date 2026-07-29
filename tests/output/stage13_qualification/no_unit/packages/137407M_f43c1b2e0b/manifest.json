@@ -1,0 +1,3635 @@
+{
+  "ai_used": false,
+  "artifacts": {
+    "canonical_json": {
+      "path": "reports/canonical.json",
+      "sha256": "48efaf4261ec10d556449c6f0b090850891346d4f8b2505e908ffda02c329098"
+    },
+    "classification_json": {
+      "path": "reports/classification.json",
+      "sha256": "e80e867df5764ea6525db23ce0fcf338ac62bd4e8d05b61df3266de6ddaccb11"
+    },
+    "combined_svg": {
+      "path": "svg/combined.svg",
+      "sha256": "a456feed746363d2221b5eba9e87e21cd9bdabca5f9c97cac4e4cfb18fd7fb99"
+    },
+    "inventory_json": {
+      "path": "reports/inventory.json",
+      "sha256": "f521404fd8ca901bf41a1c6dc1d4abec0aa333ba9a30b7093bd628b1d9799ef6"
+    },
+    "measurement_json": {
+      "path": "reports/measurement.json",
+      "sha256": "bfd40cfdc070f4672ca74024bc087cd2e5549b8281403288718baf7d4ad870b3"
+    },
+    "normalized_dwg": {
+      "path": "normalized/137407M_normalized.dwg",
+      "sha256": "36e0fc16e869fa4bf3dcc9ce23c24fa6ca2643c629490438bad6ca61314912c3"
+    },
+    "normalized_dxf": {
+      "path": "normalized/137407M_normalized.dxf",
+      "sha256": "03e9909bcb0b82920f91f4e4d53ffe326a63cb34a84614d1e0e0799feaa16c05"
+    },
+    "region_conversion_json": {
+      "path": "reports/region_conversion.json",
+      "sha256": "54c38b8ad967391941b99aa509eba20a252a38d4dfbaaa00e6f253fd55b40166"
+    },
+    "rewrite_json": {
+      "path": "reports/rewrite.json",
+      "sha256": "d98229fcebda3a601e6ea1e39e1132ffd64c08da413d36b85d3d76840eed86d2"
+    },
+    "svg_manifest": {
+      "path": "svg/manifest.json",
+      "sha256": "4f39623ae3556a7aa86d8df3d65905b7c68a97d983fae1f424dd5971b202f255"
+    },
+    "validation_json": {
+      "path": "reports/validation.json",
+      "sha256": "a2569ae248d41e2b435aa2b3f282b84e0e5e67fb61895cd1d0e395eeaa92cfed"
+    }
+  },
+  "cad_selection": {
+    "alternatives": [],
+    "evaluations": [],
+    "selected": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example2\\137407M\\top_view.dwg"
+  },
+  "elapsed_seconds": 7.510086,
+  "filename_mismatch_evidence": {
+    "filename": "top_view.dwg",
+    "mismatch": false,
+    "sku": "137407M",
+    "sku_tokens_in_filename": []
+  },
+  "files": [
+    {
+      "path": "normalized/137407M_normalized.dwg",
+      "sha256": "36e0fc16e869fa4bf3dcc9ce23c24fa6ca2643c629490438bad6ca61314912c3",
+      "size_bytes": 60680
+    },
+    {
+      "path": "normalized/137407M_normalized.dxf",
+      "sha256": "03e9909bcb0b82920f91f4e4d53ffe326a63cb34a84614d1e0e0799feaa16c05",
+      "size_bytes": 327714
+    },
+    {
+      "path": "normalized/137407M_regions.dxf",
+      "sha256": "5fbf5257af60078f4b882db884de5d9560a2e697499c7292d1019538364e08c4",
+      "size_bytes": 300163
+    },
+    {
+      "path": "normalized/top_view_source.dxf",
+      "sha256": "195f7528537f11ebfb3db77f7d757ab6f8046458d9271f741a893f322b4109e9",
+      "size_bytes": 329515
+    },
+    {
+      "path": "reports/canonical.json",
+      "sha256": "48efaf4261ec10d556449c6f0b090850891346d4f8b2505e908ffda02c329098",
+      "size_bytes": 83566
+    },
+    {
+      "path": "reports/classification.json",
+      "sha256": "e80e867df5764ea6525db23ce0fcf338ac62bd4e8d05b61df3266de6ddaccb11",
+      "size_bytes": 31886
+    },
+    {
+      "path": "reports/inventory.json",
+      "sha256": "f521404fd8ca901bf41a1c6dc1d4abec0aa333ba9a30b7093bd628b1d9799ef6",
+      "size_bytes": 10129
+    },
+    {
+      "path": "reports/measurement.json",
+      "sha256": "bfd40cfdc070f4672ca74024bc087cd2e5549b8281403288718baf7d4ad870b3",
+      "size_bytes": 41488
+    },
+    {
+      "path": "reports/region_conversion.json",
+      "sha256": "54c38b8ad967391941b99aa509eba20a252a38d4dfbaaa00e6f253fd55b40166",
+      "size_bytes": 866
+    },
+    {
+      "path": "reports/rewrite.json",
+      "sha256": "d98229fcebda3a601e6ea1e39e1132ffd64c08da413d36b85d3d76840eed86d2",
+      "size_bytes": 21880
+    },
+    {
+      "path": "reports/validation.json",
+      "sha256": "a2569ae248d41e2b435aa2b3f282b84e0e5e67fb61895cd1d0e395eeaa92cfed",
+      "size_bytes": 36266
+    },
+    {
+      "path": "svg/combined.svg",
+      "sha256": "a456feed746363d2221b5eba9e87e21cd9bdabca5f9c97cac4e4cfb18fd7fb99",
+      "size_bytes": 16656
+    },
+    {
+      "path": "svg/layers/001_0.svg",
+      "sha256": "9db1a3b0ab723bbf445db31fd3c1a76b0c11f2f641f52ef0ceab92da3c355319",
+      "size_bytes": 348
+    },
+    {
+      "path": "svg/layers/002_Apple_red.svg",
+      "sha256": "f7a8d6de4728737d7797050748f512064362cb597cd1cb6292aba18c048c4f8f",
+      "size_bytes": 356
+    },
+    {
+      "path": "svg/layers/003_ASHADE.svg",
+      "sha256": "bcdee7575a65a0ea94bc1402700dbc832c4c81ee2e3cfed425a8a6b19e066d54",
+      "size_bytes": 353
+    },
+    {
+      "path": "svg/layers/004_Candy_fuchsia.svg",
+      "sha256": "2d86ab8348eb810cc889b602e500687f533c406c5a7d64d88ee85cf3e83de4ae",
+      "size_bytes": 360
+    },
+    {
+      "path": "svg/layers/005_Defpoints.svg",
+      "sha256": "a6a37c73470ebecb0d8747f8a92b8075fb71ca4df793d61ec0aedb6d7078ee9f",
+      "size_bytes": 356
+    },
+    {
+      "path": "svg/layers/006_DIMENSIONS.svg",
+      "sha256": "9c2102876794eb5166bdd847cbee83fa0a599efcc7c063b6e1adac2e32c3d4e8",
+      "size_bytes": 357
+    },
+    {
+      "path": "svg/layers/007_EXTERNAL.svg",
+      "sha256": "949152420950d7f8fd68dff8413cdbccacfe36991a9c699f3bffb69cc491c197",
+      "size_bytes": 355
+    },
+    {
+      "path": "svg/layers/008_FOUNDATION.svg",
+      "sha256": "c166205b9ff7378549adb1d63fd3d6f63cc81e3156c117b23a29d34c0eaf176f",
+      "size_bytes": 357
+    },
+    {
+      "path": "svg/layers/009_HATCH.svg",
+      "sha256": "7509772a87a7c9567acc14bc561f64cc55ba4c76653d1d38b553bdeef05584f4",
+      "size_bytes": 352
+    },
+    {
+      "path": "svg/layers/010_lc_ground.svg",
+      "sha256": "f4dc9f8f08f1d4074bdd9c23d6820b1cd99edf1f46f8e8ba17d434e841a2b958",
+      "size_bytes": 356
+    },
+    {
+      "path": "svg/layers/011_LCPROD_FALLINGSPACE.svg",
+      "sha256": "d277c69f45a187ae06575a9b57e1c94347b5dce75d5d9e81532234cc4baf8f7e",
+      "size_bytes": 366
+    },
+    {
+      "path": "svg/layers/012_Lg_area.svg",
+      "sha256": "fc15ecf8588a560048dda3de2d2e95d03e2e58131ea7ea164dc2e12ac8600ceb",
+      "size_bytes": 354
+    },
+    {
+      "path": "svg/layers/013_Lg_boundary.svg",
+      "sha256": "a963186204f635006737abfbe3be13db00f33ba4dcf06f286d11584d7d28a6ed",
+      "size_bytes": 358
+    },
+    {
+      "path": "svg/layers/014_Lg_dim.svg",
+      "sha256": "8ee1af10a1a06bf80684c7e3bb44dc4ec545f8fe928f43948feff41637665445",
+      "size_bytes": 353
+    },
+    {
+      "path": "svg/layers/015_Lg_falling.svg",
+      "sha256": "4f1948b66ba1b640f2bd290a346987cbb1f347588d3db2a7bfe02cc049f0be44",
+      "size_bytes": 357
+    },
+    {
+      "path": "svg/layers/016_Lg_prod.svg",
+      "sha256": "7af15087bd37b5fc1921dadb7f3a401e7c1870eded025eed4185b3e2113078b0",
+      "size_bytes": 354
+    },
+    {
+      "path": "svg/layers/017_Lg_txt.svg",
+      "sha256": "39cf1739705998f8edc069690df71d7fe524f9b2bbc15fdc489a79487cded90f",
+      "size_bytes": 353
+    },
+    {
+      "path": "svg/layers/018_Lime_green.svg",
+      "sha256": "12f5b257dd5b4ebcb9aee29751b45bb829e221941e43fc938056ada98e4988bb",
+      "size_bytes": 357
+    },
+    {
+      "path": "svg/layers/019_Liquorice_grey.svg",
+      "sha256": "f756438cb585f32e681be3edf4ea90f56b787c60b263e165f3f3afce0b42c8d6",
+      "size_bytes": 361
+    },
+    {
+      "path": "svg/layers/020_NON_OPERATIONAL.svg",
+      "sha256": "2e19dfb72baee3fd5ee3013866d3ac63f0132ae7761c83fac8001d23547ca227",
+      "size_bytes": 362
+    },
+    {
+      "path": "svg/layers/021_PRODUCT.svg",
+      "sha256": "9e322e33f156e1a97e0920cdd1e5fff33a204a9eb7c23ca1d1502273b8eb2f6a",
+      "size_bytes": 10841
+    },
+    {
+      "path": "svg/layers/022_REFERENCE.svg",
+      "sha256": "88fe9933118d3127c78f84629e0e89c50c0831a45356dff4e202340479185405",
+      "size_bytes": 551
+    },
+    {
+      "path": "svg/layers/023_REVIEW_REQUIRED.svg",
+      "sha256": "e8912c19485eff73fd4458c6edaa7b92fc25c9d6d059b5329a66e6dde4cd6dec",
+      "size_bytes": 5654
+    },
+    {
+      "path": "svg/layers/024_SAFETY_ZONE.svg",
+      "sha256": "f32a05927e6d6fe84b4012e8599d6b1b26107503e2612e90f024804c1f6ae4b3",
+      "size_bytes": 735
+    },
+    {
+      "path": "svg/layers/025_TEXT.svg",
+      "sha256": "c7d6e326edd02d5621a5d75a55a1b2cc679a1970c323ac2387a513692f557670",
+      "size_bytes": 351
+    },
+    {
+      "path": "svg/layers/026_Tuttifrutti.svg",
+      "sha256": "8eeb3b749f7970a7ae756d6a23157eb364c3985bf844dade33fb81e42847ec2b",
+      "size_bytes": 358
+    }
+  ],
+  "issue_counts": {
+    "cad": {
+      "ambiguous_layer_mapping": 5,
+      "contains_3d_geometry": 1,
+      "contains_external_reference": 1,
+      "contains_proxy_entity": 1,
+      "mixed_content_preserved": 70,
+      "proxy_entity_preserved": 2,
+      "svg_entity_render_failed": 12,
+      "svg_entity_unsupported": 9,
+      "svg_text_fallback": 9,
+      "units_unknown": 1,
+      "unsupported_3d_geometry": 5,
+      "unsupported_entity_type": 27
+    },
+    "classification": {
+      "mixed_operational_content": 9,
+      "proxy_content": 1,
+      "unknown_units": 1,
+      "vendor_alias_conflict": 3
+    },
+    "measurement": {
+      "measurement_curve_approximated": 12,
+      "measurement_failed": 5,
+      "measurement_gap_too_large": 8,
+      "measurement_low_confidence": 7,
+      "measurement_multiple_candidates": 1,
+      "measurement_open_geometry": 15,
+      "measurement_self_intersection": 3,
+      "measurement_units_unknown": 1,
+      "measurement_unsupported_geometry": 33
+    },
+    "source_data": {
+      "missing_sku": 1,
+      "missing_top_view_cad": 1
+    },
+    "validation": {
+      "unverifiable_field": 13,
+      "validation_ambiguous_candidates": 2,
+      "validation_cad_risk_evidence": 14,
+      "validation_missing_json_value": 2,
+      "validation_top_view_not_verifiable": 6,
+      "validation_units_unknown": 14
+    }
+  },
+  "issues": {
+    "cad": [
+      {
+        "code": "contains_3d_geometry",
+        "evidence": {},
+        "message": "DXF contains 3D geometry indicators.",
+        "severity": "warning",
+        "stage": "inventory"
+      },
+      {
+        "code": "contains_external_reference",
+        "evidence": {
+          "indicators": [
+            "AVE_RENDER:AVE_RENDER",
+            "AVE_GLOBAL:AVE_GLOBAL"
+          ]
+        },
+        "message": "DXF contains external-reference indicators.",
+        "severity": "warning",
+        "stage": "inventory"
+      },
+      {
+        "code": "contains_proxy_entity",
+        "evidence": {
+          "count": 1
+        },
+        "message": "DXF contains ACAD_PROXY_ENTITY entities.",
+        "severity": "warning",
+        "stage": "inventory"
+      },
+      {
+        "code": "units_unknown",
+        "evidence": {
+          "insunits": 0
+        },
+        "message": "DXF header $INSUNITS is not recognized: 0",
+        "severity": "warning",
+        "stage": "inventory"
+      },
+      {
+        "code": "unsupported_entity_type",
+        "evidence": {
+          "entity_counts": {
+            "3DFACE": 5,
+            "SOLID": 8
+          }
+        },
+        "message": "DXF contains entity types outside the current audit category map.",
+        "severity": "warning",
+        "stage": "inventory"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_3d_geometry",
+        "evidence": {},
+        "message": "3D entity skipped: 3DFACE.",
+        "original_dxf_type": "3DFACE",
+        "severity": "warning",
+        "source_handle": "5E81",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_3d_geometry",
+        "evidence": {},
+        "message": "3D entity skipped: 3DFACE.",
+        "original_dxf_type": "3DFACE",
+        "severity": "warning",
+        "source_handle": "5E82",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_3d_geometry",
+        "evidence": {},
+        "message": "3D entity skipped: 3DFACE.",
+        "original_dxf_type": "3DFACE",
+        "severity": "warning",
+        "source_handle": "5E83",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_3d_geometry",
+        "evidence": {},
+        "message": "3D entity skipped: 3DFACE.",
+        "original_dxf_type": "3DFACE",
+        "severity": "warning",
+        "source_handle": "5E84",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_3d_geometry",
+        "evidence": {},
+        "message": "3D entity skipped: 3DFACE.",
+        "original_dxf_type": "3DFACE",
+        "severity": "warning",
+        "source_handle": "5E85",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: TEXT.",
+        "original_dxf_type": "TEXT",
+        "severity": "warning",
+        "source_handle": "5A9C",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "prodnum:5AA7"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: TEXT.",
+        "original_dxf_type": "TEXT",
+        "severity": "warning",
+        "source_handle": "5AA2",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "prodnum:5AA7"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: TEXT.",
+        "original_dxf_type": "TEXT",
+        "severity": "warning",
+        "source_handle": "5AA3",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "prodnum:5AA7"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: ATTDEF.",
+        "original_dxf_type": "ATTDEF",
+        "severity": "warning",
+        "source_handle": "5AA4",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: TEXT.",
+        "original_dxf_type": "TEXT",
+        "severity": "warning",
+        "source_handle": "5BB4",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: DIMENSION.",
+        "original_dxf_type": "DIMENSION",
+        "severity": "warning",
+        "source_handle": "5BE6",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: DIMENSION.",
+        "original_dxf_type": "DIMENSION",
+        "severity": "warning",
+        "source_handle": "5C0B",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: DIMENSION.",
+        "original_dxf_type": "DIMENSION",
+        "severity": "warning",
+        "source_handle": "5DDF",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: DIMENSION.",
+        "original_dxf_type": "DIMENSION",
+        "severity": "warning",
+        "source_handle": "5DF7",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: MTEXT.",
+        "original_dxf_type": "MTEXT",
+        "severity": "warning",
+        "source_handle": "5E91",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: MTEXT.",
+        "original_dxf_type": "MTEXT",
+        "severity": "warning",
+        "source_handle": "5E9D",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: MTEXT.",
+        "original_dxf_type": "MTEXT",
+        "severity": "warning",
+        "source_handle": "5E9F",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: MTEXT.",
+        "original_dxf_type": "MTEXT",
+        "severity": "warning",
+        "source_handle": "5EAB",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: MTEXT.",
+        "original_dxf_type": "MTEXT",
+        "severity": "warning",
+        "source_handle": "5EB7",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: HATCH.",
+        "original_dxf_type": "HATCH",
+        "severity": "warning",
+        "source_handle": "5ECE",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: HATCH.",
+        "original_dxf_type": "HATCH",
+        "severity": "warning",
+        "source_handle": "5ECF",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: HATCH.",
+        "original_dxf_type": "HATCH",
+        "severity": "warning",
+        "source_handle": "5ED0",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: HATCH.",
+        "original_dxf_type": "HATCH",
+        "severity": "warning",
+        "source_handle": "5ED1",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: HATCH.",
+        "original_dxf_type": "HATCH",
+        "severity": "warning",
+        "source_handle": "5ED2",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: HATCH.",
+        "original_dxf_type": "HATCH",
+        "severity": "warning",
+        "source_handle": "5ED3",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: HATCH.",
+        "original_dxf_type": "HATCH",
+        "severity": "warning",
+        "source_handle": "5ED4",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: HATCH.",
+        "original_dxf_type": "HATCH",
+        "severity": "warning",
+        "source_handle": "5ED5",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: HATCH.",
+        "original_dxf_type": "HATCH",
+        "severity": "warning",
+        "source_handle": "5ED6",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: HATCH.",
+        "original_dxf_type": "HATCH",
+        "severity": "warning",
+        "source_handle": "5ED7",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: HATCH.",
+        "original_dxf_type": "HATCH",
+        "severity": "warning",
+        "source_handle": "5ED8",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [
+          "Variteemalayerit:5EEC"
+        ],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: HATCH.",
+        "original_dxf_type": "HATCH",
+        "severity": "warning",
+        "source_handle": "5ED9",
+        "stage": "canonicalization"
+      },
+      {
+        "code": "ambiguous_layer_mapping",
+        "entity_handle": "5E81",
+        "evidence": {},
+        "layer_name": "lc_ground",
+        "message": "Ambiguous or review-required classification is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "ambiguous_layer_mapping",
+        "entity_handle": "5E82",
+        "evidence": {},
+        "layer_name": "lc_ground",
+        "message": "Ambiguous or review-required classification is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "ambiguous_layer_mapping",
+        "entity_handle": "5E83",
+        "evidence": {},
+        "layer_name": "lc_ground",
+        "message": "Ambiguous or review-required classification is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "ambiguous_layer_mapping",
+        "entity_handle": "5E84",
+        "evidence": {},
+        "layer_name": "lc_ground",
+        "message": "Ambiguous or review-required classification is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "ambiguous_layer_mapping",
+        "entity_handle": "5E85",
+        "evidence": {},
+        "layer_name": "lc_ground",
+        "message": "Ambiguous or review-required classification is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5E92",
+        "evidence": {},
+        "layer_name": "Apple red",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5E93",
+        "evidence": {},
+        "layer_name": "Apple red",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5E9D",
+        "evidence": {},
+        "layer_name": "Apple red",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5ED2",
+        "evidence": {},
+        "layer_name": "Apple red",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5ED3",
+        "evidence": {},
+        "layer_name": "Apple red",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EAC",
+        "evidence": {},
+        "layer_name": "Candy fuchsia",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EAD",
+        "evidence": {},
+        "layer_name": "Candy fuchsia",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EB7",
+        "evidence": {},
+        "layer_name": "Candy fuchsia",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5ECE",
+        "evidence": {},
+        "layer_name": "Candy fuchsia",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5ECF",
+        "evidence": {},
+        "layer_name": "Candy fuchsia",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5A9C",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5CFE",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5BE6",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5C0B",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5DD4",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5DD5",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5DD6",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5DD7",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5DD8",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5DD9",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5DDA",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5DDF",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5DF7",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5E25",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5E26",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5E27",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5E28",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5E29",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5E2A",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5E2B",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EEC",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "608F",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "6090",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "6091",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "6092",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "6093",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "6094",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "6095",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "6099",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "609A",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "609B",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "609C",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "609D",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "609E",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "609F",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5BB4",
+        "evidence": {},
+        "layer_name": "Lg_falling",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5D02",
+        "evidence": {},
+        "layer_name": "Lg_falling",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5AA2",
+        "evidence": {},
+        "layer_name": "Lg_txt",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5AA3",
+        "evidence": {},
+        "layer_name": "Lg_txt",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5AA4",
+        "evidence": {},
+        "layer_name": "Lg_txt",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5AA7",
+        "evidence": {},
+        "layer_name": "Lg_txt",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5E86",
+        "evidence": {},
+        "layer_name": "Lime green",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5E87",
+        "evidence": {},
+        "layer_name": "Lime green",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5E91",
+        "evidence": {},
+        "layer_name": "Lime green",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5ED0",
+        "evidence": {},
+        "layer_name": "Lime green",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5ED1",
+        "evidence": {},
+        "layer_name": "Lime green",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EA0",
+        "evidence": {},
+        "layer_name": "Liquorice grey",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EA1",
+        "evidence": {},
+        "layer_name": "Liquorice grey",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EAB",
+        "evidence": {},
+        "layer_name": "Liquorice grey",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5ED8",
+        "evidence": {},
+        "layer_name": "Liquorice grey",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5ED9",
+        "evidence": {},
+        "layer_name": "Liquorice grey",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5E9E",
+        "evidence": {},
+        "layer_name": "Tuttifrutti",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5E9F",
+        "evidence": {},
+        "layer_name": "Tuttifrutti",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EB8",
+        "evidence": {},
+        "layer_name": "Tuttifrutti",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EC0",
+        "evidence": {},
+        "layer_name": "Tuttifrutti",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EC7",
+        "evidence": {},
+        "layer_name": "Tuttifrutti",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5ED4",
+        "evidence": {},
+        "layer_name": "Tuttifrutti",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5ED5",
+        "evidence": {},
+        "layer_name": "Tuttifrutti",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5ED6",
+        "evidence": {},
+        "layer_name": "Tuttifrutti",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5ED7",
+        "evidence": {},
+        "layer_name": "Tuttifrutti",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "proxy_entity_preserved",
+        "entity_handle": "139",
+        "evidence": {},
+        "layer_name": "0",
+        "message": "Proxy content is routed for review without geometry interpretation.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "proxy_entity_preserved",
+        "entity_handle": "22",
+        "evidence": {},
+        "layer_name": "0",
+        "message": "Proxy content is routed for review without geometry interpretation.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "svg_text_fallback",
+        "entity_type": "TEXT",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Text rendered with generic SVG text fallback.",
+        "severity": "info",
+        "source_handle": "5A9C",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_text_fallback",
+        "entity_type": "TEXT",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Text rendered with generic SVG text fallback.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_text_fallback",
+        "entity_type": "TEXT",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Text rendered with generic SVG text fallback.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_text_fallback",
+        "entity_type": "TEXT",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Text rendered with generic SVG text fallback.",
+        "severity": "info",
+        "source_handle": "5BB4",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_text_fallback",
+        "entity_type": "MTEXT",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Text rendered with generic SVG text fallback.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_text_fallback",
+        "entity_type": "MTEXT",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Text rendered with generic SVG text fallback.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_text_fallback",
+        "entity_type": "MTEXT",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Text rendered with generic SVG text fallback.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_text_fallback",
+        "entity_type": "MTEXT",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Text rendered with generic SVG text fallback.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_text_fallback",
+        "entity_type": "MTEXT",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Text rendered with generic SVG text fallback.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_render_failed",
+        "entity_type": "HATCH",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Entity render failed: hatch boundary path is unavailable",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_render_failed",
+        "entity_type": "HATCH",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Entity render failed: hatch boundary path is unavailable",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_render_failed",
+        "entity_type": "HATCH",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Entity render failed: hatch boundary path is unavailable",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_render_failed",
+        "entity_type": "HATCH",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Entity render failed: hatch boundary path is unavailable",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_render_failed",
+        "entity_type": "HATCH",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Entity render failed: hatch boundary path is unavailable",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_render_failed",
+        "entity_type": "HATCH",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Entity render failed: hatch boundary path is unavailable",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_render_failed",
+        "entity_type": "HATCH",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Entity render failed: hatch boundary path is unavailable",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_render_failed",
+        "entity_type": "HATCH",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Entity render failed: hatch boundary path is unavailable",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_render_failed",
+        "entity_type": "HATCH",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Entity render failed: hatch boundary path is unavailable",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_render_failed",
+        "entity_type": "HATCH",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Entity render failed: hatch boundary path is unavailable",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_render_failed",
+        "entity_type": "HATCH",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Entity render failed: hatch boundary path is unavailable",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_render_failed",
+        "entity_type": "HATCH",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Entity render failed: hatch boundary path is unavailable",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "3DFACE",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: 3DFACE",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "3DFACE",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: 3DFACE",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "3DFACE",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: 3DFACE",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "3DFACE",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: 3DFACE",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "3DFACE",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: 3DFACE",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "DIMENSION",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: DIMENSION",
+        "severity": "warning",
+        "source_handle": "5BE6",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "DIMENSION",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: DIMENSION",
+        "severity": "warning",
+        "source_handle": "5C0B",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "DIMENSION",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: DIMENSION",
+        "severity": "warning",
+        "source_handle": "5DDF",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "DIMENSION",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: DIMENSION",
+        "severity": "warning",
+        "source_handle": "5DF7",
+        "stage": "svg_export"
+      }
+    ],
+    "classification": [
+      {
+        "code": "mixed_operational_content",
+        "evidence": {
+          "entity_counts": {
+            "CIRCLE": 1,
+            "HATCH": 2,
+            "MTEXT": 1,
+            "POLYLINE": 1
+          }
+        },
+        "layer_name": "Apple red",
+        "message": "Layer mixes operational geometry with annotation, dimension, or hatch content.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "mixed_operational_content",
+        "evidence": {
+          "entity_counts": {
+            "CIRCLE": 1,
+            "HATCH": 2,
+            "MTEXT": 1,
+            "POLYLINE": 1
+          }
+        },
+        "layer_name": "Candy fuchsia",
+        "message": "Layer mixes operational geometry with annotation, dimension, or hatch content.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "mixed_operational_content",
+        "evidence": {
+          "entity_counts": {
+            "POLYLINE": 1,
+            "TEXT": 1
+          }
+        },
+        "layer_name": "Lg_area",
+        "message": "Layer mixes operational geometry with annotation, dimension, or hatch content.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "mixed_operational_content",
+        "evidence": {
+          "entity_counts": {
+            "DIMENSION": 4,
+            "INSERT": 1,
+            "LINE": 16,
+            "MTEXT": 4,
+            "SOLID": 8
+          }
+        },
+        "layer_name": "Lg_dim",
+        "message": "Layer mixes operational geometry with annotation, dimension, or hatch content.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "mixed_operational_content",
+        "evidence": {
+          "entity_counts": {
+            "POLYLINE": 1,
+            "TEXT": 1
+          }
+        },
+        "layer_name": "Lg_falling",
+        "message": "Layer mixes operational geometry with annotation, dimension, or hatch content.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "mixed_operational_content",
+        "evidence": {
+          "entity_counts": {
+            "ATTDEF": 1,
+            "INSERT": 1,
+            "TEXT": 2
+          }
+        },
+        "layer_name": "Lg_txt",
+        "message": "Layer mixes operational geometry with annotation, dimension, or hatch content.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "mixed_operational_content",
+        "evidence": {
+          "entity_counts": {
+            "CIRCLE": 1,
+            "HATCH": 2,
+            "MTEXT": 1,
+            "POLYLINE": 1
+          }
+        },
+        "layer_name": "Lime green",
+        "message": "Layer mixes operational geometry with annotation, dimension, or hatch content.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "mixed_operational_content",
+        "evidence": {
+          "entity_counts": {
+            "CIRCLE": 1,
+            "HATCH": 2,
+            "MTEXT": 1,
+            "POLYLINE": 1
+          }
+        },
+        "layer_name": "Liquorice grey",
+        "message": "Layer mixes operational geometry with annotation, dimension, or hatch content.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "mixed_operational_content",
+        "evidence": {
+          "entity_counts": {
+            "CIRCLE": 1,
+            "HATCH": 4,
+            "MTEXT": 1,
+            "POLYLINE": 3
+          }
+        },
+        "layer_name": "Tuttifrutti",
+        "message": "Layer mixes operational geometry with annotation, dimension, or hatch content.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "proxy_content",
+        "evidence": {
+          "entity_counts": {
+            "ACAD_PROXY_ENTITY": 1,
+            "VIEWPORT": 1
+          }
+        },
+        "layer_name": "0",
+        "message": "Layer contains proxy content.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "unknown_units",
+        "evidence": {
+          "drawing_units": "unknown",
+          "insunits": 0
+        },
+        "layer_name": null,
+        "message": "Drawing units are missing or unknown; classification does not infer millimetres.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "vendor_alias_conflict",
+        "evidence": {
+          "entity_counts": {
+            "POLYLINE": 1,
+            "TEXT": 1
+          }
+        },
+        "layer_name": "Lg_area",
+        "message": "Layer-name or vendor alias evidence conflicts with entity or geometry evidence.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "vendor_alias_conflict",
+        "evidence": {
+          "entity_counts": {
+            "POLYLINE": 1,
+            "TEXT": 1
+          }
+        },
+        "layer_name": "Lg_falling",
+        "message": "Layer-name or vendor alias evidence conflicts with entity or geometry evidence.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "vendor_alias_conflict",
+        "evidence": {
+          "entity_counts": {
+            "3DFACE": 5
+          }
+        },
+        "layer_name": "lc_ground",
+        "message": "Layer-name or vendor alias evidence conflicts with entity or geometry evidence.",
+        "severity": "warning",
+        "stage": "classification"
+      }
+    ],
+    "measurement": [
+      {
+        "code": "measurement_failed",
+        "evidence": {
+          "cap": 250000,
+          "comparison_count": 796952,
+          "segment_count": 1264,
+          "source_handles": [
+            "5E92"
+          ]
+        },
+        "layer_name": "Apple red",
+        "message": "Self-intersection processing exceeded the configured comparison cap.",
+        "severity": "fail",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_failed",
+        "evidence": {
+          "cap": 250000,
+          "comparison_count": 796952,
+          "segment_count": 1264,
+          "source_handles": [
+            "5EAC"
+          ]
+        },
+        "layer_name": "Candy fuchsia",
+        "message": "Self-intersection processing exceeded the configured comparison cap.",
+        "severity": "fail",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_failed",
+        "evidence": {
+          "cap": 250000,
+          "comparison_count": 44486027,
+          "segment_count": 9434,
+          "source_handles": [
+            "6083"
+          ]
+        },
+        "layer_name": "LCPROD_FALLINGSPACE",
+        "message": "Self-intersection processing exceeded the configured comparison cap.",
+        "severity": "fail",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_failed",
+        "evidence": {
+          "cap": 250000,
+          "comparison_count": 796952,
+          "segment_count": 1264,
+          "source_handles": [
+            "5E86"
+          ]
+        },
+        "layer_name": "Lime green",
+        "message": "Self-intersection processing exceeded the configured comparison cap.",
+        "severity": "fail",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_failed",
+        "evidence": {
+          "cap": 250000,
+          "comparison_count": 796952,
+          "segment_count": 1264,
+          "source_handles": [
+            "5EA0"
+          ]
+        },
+        "layer_name": "Liquorice grey",
+        "message": "Self-intersection processing exceeded the configured comparison cap.",
+        "severity": "fail",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0001",
+          "tolerance": 1.0
+        },
+        "layer_name": "Apple red",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0002",
+          "tolerance": 1.0
+        },
+        "layer_name": "Candy fuchsia",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0003",
+          "tolerance": 1.0
+        },
+        "layer_name": "LCPROD_FALLINGSPACE",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0005",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0006",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0008",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0009",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0010",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lime green",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0011",
+          "tolerance": 1.0
+        },
+        "layer_name": "Liquorice grey",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0012",
+          "tolerance": 1.0
+        },
+        "layer_name": "Tuttifrutti",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0013",
+          "tolerance": 1.0
+        },
+        "layer_name": "Tuttifrutti",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0014",
+          "tolerance": 1.0
+        },
+        "layer_name": "Tuttifrutti",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_multiple_candidates",
+        "evidence": {
+          "count": 14
+        },
+        "layer_name": null,
+        "message": "Multiple plausible measurement candidates were retained.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.5,
+            8.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            8.732124598,
+            8.732124598
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            5.13030215,
+            5.13030215,
+            5.13030215
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            5.13030215
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.76083876087854,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 79.31179577145984,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 79.31179577146109,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.760838760878855,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 2174.5330360952034,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 2176.5208303780196,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 2174.5330360952034,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 2176.520830378019,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_low_confidence",
+        "evidence": {
+          "candidate_id": "MC0001",
+          "confidence": 0.49
+        },
+        "layer_name": "Apple red",
+        "message": "Measurement candidate is below the configured confidence threshold.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_low_confidence",
+        "evidence": {
+          "candidate_id": "MC0002",
+          "confidence": 0.49
+        },
+        "layer_name": "Candy fuchsia",
+        "message": "Measurement candidate is below the configured confidence threshold.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_low_confidence",
+        "evidence": {
+          "candidate_id": "MC0010",
+          "confidence": 0.49
+        },
+        "layer_name": "Lime green",
+        "message": "Measurement candidate is below the configured confidence threshold.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_low_confidence",
+        "evidence": {
+          "candidate_id": "MC0011",
+          "confidence": 0.49
+        },
+        "layer_name": "Liquorice grey",
+        "message": "Measurement candidate is below the configured confidence threshold.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_low_confidence",
+        "evidence": {
+          "candidate_id": "MC0012",
+          "confidence": 0.49
+        },
+        "layer_name": "Tuttifrutti",
+        "message": "Measurement candidate is below the configured confidence threshold.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_low_confidence",
+        "evidence": {
+          "candidate_id": "MC0013",
+          "confidence": 0.49
+        },
+        "layer_name": "Tuttifrutti",
+        "message": "Measurement candidate is below the configured confidence threshold.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_low_confidence",
+        "evidence": {
+          "candidate_id": "MC0014",
+          "confidence": 0.49
+        },
+        "layer_name": "Tuttifrutti",
+        "message": "Measurement candidate is below the configured confidence threshold.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "5CFE",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_falling",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "5D02",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_self_intersection",
+        "evidence": {
+          "source_handles": [
+            "606D",
+            "606E",
+            "606F",
+            "6070",
+            "6071",
+            "6072",
+            "6074",
+            "6075",
+            "6076"
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Self-intersecting loop was retained for review but area confidence is reduced.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_self_intersection",
+        "evidence": {
+          "source_handles": [
+            "6061",
+            "6062",
+            "6063",
+            "6064",
+            "6065",
+            "6066",
+            "6067",
+            "6068",
+            "6069",
+            "606A",
+            "606B",
+            "606C"
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Self-intersecting loop was retained for review but area confidence is reduced.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_self_intersection",
+        "evidence": {
+          "source_handles": [
+            "5EC7"
+          ]
+        },
+        "layer_name": "Tuttifrutti",
+        "message": "Self-intersecting loop was retained for review but area confidence is reduced.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_units_unknown",
+        "evidence": {
+          "drawing_units": "unknown",
+          "insunits": 0
+        },
+        "layer_name": null,
+        "message": "Drawing units are unknown; raw drawing-unit measurements are preserved.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "xref_indicators": [
+            "AVE_GLOBAL:AVE_GLOBAL",
+            "AVE_RENDER:AVE_RENDER"
+          ]
+        },
+        "layer_name": null,
+        "message": "External-reference indicators are not authoritative measurement geometry.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "count": 1,
+          "entity_type": "ACAD_PROXY_ENTITY"
+        },
+        "layer_name": null,
+        "message": "Proxy, XREF, raster, or underlay content is not authoritative measurement geometry.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "MTEXT"
+        },
+        "layer_name": "Apple red",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5E9D",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "HATCH"
+        },
+        "layer_name": "Apple red",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5ED2",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "HATCH"
+        },
+        "layer_name": "Apple red",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5ED3",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "MTEXT"
+        },
+        "layer_name": "Candy fuchsia",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5EB7",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "HATCH"
+        },
+        "layer_name": "Candy fuchsia",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5ECE",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "HATCH"
+        },
+        "layer_name": "Candy fuchsia",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5ECF",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "TEXT"
+        },
+        "layer_name": "Lg_area",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5A9C",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "DIMENSION"
+        },
+        "layer_name": "Lg_dim",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5BE6",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "DIMENSION"
+        },
+        "layer_name": "Lg_dim",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5C0B",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "DIMENSION"
+        },
+        "layer_name": "Lg_dim",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5DDF",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "DIMENSION"
+        },
+        "layer_name": "Lg_dim",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5DF7",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "TEXT"
+        },
+        "layer_name": "Lg_falling",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5BB4",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "TEXT"
+        },
+        "layer_name": "Lg_txt",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5AA2",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "TEXT"
+        },
+        "layer_name": "Lg_txt",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5AA3",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "ATTDEF"
+        },
+        "layer_name": "Lg_txt",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5AA4",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "MTEXT"
+        },
+        "layer_name": "Lime green",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5E91",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "HATCH"
+        },
+        "layer_name": "Lime green",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5ED0",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "HATCH"
+        },
+        "layer_name": "Lime green",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5ED1",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "MTEXT"
+        },
+        "layer_name": "Liquorice grey",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5EAB",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "HATCH"
+        },
+        "layer_name": "Liquorice grey",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5ED8",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "HATCH"
+        },
+        "layer_name": "Liquorice grey",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5ED9",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "MTEXT"
+        },
+        "layer_name": "Tuttifrutti",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5E9F",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "HATCH"
+        },
+        "layer_name": "Tuttifrutti",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5ED4",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "HATCH"
+        },
+        "layer_name": "Tuttifrutti",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5ED5",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "HATCH"
+        },
+        "layer_name": "Tuttifrutti",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5ED6",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "HATCH"
+        },
+        "layer_name": "Tuttifrutti",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5ED7",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "3DFACE"
+        },
+        "layer_name": "lc_ground",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5E81",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "3DFACE"
+        },
+        "layer_name": "lc_ground",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5E82",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "3DFACE"
+        },
+        "layer_name": "lc_ground",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5E83",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "3DFACE"
+        },
+        "layer_name": "lc_ground",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5E84",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "3DFACE"
+        },
+        "layer_name": "lc_ground",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5E85",
+        "stage": "measurement"
+      }
+    ],
+    "source_data": [
+      {
+        "code": "missing_top_view_cad",
+        "field_path": "media.top_view_cad_file",
+        "message": "Top-view CAD asset is missing.",
+        "severity": "fail"
+      },
+      {
+        "code": "missing_sku",
+        "field_path": "results",
+        "message": "Bluestone payload has no first product in results.",
+        "severity": "fail"
+      }
+    ],
+    "validation": [
+      {
+        "candidate_id": null,
+        "code": "validation_missing_json_value",
+        "evidence": {},
+        "field_path": "safety.falling_space_area_m2",
+        "message": "JSON value is missing; CAD comparison was not attempted.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_missing_json_value",
+        "evidence": {},
+        "field_path": "safety.impact_area_m2",
+        "message": "JSON value is missing; CAD comparison was not attempted.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {
+          "json_value_present": true
+        },
+        "field_path": "safety.cfh_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {
+          "json_value_present": true
+        },
+        "field_path": "safety.free_fall_height_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {},
+        "field_path": "technical.age_range",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {
+          "json_value_present": true
+        },
+        "field_path": "technical.dimensions.height_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {},
+        "field_path": "technical.materials",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {},
+        "field_path": "technical.weight",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": null,
+        "message": "CAD units are not authoritative for JSON comparison.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0003",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "cad.top_view.product_inside_safety",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0006",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "cad.top_view.product_inside_safety",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0003",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "safety.safety_zone.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0003",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "safety.safety_zone.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0003",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "safety.safety_zone.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0004",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0005",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0006",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0006",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0006",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0007",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0008",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0009",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0006",
+        "code": "validation_ambiguous_candidates",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Multiple CAD candidates have equivalent validation rank.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0006",
+        "code": "validation_ambiguous_candidates",
+        "evidence": {},
+        "field_path": "technical.dimensions.width_mm",
+        "message": "Multiple CAD candidates have equivalent validation rank.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_low_confidence",
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": null,
+        "message": "CAD measurement includes evidence that prevents forced pass decisions.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0003",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "cad.top_view.product_inside_safety",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0006",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "cad.top_view.product_inside_safety",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0003",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "safety.safety_zone.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0003",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "safety.safety_zone.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0003",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "safety.safety_zone.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0004",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0005",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0006",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0006",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0006",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0007",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0008",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0009",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "cad.top_view.product_inside_safety",
+        "message": "Product footprint is checked against safety-zone containment.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "safety.cfh_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "safety.falling_space_area_m2",
+        "message": "JSON value is missing; CAD comparison was not attempted.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "safety.free_fall_height_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "safety.impact_area_m2",
+        "message": "JSON value is missing; CAD comparison was not attempted.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "safety.safety_zone.length_mm",
+        "message": "Best CAD safety zone candidate compared against JSON.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "safety.safety_zone.width_mm",
+        "message": "Best CAD safety zone candidate compared against JSON.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.age_range",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.dimensions.height_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Best CAD product footprint candidate compared against JSON.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.dimensions.width_mm",
+        "message": "Best CAD product footprint candidate compared against JSON.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.materials",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.weight",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      }
+    ]
+  },
+  "occurrence_id": "137407M_f43c1b2e0b",
+  "overall_status": "fail",
+  "selected_source": {
+    "cad_path": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example2\\137407M\\top_view.dwg",
+    "json_candidate": null
+  },
+  "sku": "137407M",
+  "source_checksums": {
+    "cad_sha256": "8fd094d83be394167ee8d2195214984a2c8484aac6f3906cd469056e9cdbe419",
+    "json_sha256": "483c92c551e8f9e841b4ba0e9d2b9e267a54bbbefcb853bcc6b91e0bdeb365cf"
+  },
+  "source_checksums_unchanged": true,
+  "source_paths": {
+    "cad": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example2\\137407M\\top_view.dwg",
+    "json": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example2\\137407M\\137407M.json"
+  },
+  "stage": "12",
+  "stage_events": [
+    {
+      "event": "start",
+      "stage": "input_conversion",
+      "timeout_seconds": 180.0
+    },
+    {
+      "event": "end",
+      "stage": "input_conversion",
+      "status": "pass"
+    },
+    {
+      "event": "start",
+      "stage": "inventory",
+      "timeout_seconds": null
+    },
+    {
+      "event": "end",
+      "stage": "inventory",
+      "status": "pass_with_warnings"
+    },
+    {
+      "event": "start",
+      "stage": "canonicalization",
+      "timeout_seconds": 180.0
+    },
+    {
+      "event": "end",
+      "stage": "canonicalization",
+      "status": "pass_with_warnings"
+    },
+    {
+      "event": "start",
+      "stage": "region_conversion",
+      "timeout_seconds": 120.0
+    },
+    {
+      "event": "end",
+      "stage": "region_conversion",
+      "status": "pass"
+    },
+    {
+      "event": "start",
+      "stage": "classification",
+      "timeout_seconds": null
+    },
+    {
+      "event": "end",
+      "stage": "classification",
+      "status": "pass_with_warnings"
+    },
+    {
+      "event": "start",
+      "stage": "rewrite",
+      "timeout_seconds": null
+    },
+    {
+      "event": "end",
+      "stage": "rewrite",
+      "status": "pass_with_warnings"
+    },
+    {
+      "event": "start",
+      "stage": "svg_export",
+      "timeout_seconds": 180.0
+    },
+    {
+      "event": "end",
+      "stage": "svg_export",
+      "status": "pass_with_warnings"
+    },
+    {
+      "event": "start",
+      "stage": "measurement",
+      "timeout_seconds": 180.0
+    },
+    {
+      "event": "end",
+      "stage": "measurement",
+      "status": "fail"
+    },
+    {
+      "event": "start",
+      "stage": "validation",
+      "timeout_seconds": null
+    },
+    {
+      "event": "end",
+      "stage": "validation",
+      "status": "review_required"
+    },
+    {
+      "event": "start",
+      "stage": "dwg_export",
+      "timeout_seconds": 180.0
+    },
+    {
+      "event": "end",
+      "stage": "dwg_export",
+      "status": "pass"
+    }
+  ],
+  "stage_statuses": {
+    "canonicalization": "pass_with_warnings",
+    "classification": "pass_with_warnings",
+    "dwg_export": "pass",
+    "input_conversion": "pass",
+    "inventory": "pass_with_warnings",
+    "measurement": "fail",
+    "region_conversion": "pass",
+    "rewrite": "pass_with_warnings",
+    "svg_export": "pass_with_warnings",
+    "validation": "review_required"
+  },
+  "stage_timeouts_seconds": {
+    "canonicalization": 180.0,
+    "dwg_export": 180.0,
+    "input_conversion": 180.0,
+    "measurement": 180.0,
+    "region_conversion": 120.0,
+    "svg_export": 180.0
+  },
+  "timings_seconds": {
+    "canonicalization": 0.857102,
+    "classification": 0.002639,
+    "dwg_export": 1.169727,
+    "input_conversion": 1.369305,
+    "inventory": 0.134503,
+    "measurement": 1.429349,
+    "region_conversion": 1.026159,
+    "rewrite": 0.313565,
+    "svg_export": 1.1439,
+    "validation": 0.001125
+  }
+}

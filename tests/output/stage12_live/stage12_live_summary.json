@@ -1,0 +1,131 @@
+{
+    "generated_at": "2026-07-23",
+    "output_root": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage12_live",
+    "package_count": 2,
+    "packages": [
+        {
+            "filename_mismatch": true,
+            "issue_counts": {
+                "cad": {
+                    "ambiguous_layer_mapping": 5,
+                    "contains_3d_geometry": 1,
+                    "contains_external_reference": 1,
+                    "contains_proxy_entity": 1,
+                    "mixed_content_preserved": 32,
+                    "proxy_entity_preserved": 2,
+                    "svg_entity_unsupported": 9,
+                    "units_unknown": 1,
+                    "unsupported_3d_geometry": 5,
+                    "unsupported_entity_type": 5
+                },
+                "classification": {
+                    "mixed_operational_content": 1,
+                    "proxy_content": 1,
+                    "unknown_units": 1,
+                    "vendor_alias_conflict": 1
+                },
+                "measurement": {
+                    "measurement_curve_approximated": 24,
+                    "measurement_gap_too_large": 48,
+                    "measurement_hole_relationship_uncertain": 4,
+                    "measurement_multiple_candidates": 1,
+                    "measurement_open_geometry": 61,
+                    "measurement_self_intersection": 1,
+                    "measurement_unit_override_applied": 1,
+                    "measurement_units_unknown": 1,
+                    "measurement_unsupported_geometry": 11
+                },
+                "source_data": {},
+                "validation": {
+                    "unverifiable_field": 7,
+                    "validation_ambiguous_candidates": 2,
+                    "validation_cad_risk_evidence": 36,
+                    "validation_dimension_mismatch": 35,
+                    "validation_missing_cad_candidate": 5,
+                    "validation_top_view_not_verifiable": 6,
+                    "validation_unit_override_used": 36
+                }
+            },
+            "occurrence_id": "137132M_505ed10941",
+            "overall_status": "fail",
+            "package_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage12_live\\137132M_505ed10941",
+            "sku": "137132M",
+            "source_checksums_unchanged": true,
+            "stage_statuses": {
+                "canonicalization": "pass_with_warnings",
+                "classification": "pass_with_warnings",
+                "input_conversion": "pass",
+                "inventory": "pass_with_warnings",
+                "measurement": "pass_with_warnings",
+                "region_conversion": "pass",
+                "rewrite": "pass_with_warnings",
+                "svg_export": "pass_with_warnings",
+                "validation": "fail"
+            }
+        },
+        {
+            "filename_mismatch": false,
+            "issue_counts": {
+                "cad": {
+                    "ambiguous_layer_mapping": 1,
+                    "units_unknown": 1
+                },
+                "classification": {
+                    "insufficient_evidence": 1,
+                    "unknown_units": 1
+                },
+                "measurement": {
+                    "measurement_gap_too_large": 32,
+                    "measurement_multiple_candidates": 1,
+                    "measurement_open_geometry": 294,
+                    "measurement_unit_override_applied": 1,
+                    "measurement_units_unknown": 1
+                },
+                "source_data": {
+                    "invalid_safety_data": 2
+                },
+                "validation": {
+                    "unverifiable_field": 11,
+                    "validation_dimension_mismatch": 6,
+                    "validation_missing_cad_candidate": 1,
+                    "validation_missing_json_value": 4,
+                    "validation_top_view_not_verifiable": 6,
+                    "validation_unit_override_used": 7
+                }
+            },
+            "occurrence_id": "F24706M_a8366586bc",
+            "overall_status": "fail",
+            "package_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage12_live\\F24706M_a8366586bc",
+            "sku": "F24706M",
+            "source_checksums_unchanged": true,
+            "stage_statuses": {
+                "canonicalization": "pass",
+                "classification": "pass_with_warnings",
+                "input_conversion": "pass",
+                "inventory": "pass_with_warnings",
+                "measurement": "pass_with_warnings",
+                "region_conversion": "pass",
+                "rewrite": "pass_with_warnings",
+                "svg_export": "pass",
+                "validation": "fail"
+            }
+        }
+    ],
+    "stage12_hang_diagnosis": {
+        "after_runtime_seconds": 7.357166,
+        "before_runtime_seconds": {
+            "manual_bypassed_baseline": 0.0,
+            "pre_self_intersection_guard": 99.112843
+        },
+        "hanging_stage": "measurement",
+        "issue_codes": [
+            "measurement_failed"
+        ],
+        "occurrence": "Example2/137004M",
+        "package_path": "tests/output/stage13_qualification/no_unit/packages/137004M_77975161a0",
+        "package_status": "fail",
+        "root_cause": "Large curved measurement candidates exceeded curve tessellation and self-intersection comparison caps; previous behavior attempted expensive O(n^2) self-intersection checks after curve flattening.",
+        "source_checksums_unchanged": true,
+        "stage12_returns_cleanly": true
+    }
+}

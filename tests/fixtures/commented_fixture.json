@@ -1,0 +1,17 @@
+{
+  // Controlled local fixture comment.
+  "sku": "COMMENTED",
+  "technical": {
+    "dimensions": {
+      "length_mm": "1000",
+      "width_mm": "2000"
+    }
+  },
+  "media": {
+    "top_view_cad_file": {
+      "file_name": "COMMENTED_top_view.dwg",
+      "file_type": "dwg",
+      "url": "https://example.invalid/COMMENTED_top_view.dwg"
+    }
+  }
+}

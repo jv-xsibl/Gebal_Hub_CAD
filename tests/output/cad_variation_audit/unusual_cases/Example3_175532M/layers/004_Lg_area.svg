@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 5477 3736" fill="none" stroke-linecap="round" stroke-linejoin="round" style="background:transparent" data-source-layer="Lg_area">
+
+
+<g vector-effect="non-scaling-stroke" stroke-width="1.5" transform="translate(2738.5 1868) scale(1 -1)">
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 704.062778 -1775.047163 A 1501 1501 0 0 1 1178.5 -1852" fill="none" stroke="#67a552" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="1178.5" y1="-1852" x2="1221.5" y2="-1852" stroke="#67a552" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 1221.5 -1852 A 1501 1501 0 0 1 2722.5 -351" fill="none" stroke="#67a552" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="2722.5" y1="-351" x2="2722.5" y2="351" stroke="#67a552" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 2722.5 351 A 1501 1501 0 0 1 1221.5 1852" fill="none" stroke="#67a552" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="1221.5" y1="1852" x2="1178.5" y2="1852" stroke="#67a552" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 1178.5 1852 A 1501 1501 0 0 1 703.779748 1774.952837" fill="none" stroke="#67a552" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="703.779748" y1="1774.952837" x2="-703.779748" y2="1774.952837" stroke="#67a552" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -703.779748 1774.952837 A 1501 1501 0 0 1 -1178.5 1852" fill="none" stroke="#67a552" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="-1178.5" y1="1852" x2="-1221.5" y2="1852" stroke="#67a552" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -1221.5 1852 A 1501 1501 0 0 1 -2722.5 351" fill="none" stroke="#67a552" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="-2722.5" y1="351" x2="-2722.5" y2="-351" stroke="#67a552" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -2722.5 -351 A 1501 1501 0 0 1 -1221.5 -1852" fill="none" stroke="#67a552" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="-1221.5" y1="-1852" x2="-1178.5" y2="-1852" stroke="#67a552" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -1178.5 -1852 A 1501 1501 0 0 1 -704.062778 -1775.047163" fill="none" stroke="#67a552" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="-704.062778" y1="-1775.047163" x2="704.062778" y2="-1775.047163" stroke="#67a552" /></g>
+</g>
+</svg>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 7728.6698 8386.285791" fill="none" stroke-linecap="round" stroke-linejoin="round" style="background:transparent" data-source-layer="Lg_area">
+
+
+<g vector-effect="non-scaling-stroke" stroke-width="1.5" transform="translate(2651.8349 3710.606317) scale(1 -1)">
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 5060.8349 46.5 A 1814.3349 1814.3349 0 0 1 4014.245982 1690.390884" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="5060.8349" y1="-1646.5" x2="5060.8349" y2="46.5" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 3246.5 -3460.8349 A 1814.3349 1814.3349 0 0 1 5060.8349 -1646.5" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="1553.5" y1="-3460.8349" x2="3246.5" y2="-3460.8349" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 900 -3339.056906 A 1814.3349 1814.3349 0 0 1 1553.5 -3460.8349" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="900" y1="-3659.679475" x2="900" y2="-3339.056906" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -100 -4659.679475 A 1000 1000 0 0 1 900 -3659.679475" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="-700" y1="-4659.679475" x2="-100" y2="-4659.679475" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -1700 -3659.679475 A 1000 1000 0 0 1 -700 -4659.679475" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="-1700" y1="-2519.682832" x2="-1700" y2="-3659.679475" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -2204 -1394.544618 A 1515.192289 1515.192289 0 0 1 -1700 -2519.682832" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="-2204" y1="-606.046619" x2="-2204" y2="-1394.544618" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -2301.659546 -270.756331 A 1501 1501 0 0 1 -2204 -606.046619" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -2635.8349 778.5 A 1814.3349 1814.3349 0 0 1 -2301.659546 -270.756331" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="-2635.8349" y1="1621.5" x2="-2635.8349" y2="778.5" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -1223.757495 3390.680612 A 1814.3349 1814.3349 0 0 1 -2635.8349 1621.5" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 1006.335806 3145.281338 A 1710.8343 1710.8343 0 0 1 -1223.757495 3390.680612" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 1526.311708 2635.084162 A 1814.3349 1814.3349 0 0 1 1006.335806 3145.281338" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 1578.5 2635.8349 A 1814.3349 1814.3349 0 0 1 1526.311708 2635.084162" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="2421.5" y1="2635.8349" x2="1578.5" y2="2635.8349" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 4014.245982 1690.390884 A 1814.3349 1814.3349 0 0 1 2421.5 2635.8349" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 5060.5 46.5 A 1814 1814 0 0 1 4014.004639 1690.133971" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="5060.5" y1="-1646.5" x2="5060.5" y2="46.5" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 3246.5 -3460.5 A 1814 1814 0 0 1 5060.5 -1646.5" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="1553.5" y1="-3460.5" x2="3246.5" y2="-3460.5" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 900 -3338.697905 A 1814 1814 0 0 1 1553.5 -3460.5" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="900" y1="-3659.679475" x2="900" y2="-3338.697905" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -100 -4659.679475 A 1000 1000 0 0 1 900 -3659.679475" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="-700" y1="-4659.679475" x2="-100" y2="-4659.679475" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -1700 -3659.679475 A 1000 1000 0 0 1 -700 -4659.679475" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="-1700" y1="-2519.682832" x2="-1700" y2="-3659.679475" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -2204 -1394.544618 A 1515.192289 1515.192289 0 0 1 -1700 -2519.682832" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="-2204" y1="-606.046619" x2="-2204" y2="-1394.544618" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -2301.787237 -269.996875 A 1501 1501 0 0 1 -2204 -606.046619" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -2635.5 778.5 A 1814 1814 0 0 1 -2301.787237 -269.996875" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="-2635.5" y1="1621.5" x2="-2635.5" y2="778.5" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M -1223.621681 3390.368043 A 1814 1814 0 0 1 -2635.5 1621.5" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 1006.120574 3145.021685 A 1710.5 1710.5 0 0 1 -1223.621681 3390.368043" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 1526.136974 2634.744085 A 1814 1814 0 0 1 1006.120574 3145.021685" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 1578.5 2635.5 A 1814 1814 0 0 1 1526.136974 2634.744085" fill="none" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="LINE"><line x1="2421.5" y1="2635.5" x2="1578.5" y2="2635.5" stroke="#00ffff" /></g>
+<g data-layer="Lg_area" data-entity-type="ARC"><path d="M 4014.004639 1690.133971 A 1814 1814 0 0 1 2421.5 2635.5" fill="none" stroke="#00ffff" /></g>
+</g>
+</svg>

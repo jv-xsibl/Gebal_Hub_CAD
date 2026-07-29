@@ -1,0 +1,4035 @@
+{
+  "ai_used": false,
+  "artifacts": {
+    "canonical_json": {
+      "path": "reports/canonical.json",
+      "sha256": "05d57cd38fa136ea9b888a11d7642ad0e65978ae96b23949b337752de2b4e20a"
+    },
+    "classification_json": {
+      "path": "reports/classification.json",
+      "sha256": "0bca28e01ad979f69b5034e49d2dc896ab7ad5f02cea3faf9d916b3e9cdf5b05"
+    },
+    "combined_svg": {
+      "path": "svg/combined.svg",
+      "sha256": "8d6760a7628c95ce8d40f420b9b439744a8450bec2024ffc9281a7147bd83f96"
+    },
+    "inventory_json": {
+      "path": "reports/inventory.json",
+      "sha256": "71babfcb2b544bfcfb56ec3906133b6a50a348482a52e6809a3645d42c7b4908"
+    },
+    "measurement_json": {
+      "path": "reports/measurement.json",
+      "sha256": "4de8ab48eb81b7ef039e38dea6954be5a3d68d9c032ff570f33d10f1d078578c"
+    },
+    "normalized_dwg": {
+      "path": "normalized/104512M_normalized.dwg",
+      "sha256": "a43a7c7a1474e14e893f222d91831d4ee582c80e034ecc5b616f8ff92e14fb3c"
+    },
+    "normalized_dxf": {
+      "path": "normalized/104512M_normalized.dxf",
+      "sha256": "411674f069134efb5d87f73a7c08590baeabe5ccc2e191dda6427dc3a3b3210c"
+    },
+    "region_conversion_json": {
+      "path": "reports/region_conversion.json",
+      "sha256": "6916b0bde169295deb2fa1cd6f0bf40722a09dbe09ee3292afa6aef202337da8"
+    },
+    "rewrite_json": {
+      "path": "reports/rewrite.json",
+      "sha256": "3213d969b7274714c218742c42d60566a875fd0d7e95122c1baef4f71cf72071"
+    },
+    "svg_manifest": {
+      "path": "svg/manifest.json",
+      "sha256": "2c4833ba3f7e2f7cb0895a3a10d50c11c6eed12fb0d3d37bfcf9de6d95cc20e8"
+    },
+    "validation_json": {
+      "path": "reports/validation.json",
+      "sha256": "a2c8ab831a3c9240e16770dd2472e970e26ff5dae0a696314d2e2bd010ac52a0"
+    }
+  },
+  "cad_selection": {
+    "alternatives": [],
+    "evaluations": [],
+    "selected": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example1\\104512M\\top_view_104512M.dwg"
+  },
+  "elapsed_seconds": 10.876486,
+  "filename_mismatch_evidence": {
+    "filename": "top_view_104512M.dwg",
+    "mismatch": false,
+    "sku": "104512M",
+    "sku_tokens_in_filename": [
+      "104512M"
+    ]
+  },
+  "files": [
+    {
+      "path": "normalized/104512M_normalized.dwg",
+      "sha256": "a43a7c7a1474e14e893f222d91831d4ee582c80e034ecc5b616f8ff92e14fb3c",
+      "size_bytes": 61393
+    },
+    {
+      "path": "normalized/104512M_normalized.dxf",
+      "sha256": "411674f069134efb5d87f73a7c08590baeabe5ccc2e191dda6427dc3a3b3210c",
+      "size_bytes": 400608
+    },
+    {
+      "path": "normalized/104512M_regions.dxf",
+      "sha256": "eef2441ed86c61c11a427744315f59798f958d7775602d555a42cadcdcc84b70",
+      "size_bytes": 334473
+    },
+    {
+      "path": "normalized/top_view_104512M_source.dxf",
+      "sha256": "f2527468eba6f3f452a00c0d384db8c91ac6adb26adcf7941c72fb1298295628",
+      "size_bytes": 368425
+    },
+    {
+      "path": "reports/canonical.json",
+      "sha256": "05d57cd38fa136ea9b888a11d7642ad0e65978ae96b23949b337752de2b4e20a",
+      "size_bytes": 266821
+    },
+    {
+      "path": "reports/classification.json",
+      "sha256": "0bca28e01ad979f69b5034e49d2dc896ab7ad5f02cea3faf9d916b3e9cdf5b05",
+      "size_bytes": 14504
+    },
+    {
+      "path": "reports/inventory.json",
+      "sha256": "71babfcb2b544bfcfb56ec3906133b6a50a348482a52e6809a3645d42c7b4908",
+      "size_bytes": 6367
+    },
+    {
+      "path": "reports/measurement.json",
+      "sha256": "4de8ab48eb81b7ef039e38dea6954be5a3d68d9c032ff570f33d10f1d078578c",
+      "size_bytes": 86529
+    },
+    {
+      "path": "reports/region_conversion.json",
+      "sha256": "6916b0bde169295deb2fa1cd6f0bf40722a09dbe09ee3292afa6aef202337da8",
+      "size_bytes": 882
+    },
+    {
+      "path": "reports/rewrite.json",
+      "sha256": "3213d969b7274714c218742c42d60566a875fd0d7e95122c1baef4f71cf72071",
+      "size_bytes": 11857
+    },
+    {
+      "path": "reports/validation.json",
+      "sha256": "a2c8ab831a3c9240e16770dd2472e970e26ff5dae0a696314d2e2bd010ac52a0",
+      "size_bytes": 116181
+    },
+    {
+      "path": "svg/combined.svg",
+      "sha256": "8d6760a7628c95ce8d40f420b9b439744a8450bec2024ffc9281a7147bd83f96",
+      "size_bytes": 66943
+    },
+    {
+      "path": "svg/layers/001_0.svg",
+      "sha256": "9db1a3b0ab723bbf445db31fd3c1a76b0c11f2f641f52ef0ceab92da3c355319",
+      "size_bytes": 348
+    },
+    {
+      "path": "svg/layers/002_ASHADE.svg",
+      "sha256": "bcdee7575a65a0ea94bc1402700dbc832c4c81ee2e3cfed425a8a6b19e066d54",
+      "size_bytes": 353
+    },
+    {
+      "path": "svg/layers/003_Defpoints.svg",
+      "sha256": "a6a37c73470ebecb0d8747f8a92b8075fb71ca4df793d61ec0aedb6d7078ee9f",
+      "size_bytes": 356
+    },
+    {
+      "path": "svg/layers/004_DIMENSIONS.svg",
+      "sha256": "9c2102876794eb5166bdd847cbee83fa0a599efcc7c063b6e1adac2e32c3d4e8",
+      "size_bytes": 357
+    },
+    {
+      "path": "svg/layers/005_EXTERNAL.svg",
+      "sha256": "949152420950d7f8fd68dff8413cdbccacfe36991a9c699f3bffb69cc491c197",
+      "size_bytes": 355
+    },
+    {
+      "path": "svg/layers/006_FOUNDATION.svg",
+      "sha256": "c166205b9ff7378549adb1d63fd3d6f63cc81e3156c117b23a29d34c0eaf176f",
+      "size_bytes": 357
+    },
+    {
+      "path": "svg/layers/007_HATCH.svg",
+      "sha256": "7509772a87a7c9567acc14bc561f64cc55ba4c76653d1d38b553bdeef05584f4",
+      "size_bytes": 352
+    },
+    {
+      "path": "svg/layers/008_lc_ground.svg",
+      "sha256": "f4dc9f8f08f1d4074bdd9c23d6820b1cd99edf1f46f8e8ba17d434e841a2b958",
+      "size_bytes": 356
+    },
+    {
+      "path": "svg/layers/009_Lg_area.svg",
+      "sha256": "fc15ecf8588a560048dda3de2d2e95d03e2e58131ea7ea164dc2e12ac8600ceb",
+      "size_bytes": 354
+    },
+    {
+      "path": "svg/layers/010_Lg_boundary.svg",
+      "sha256": "a963186204f635006737abfbe3be13db00f33ba4dcf06f286d11584d7d28a6ed",
+      "size_bytes": 358
+    },
+    {
+      "path": "svg/layers/011_Lg_dim.svg",
+      "sha256": "8ee1af10a1a06bf80684c7e3bb44dc4ec545f8fe928f43948feff41637665445",
+      "size_bytes": 353
+    },
+    {
+      "path": "svg/layers/012_Lg_prod.svg",
+      "sha256": "7af15087bd37b5fc1921dadb7f3a401e7c1870eded025eed4185b3e2113078b0",
+      "size_bytes": 354
+    },
+    {
+      "path": "svg/layers/013_Lg_txt.svg",
+      "sha256": "39cf1739705998f8edc069690df71d7fe524f9b2bbc15fdc489a79487cded90f",
+      "size_bytes": 353
+    },
+    {
+      "path": "svg/layers/014_NON_OPERATIONAL.svg",
+      "sha256": "2e19dfb72baee3fd5ee3013866d3ac63f0132ae7761c83fac8001d23547ca227",
+      "size_bytes": 362
+    },
+    {
+      "path": "svg/layers/015_PRODUCT.svg",
+      "sha256": "18e8cc928cc86d402eff6333a62b62ab5d0611ffa28ca1d60b7bb0224cb4e66b",
+      "size_bytes": 63634
+    },
+    {
+      "path": "svg/layers/016_REFERENCE.svg",
+      "sha256": "79bb06abbd45dfd867b643d22eece8fb735cf11b288a9c18915b7895fa5bb72f",
+      "size_bytes": 356
+    },
+    {
+      "path": "svg/layers/017_REVIEW_REQUIRED.svg",
+      "sha256": "6bd74c6b6689b4bdd4fa135aa97ca579dbbe23ba0eee92f82b687b0ce14ddf25",
+      "size_bytes": 362
+    },
+    {
+      "path": "svg/layers/018_SAFETY_ZONE.svg",
+      "sha256": "88cd6a3df1885deca1acd27308839f63aeb3380e7b5f059f803e5f31bddaa931",
+      "size_bytes": 3688
+    },
+    {
+      "path": "svg/layers/019_TEXT.svg",
+      "sha256": "c7d6e326edd02d5621a5d75a55a1b2cc679a1970c323ac2387a513692f557670",
+      "size_bytes": 351
+    }
+  ],
+  "issue_counts": {
+    "cad": {
+      "ambiguous_layer_mapping": 5,
+      "contains_3d_geometry": 1,
+      "contains_external_reference": 1,
+      "contains_proxy_entity": 1,
+      "mixed_content_preserved": 32,
+      "proxy_entity_preserved": 2,
+      "svg_entity_unsupported": 9,
+      "units_unknown": 1,
+      "unsupported_3d_geometry": 5,
+      "unsupported_entity_type": 5
+    },
+    "classification": {
+      "mixed_operational_content": 1,
+      "proxy_content": 1,
+      "unknown_units": 1,
+      "vendor_alias_conflict": 1
+    },
+    "measurement": {
+      "measurement_curve_approximated": 24,
+      "measurement_failed": 4,
+      "measurement_gap_too_large": 48,
+      "measurement_hole_relationship_uncertain": 4,
+      "measurement_multiple_candidates": 1,
+      "measurement_open_geometry": 61,
+      "measurement_self_intersection": 1,
+      "measurement_units_unknown": 1,
+      "measurement_unsupported_geometry": 11
+    },
+    "source_data": {
+      "missing_sku": 1,
+      "missing_top_view_cad": 1
+    },
+    "validation": {
+      "unverifiable_field": 11,
+      "validation_ambiguous_candidates": 2,
+      "validation_cad_risk_evidence": 36,
+      "validation_missing_cad_candidate": 3,
+      "validation_missing_json_value": 2,
+      "validation_top_view_not_verifiable": 6,
+      "validation_units_unknown": 36
+    }
+  },
+  "issues": {
+    "cad": [
+      {
+        "code": "contains_3d_geometry",
+        "evidence": {},
+        "message": "DXF contains 3D geometry indicators.",
+        "severity": "warning",
+        "stage": "inventory"
+      },
+      {
+        "code": "contains_external_reference",
+        "evidence": {
+          "indicators": [
+            "AVE_RENDER:AVE_RENDER",
+            "AVE_GLOBAL:AVE_GLOBAL"
+          ]
+        },
+        "message": "DXF contains external-reference indicators.",
+        "severity": "warning",
+        "stage": "inventory"
+      },
+      {
+        "code": "contains_proxy_entity",
+        "evidence": {
+          "count": 1
+        },
+        "message": "DXF contains ACAD_PROXY_ENTITY entities.",
+        "severity": "warning",
+        "stage": "inventory"
+      },
+      {
+        "code": "units_unknown",
+        "evidence": {
+          "insunits": 0
+        },
+        "message": "DXF header $INSUNITS is not recognized: 0",
+        "severity": "warning",
+        "stage": "inventory"
+      },
+      {
+        "code": "unsupported_entity_type",
+        "evidence": {
+          "entity_counts": {
+            "3DFACE": 5,
+            "SOLID": 8
+          }
+        },
+        "message": "DXF contains entity types outside the current audit category map.",
+        "severity": "warning",
+        "stage": "inventory"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_3d_geometry",
+        "evidence": {},
+        "message": "3D entity skipped: 3DFACE.",
+        "original_dxf_type": "3DFACE",
+        "severity": "warning",
+        "source_handle": "36E",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_3d_geometry",
+        "evidence": {},
+        "message": "3D entity skipped: 3DFACE.",
+        "original_dxf_type": "3DFACE",
+        "severity": "warning",
+        "source_handle": "36F",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_3d_geometry",
+        "evidence": {},
+        "message": "3D entity skipped: 3DFACE.",
+        "original_dxf_type": "3DFACE",
+        "severity": "warning",
+        "source_handle": "370",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_3d_geometry",
+        "evidence": {},
+        "message": "3D entity skipped: 3DFACE.",
+        "original_dxf_type": "3DFACE",
+        "severity": "warning",
+        "source_handle": "371",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_3d_geometry",
+        "evidence": {},
+        "message": "3D entity skipped: 3DFACE.",
+        "original_dxf_type": "3DFACE",
+        "severity": "warning",
+        "source_handle": "372",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: DIMENSION.",
+        "original_dxf_type": "DIMENSION",
+        "severity": "warning",
+        "source_handle": "5EA5",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: DIMENSION.",
+        "original_dxf_type": "DIMENSION",
+        "severity": "warning",
+        "source_handle": "5EB4",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: DIMENSION.",
+        "original_dxf_type": "DIMENSION",
+        "severity": "warning",
+        "source_handle": "60B9",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: DIMENSION.",
+        "original_dxf_type": "DIMENSION",
+        "severity": "warning",
+        "source_handle": "60C8",
+        "stage": "canonicalization"
+      },
+      {
+        "code": "ambiguous_layer_mapping",
+        "entity_handle": "36E",
+        "evidence": {},
+        "layer_name": "lc_ground",
+        "message": "Ambiguous or review-required classification is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "ambiguous_layer_mapping",
+        "entity_handle": "36F",
+        "evidence": {},
+        "layer_name": "lc_ground",
+        "message": "Ambiguous or review-required classification is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "ambiguous_layer_mapping",
+        "entity_handle": "370",
+        "evidence": {},
+        "layer_name": "lc_ground",
+        "message": "Ambiguous or review-required classification is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "ambiguous_layer_mapping",
+        "entity_handle": "371",
+        "evidence": {},
+        "layer_name": "lc_ground",
+        "message": "Ambiguous or review-required classification is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "ambiguous_layer_mapping",
+        "entity_handle": "372",
+        "evidence": {},
+        "layer_name": "lc_ground",
+        "message": "Ambiguous or review-required classification is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EA5",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EA9",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EAA",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EAB",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EAC",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EAD",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EAE",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EAF",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EB4",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EB8",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EB9",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EBA",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EBB",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EBC",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EBD",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EBE",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60B9",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60BD",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60BE",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60BF",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60C0",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60C1",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60C2",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60C3",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60C8",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60CC",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60CD",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60CE",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60CF",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60D0",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60D1",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60D2",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "proxy_entity_preserved",
+        "entity_handle": "139",
+        "evidence": {},
+        "layer_name": "0",
+        "message": "Proxy content is routed for review without geometry interpretation.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "proxy_entity_preserved",
+        "entity_handle": "22",
+        "evidence": {},
+        "layer_name": "0",
+        "message": "Proxy content is routed for review without geometry interpretation.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "3DFACE",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: 3DFACE",
+        "severity": "warning",
+        "source_handle": "36E",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "3DFACE",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: 3DFACE",
+        "severity": "warning",
+        "source_handle": "36F",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "3DFACE",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: 3DFACE",
+        "severity": "warning",
+        "source_handle": "370",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "3DFACE",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: 3DFACE",
+        "severity": "warning",
+        "source_handle": "371",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "3DFACE",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: 3DFACE",
+        "severity": "warning",
+        "source_handle": "372",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "DIMENSION",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: DIMENSION",
+        "severity": "warning",
+        "source_handle": "5EA5",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "DIMENSION",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: DIMENSION",
+        "severity": "warning",
+        "source_handle": "5EB4",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "DIMENSION",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: DIMENSION",
+        "severity": "warning",
+        "source_handle": "60B9",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "DIMENSION",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: DIMENSION",
+        "severity": "warning",
+        "source_handle": "60C8",
+        "stage": "svg_export"
+      }
+    ],
+    "classification": [
+      {
+        "code": "mixed_operational_content",
+        "evidence": {
+          "entity_counts": {
+            "DIMENSION": 4,
+            "LINE": 16,
+            "MTEXT": 4,
+            "SOLID": 8
+          }
+        },
+        "layer_name": "Lg_dim",
+        "message": "Layer mixes operational geometry with annotation, dimension, or hatch content.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "proxy_content",
+        "evidence": {
+          "entity_counts": {
+            "ACAD_PROXY_ENTITY": 1,
+            "VIEWPORT": 1
+          }
+        },
+        "layer_name": "0",
+        "message": "Layer contains proxy content.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "unknown_units",
+        "evidence": {
+          "drawing_units": "unknown",
+          "insunits": 0
+        },
+        "layer_name": null,
+        "message": "Drawing units are missing or unknown; classification does not infer millimetres.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "vendor_alias_conflict",
+        "evidence": {
+          "entity_counts": {
+            "3DFACE": 5
+          }
+        },
+        "layer_name": "lc_ground",
+        "message": "Layer-name or vendor alias evidence conflicts with entity or geometry evidence.",
+        "severity": "warning",
+        "stage": "classification"
+      }
+    ],
+    "measurement": [
+      {
+        "code": "measurement_failed",
+        "evidence": {
+          "cap": 250000,
+          "comparison_count": 283127,
+          "segment_count": 754,
+          "source_handles": [
+            "5F46",
+            "5F4A"
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Self-intersection processing exceeded the configured comparison cap.",
+        "severity": "fail",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_failed",
+        "evidence": {
+          "cap": 250000,
+          "comparison_count": 283127,
+          "segment_count": 754,
+          "source_handles": [
+            "5F32",
+            "5F36"
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Self-intersection processing exceeded the configured comparison cap.",
+        "severity": "fail",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_failed",
+        "evidence": {
+          "cap": 250000,
+          "comparison_count": 283127,
+          "segment_count": 754,
+          "source_handles": [
+            "5F5A",
+            "5F5E"
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Self-intersection processing exceeded the configured comparison cap.",
+        "severity": "fail",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_failed",
+        "evidence": {
+          "cap": 250000,
+          "comparison_count": 283127,
+          "segment_count": 754,
+          "source_handles": [
+            "5F1E",
+            "5F22"
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Self-intersection processing exceeded the configured comparison cap.",
+        "severity": "fail",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0001",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0003",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0008",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0009",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0010",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0011",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0015",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0016",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0017",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0018",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0020",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0021",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0022",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0023",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0024",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0025",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0026",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0027",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0028",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0029",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0030",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0031",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0032",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0033",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_hole_relationship_uncertain",
+        "evidence": {
+          "candidate_id": "MC0008",
+          "hole_count": 3
+        },
+        "layer_name": "Lg_prod",
+        "message": "Multiple inner loops were treated as holes based on containment.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_hole_relationship_uncertain",
+        "evidence": {
+          "candidate_id": "MC0009",
+          "hole_count": 3
+        },
+        "layer_name": "Lg_prod",
+        "message": "Multiple inner loops were treated as holes based on containment.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_hole_relationship_uncertain",
+        "evidence": {
+          "candidate_id": "MC0010",
+          "hole_count": 3
+        },
+        "layer_name": "Lg_prod",
+        "message": "Multiple inner loops were treated as holes based on containment.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_hole_relationship_uncertain",
+        "evidence": {
+          "candidate_id": "MC0011",
+          "hole_count": 3
+        },
+        "layer_name": "Lg_prod",
+        "message": "Multiple inner loops were treated as holes based on containment.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_multiple_candidates",
+        "evidence": {
+          "count": 33
+        },
+        "layer_name": null,
+        "message": "Multiple plausible measurement candidates were retained.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.9
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.9
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.9
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            10.0,
+            10.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.1
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.1
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.1
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.1
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            3.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            3.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            3.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            3.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            0.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            0.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            0.5,
+            0.5,
+            1.0,
+            3.16227766,
+            3.16227766,
+            8.062257748,
+            9.055385138
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.123105626,
+            4.123105626
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            0.5,
+            0.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            0.5,
+            0.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.9
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 1503.0014670651524,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 703.0031365506134,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 705.6616132261572,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 25.0199920063927,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 70.00714249274765,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 70.25829334870835,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 12.5,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 12.5,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.76083876087827,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 36.513696060519536,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 58.508546384267675,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.38536596680971,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.760838760877206,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 36.513696060520445,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.37298334620573,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.760838760878684,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 36.513696060520445,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 98.14919298721405,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.17750387444079,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.17750387444077,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.17750387444118,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.760838760878684,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.760838760877206,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 70.25829334870845,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.385365966809935,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 36.5,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 70.25829334870839,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.385365966808344,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.7608387608789,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.76083876087753,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.760838760877554,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 70.25829334870839,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.38536596680983,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.760838760878116,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 68.95288246331654,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 70.25829334870839,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.38536596680971,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.760838760878194,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 68.95288246331658,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.76083876087837,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.38536596680979,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.76083876087751,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.76083876087794,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.38536596680997,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 704.5000000000002,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 669.9999999999997,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 65.0,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 45.0,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60EB",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60EC",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60ED",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60EE",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60EF",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F0",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F1",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F2",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F3",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F4",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F5",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F6",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F7",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F8",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F9",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60FA",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60FB",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60FC",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_self_intersection",
+        "evidence": {
+          "source_handles": [
+            "5F91",
+            "5F92",
+            "5F93",
+            "5F94",
+            "5F95",
+            "5F96",
+            "5F97",
+            "5F98",
+            "5FB9",
+            "5FBA",
+            "5FBB",
+            "5FBC",
+            "5FBD",
+            "5FBE",
+            "5FBF",
+            "5FC0",
+            "5FDD",
+            "5FDE",
+            "5FDF",
+            "5FE0",
+            "5FED",
+            "5FEE",
+            "5FEF",
+            "5FF0",
+            "5FF1",
+            "5FF2",
+            "5FF3",
+            "5FF4",
+            "600F",
+            "6015"
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Self-intersecting loop was retained for review but area confidence is reduced.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_units_unknown",
+        "evidence": {
+          "drawing_units": "unknown",
+          "insunits": 0
+        },
+        "layer_name": null,
+        "message": "Drawing units are unknown; raw drawing-unit measurements are preserved.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "xref_indicators": [
+            "AVE_GLOBAL:AVE_GLOBAL",
+            "AVE_RENDER:AVE_RENDER"
+          ]
+        },
+        "layer_name": null,
+        "message": "External-reference indicators are not authoritative measurement geometry.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "count": 1,
+          "entity_type": "ACAD_PROXY_ENTITY"
+        },
+        "layer_name": null,
+        "message": "Proxy, XREF, raster, or underlay content is not authoritative measurement geometry.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "DIMENSION"
+        },
+        "layer_name": "Lg_dim",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5EA5",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "DIMENSION"
+        },
+        "layer_name": "Lg_dim",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5EB4",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "DIMENSION"
+        },
+        "layer_name": "Lg_dim",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "60B9",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "DIMENSION"
+        },
+        "layer_name": "Lg_dim",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "60C8",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "3DFACE"
+        },
+        "layer_name": "lc_ground",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "36E",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "3DFACE"
+        },
+        "layer_name": "lc_ground",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "36F",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "3DFACE"
+        },
+        "layer_name": "lc_ground",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "370",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "3DFACE"
+        },
+        "layer_name": "lc_ground",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "371",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "3DFACE"
+        },
+        "layer_name": "lc_ground",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "372",
+        "stage": "measurement"
+      }
+    ],
+    "source_data": [
+      {
+        "code": "missing_top_view_cad",
+        "field_path": "media.top_view_cad_file",
+        "message": "Top-view CAD asset is missing.",
+        "severity": "fail"
+      },
+      {
+        "code": "missing_sku",
+        "field_path": "results",
+        "message": "Bluestone payload has no first product in results.",
+        "severity": "fail"
+      }
+    ],
+    "validation": [
+      {
+        "candidate_id": null,
+        "code": "validation_missing_cad_candidate",
+        "evidence": {},
+        "field_path": "safety.safety_zone.length_mm",
+        "message": "No CAD safety zone candidate was available.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_missing_cad_candidate",
+        "evidence": {},
+        "field_path": "safety.safety_zone.width_mm",
+        "message": "No CAD safety zone candidate was available.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_missing_cad_candidate",
+        "evidence": {},
+        "field_path": "cad.top_view.product_inside_safety",
+        "message": "Product-inside-safety containment needs product and safety CAD candidates.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_missing_json_value",
+        "evidence": {},
+        "field_path": "safety.falling_space_area_m2",
+        "message": "JSON value is missing; CAD comparison was not attempted.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_missing_json_value",
+        "evidence": {},
+        "field_path": "safety.impact_area_m2",
+        "message": "JSON value is missing; CAD comparison was not attempted.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {
+          "json_value_present": true
+        },
+        "field_path": "safety.cfh_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {
+          "json_value_present": true
+        },
+        "field_path": "safety.free_fall_height_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {},
+        "field_path": "technical.age_range",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {
+          "json_value_present": true
+        },
+        "field_path": "technical.dimensions.height_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {},
+        "field_path": "technical.materials",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {},
+        "field_path": "technical.weight",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": null,
+        "message": "CAD units are not authoritative for JSON comparison.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0001",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0002",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0002",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0002",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0003",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0004",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0005",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0006",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0007",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0008",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0009",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0010",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0011",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0012",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0013",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0014",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0015",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0016",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0017",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0018",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0019",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0020",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0021",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0022",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0023",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0024",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0025",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0026",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0027",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0028",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0029",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0030",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0031",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0032",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0033",
+        "code": "validation_units_unknown",
+        "evidence": {
+          "source": "raw_drawing_units_only"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units are unknown; millimetre comparison is not authoritative.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0002",
+        "code": "validation_ambiguous_candidates",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Multiple CAD candidates have equivalent validation rank.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0002",
+        "code": "validation_ambiguous_candidates",
+        "evidence": {},
+        "field_path": "technical.dimensions.width_mm",
+        "message": "Multiple CAD candidates have equivalent validation rank.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": null,
+        "message": "CAD measurement includes evidence that prevents forced pass decisions.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0001",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0002",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0002",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0002",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0003",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0004",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0005",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0006",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0007",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0008",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0009",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0010",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0011",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0012",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0013",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0014",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0015",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0016",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0017",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0018",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0019",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0020",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0021",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0022",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0023",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0024",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0025",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0026",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0027",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0028",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0029",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0030",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0031",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0032",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0033",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "cad.top_view.product_inside_safety",
+        "message": "Product-inside-safety containment needs product and safety CAD candidates.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "safety.cfh_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "safety.falling_space_area_m2",
+        "message": "JSON value is missing; CAD comparison was not attempted.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "safety.free_fall_height_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "safety.impact_area_m2",
+        "message": "JSON value is missing; CAD comparison was not attempted.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.age_range",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.dimensions.height_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Best CAD product footprint candidate compared against JSON.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.dimensions.width_mm",
+        "message": "Best CAD product footprint candidate compared against JSON.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.materials",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.weight",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      }
+    ]
+  },
+  "occurrence_id": "104512M_4081fce124",
+  "overall_status": "fail",
+  "selected_source": {
+    "cad_path": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example1\\104512M\\top_view_104512M.dwg",
+    "json_candidate": null
+  },
+  "sku": "104512M",
+  "source_checksums": {
+    "cad_sha256": "6629b93ec13617ecf6bd8e463fad7980a68ce2c9fab0267a8621ec8817a0ce05",
+    "json_sha256": "2903ebf6160d6ee533682a94ab390aea2f8e95f6579596e187d4c193514ea377"
+  },
+  "source_checksums_unchanged": true,
+  "source_paths": {
+    "cad": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example1\\104512M\\top_view_104512M.dwg",
+    "json": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example1\\104512M\\104512M.json"
+  },
+  "stage": "12",
+  "stage_events": [
+    {
+      "event": "start",
+      "stage": "input_conversion",
+      "timeout_seconds": 180.0
+    },
+    {
+      "event": "end",
+      "stage": "input_conversion",
+      "status": "pass"
+    },
+    {
+      "event": "start",
+      "stage": "inventory",
+      "timeout_seconds": null
+    },
+    {
+      "event": "end",
+      "stage": "inventory",
+      "status": "pass_with_warnings"
+    },
+    {
+      "event": "start",
+      "stage": "canonicalization",
+      "timeout_seconds": 180.0
+    },
+    {
+      "event": "end",
+      "stage": "canonicalization",
+      "status": "pass_with_warnings"
+    },
+    {
+      "event": "start",
+      "stage": "region_conversion",
+      "timeout_seconds": 120.0
+    },
+    {
+      "event": "end",
+      "stage": "region_conversion",
+      "status": "pass"
+    },
+    {
+      "event": "start",
+      "stage": "classification",
+      "timeout_seconds": null
+    },
+    {
+      "event": "end",
+      "stage": "classification",
+      "status": "pass_with_warnings"
+    },
+    {
+      "event": "start",
+      "stage": "rewrite",
+      "timeout_seconds": null
+    },
+    {
+      "event": "end",
+      "stage": "rewrite",
+      "status": "pass_with_warnings"
+    },
+    {
+      "event": "start",
+      "stage": "svg_export",
+      "timeout_seconds": 180.0
+    },
+    {
+      "event": "end",
+      "stage": "svg_export",
+      "status": "pass_with_warnings"
+    },
+    {
+      "event": "start",
+      "stage": "measurement",
+      "timeout_seconds": 180.0
+    },
+    {
+      "event": "end",
+      "stage": "measurement",
+      "status": "fail"
+    },
+    {
+      "event": "start",
+      "stage": "validation",
+      "timeout_seconds": null
+    },
+    {
+      "event": "end",
+      "stage": "validation",
+      "status": "fail"
+    },
+    {
+      "event": "start",
+      "stage": "dwg_export",
+      "timeout_seconds": 180.0
+    },
+    {
+      "event": "end",
+      "stage": "dwg_export",
+      "status": "pass"
+    }
+  ],
+  "stage_statuses": {
+    "canonicalization": "pass_with_warnings",
+    "classification": "pass_with_warnings",
+    "dwg_export": "pass",
+    "input_conversion": "pass",
+    "inventory": "pass_with_warnings",
+    "measurement": "fail",
+    "region_conversion": "pass",
+    "rewrite": "pass_with_warnings",
+    "svg_export": "pass_with_warnings",
+    "validation": "fail"
+  },
+  "stage_timeouts_seconds": {
+    "canonicalization": 180.0,
+    "dwg_export": 180.0,
+    "input_conversion": 180.0,
+    "measurement": 180.0,
+    "region_conversion": 120.0,
+    "svg_export": 180.0
+  },
+  "timings_seconds": {
+    "canonicalization": 0.836398,
+    "classification": 0.002917,
+    "dwg_export": 1.140086,
+    "input_conversion": 1.203745,
+    "inventory": 0.158429,
+    "measurement": 5.268868,
+    "region_conversion": 0.942492,
+    "rewrite": 0.35214,
+    "svg_export": 0.932055,
+    "validation": 0.001709
+  }
+}

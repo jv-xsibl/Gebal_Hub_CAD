@@ -1,0 +1,351 @@
+{
+  "ai_used": false,
+  "details": [
+    {
+      "cad_path": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example2\\137004M\\top_view.dwg",
+      "competing_cad_filenames": [
+        "top_view.dwg"
+      ],
+      "example_folder": "Example2",
+      "failure_categories": [
+        "cad",
+        "classification",
+        "measurement",
+        "source_data",
+        "units",
+        "validation"
+      ],
+      "filename_mismatch": false,
+      "ignored_cad_filenames": [
+        "side_view.dwg"
+      ],
+      "issue_counts": {
+        "cad": {
+          "contains_external_reference": 1,
+          "contains_proxy_entity": 1,
+          "mixed_content_preserved": 10,
+          "proxy_entity_preserved": 26,
+          "svg_entity_unsupported": 3,
+          "svg_text_fallback": 4,
+          "units_unknown": 1,
+          "unsupported_entity_type": 9
+        },
+        "classification": {
+          "mixed_operational_content": 4,
+          "proxy_content": 1,
+          "unknown_units": 1,
+          "vendor_alias_conflict": 1
+        },
+        "measurement": {
+          "measurement_curve_approximated": 3,
+          "measurement_failed": 5,
+          "measurement_gap_too_large": 18,
+          "measurement_hole_relationship_uncertain": 1,
+          "measurement_low_confidence": 2,
+          "measurement_multiple_candidates": 1,
+          "measurement_open_geometry": 11,
+          "measurement_units_unknown": 1,
+          "measurement_unsupported_geometry": 10
+        },
+        "source_data": {
+          "missing_sku": 1,
+          "missing_top_view_cad": 1
+        },
+        "validation": {
+          "unverifiable_field": 11,
+          "validation_cad_risk_evidence": 4,
+          "validation_missing_cad_candidate": 3,
+          "validation_missing_json_value": 2,
+          "validation_top_view_not_verifiable": 6,
+          "validation_units_unknown": 4
+        }
+      },
+      "json_path": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example2\\137004M\\137004M.json",
+      "manifest_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage13_qualification\\hang_diagnosis\\packages\\137004M_77975161a0\\manifest.json",
+      "occurrence_id": "137004M_77975161a0",
+      "overall_status": "fail",
+      "package_generated": true,
+      "package_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage13_qualification\\hang_diagnosis\\packages\\137004M_77975161a0",
+      "product_folder": "137004M",
+      "repeated_sku": false,
+      "report_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage13_qualification\\hang_diagnosis\\packages\\137004M_77975161a0\\report.md",
+      "runtime_seconds": 9.144616,
+      "selected_cad_filename": "top_view.dwg",
+      "selection_issues": [],
+      "sku": "137004M",
+      "source_checksums": {
+        "cad_sha256_after": "0b22e6884590a704327dbec0e10f4473c807918abf34f2793d22d8c70672c51a",
+        "cad_sha256_before": "0b22e6884590a704327dbec0e10f4473c807918abf34f2793d22d8c70672c51a",
+        "json_sha256_after": "a3feae6d27a28a0cd2a7dded65d81bc37f88e8db334bfb9c3cde613b9d79cd9a",
+        "json_sha256_before": "a3feae6d27a28a0cd2a7dded65d81bc37f88e8db334bfb9c3cde613b9d79cd9a"
+      },
+      "source_checksums_unchanged": true,
+      "stage12_command": [
+        "C:\\Python310\\python.exe",
+        "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\live\\stage12_live_pipeline.py",
+        "--json",
+        "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example2\\137004M\\137004M.json",
+        "--input",
+        "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example2\\137004M\\top_view.dwg",
+        "--output-dir",
+        "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage13_qualification\\hang_diagnosis\\packages",
+        "--oda-exe",
+        "E:\\ODA\\ODAFileConverter.exe",
+        "--vendor-profile",
+        "bluestone_playground",
+        "--export-dwg",
+        "--allow-overwrite"
+      ],
+      "stage12_manifest": {
+        "artifacts": {
+          "canonical_json": {
+            "path": "reports/canonical.json",
+            "sha256": "da1d26472b4237e2e8ec874e7fbfddba88fd6a0d0778e0f7e58ac30a3ab0009c"
+          },
+          "classification_json": {
+            "path": "reports/classification.json",
+            "sha256": "7e9ad93efc904c4951dce1ae27b2c7ba8caa0c386fb09d29f0e81f1d57353bcb"
+          },
+          "combined_svg": {
+            "path": "svg/combined.svg",
+            "sha256": "ce92ff9324385002df339a1b670b0b702c7a32a460cc7413dce3c7582cd9335d"
+          },
+          "inventory_json": {
+            "path": "reports/inventory.json",
+            "sha256": "7568868b29fc8aa9d0fa5ff3dc3f11fcf40eed6e3720c0e24fe90b57ddc904b4"
+          },
+          "measurement_json": {
+            "path": "reports/measurement.json",
+            "sha256": "0fe1126618a521a9a9687af88c083fb4bbd3e6ac87b28ca56d14e057d8dbaeed"
+          },
+          "normalized_dwg": {
+            "path": "normalized/137004M_normalized.dwg",
+            "sha256": "ae33dfbe1c57e0cee21235bf802ec81dc7df89833551aac76f858b744aa715f3"
+          },
+          "normalized_dxf": {
+            "path": "normalized/137004M_normalized.dxf",
+            "sha256": "0a30880eb9a2070cbe4409267ab9684ca58a64aabd83909364fcce3200a9fbe8"
+          },
+          "region_conversion_json": {
+            "path": "reports/region_conversion.json",
+            "sha256": "6d303f10bb9b51bb1b22ddfd322ffaa4d36b947c1df22ff69cac2a933233fa3f"
+          },
+          "rewrite_json": {
+            "path": "reports/rewrite.json",
+            "sha256": "74a0467afc118a111fcfb39994b4af3565a646bbd901d9cbf0f473927c03a64f"
+          },
+          "svg_manifest": {
+            "path": "svg/manifest.json",
+            "sha256": "4846460fc899e0ea26dc37984f611975266b453409134d24822c96e5ba3b7891"
+          },
+          "validation_json": {
+            "path": "reports/validation.json",
+            "sha256": "f7f24ebade120e39c653010f824ad9708e9b7eddba736588fd5c9b0fe90332db"
+          }
+        },
+        "elapsed_seconds": 8.032743,
+        "issue_counts": {
+          "cad": {
+            "contains_external_reference": 1,
+            "contains_proxy_entity": 1,
+            "mixed_content_preserved": 10,
+            "proxy_entity_preserved": 26,
+            "svg_entity_unsupported": 3,
+            "svg_text_fallback": 4,
+            "units_unknown": 1,
+            "unsupported_entity_type": 9
+          },
+          "classification": {
+            "mixed_operational_content": 4,
+            "proxy_content": 1,
+            "unknown_units": 1,
+            "vendor_alias_conflict": 1
+          },
+          "measurement": {
+            "measurement_curve_approximated": 3,
+            "measurement_failed": 5,
+            "measurement_gap_too_large": 18,
+            "measurement_hole_relationship_uncertain": 1,
+            "measurement_low_confidence": 2,
+            "measurement_multiple_candidates": 1,
+            "measurement_open_geometry": 11,
+            "measurement_units_unknown": 1,
+            "measurement_unsupported_geometry": 10
+          },
+          "source_data": {
+            "missing_sku": 1,
+            "missing_top_view_cad": 1
+          },
+          "validation": {
+            "unverifiable_field": 11,
+            "validation_cad_risk_evidence": 4,
+            "validation_missing_cad_candidate": 3,
+            "validation_missing_json_value": 2,
+            "validation_top_view_not_verifiable": 6,
+            "validation_units_unknown": 4
+          }
+        },
+        "occurrence_id": "137004M_77975161a0",
+        "overall_status": "fail",
+        "sku": "137004M",
+        "source_checksums_unchanged": true,
+        "stage_statuses": {
+          "canonicalization": "pass_with_warnings",
+          "classification": "pass_with_warnings",
+          "dwg_export": "pass",
+          "input_conversion": "pass",
+          "inventory": "pass_with_warnings",
+          "measurement": "fail",
+          "region_conversion": "pass",
+          "rewrite": "pass_with_warnings",
+          "svg_export": "pass_with_warnings",
+          "validation": "fail"
+        }
+      },
+      "stage12_returncode": 0,
+      "stage12_stderr_tail": "",
+      "stage12_stdout_tail": "[stage12] start input_conversion timeout=180.0\n[stage12] end input_conversion status=pass elapsed=1.180109s\n[stage12] start inventory timeout=none\n[stage12] end inventory status=pass_with_warnings elapsed=0.12593s\n[stage12] start canonicalization timeout=180.0\n[stage12] end canonicalization status=pass_with_warnings elapsed=0.902906s\n[stage12] start region_conversion timeout=120.0\n[stage12] end region_conversion status=pass elapsed=0.877651s\n[stage12] start classification timeout=none\n[stage12] end classification status=pass_with_warnings elapsed=0.001431s\n[stage12] start rewrite timeout=none\n[stage12] end rewrite status=pass_with_warnings elapsed=0.214982s\n[stage12] start svg_export timeout=180.0\n[stage12] end svg_export status=pass_with_warnings elapsed=0.985931s\n[stage12] start measurement timeout=180.0\n[stage12] end measurement status=fail elapsed=2.254591s\n[stage12] start validation timeout=none\n[stage12] end validation status=fail elapsed=0.000533s\n[stage12] start dwg_export timeout=180.0\n[stage12] end dwg_export status=pass elapsed=1.458437s\n{\n  \"filename_mismatch\": false,\n  \"issue_counts\": {\n    \"cad\": {\n      \"contains_external_reference\": 1,\n      \"contains_proxy_entity\": 1,\n      \"mixed_content_preserved\": 10,\n      \"proxy_entity_preserved\": 26,\n      \"svg_entity_unsupported\": 3,\n      \"svg_text_fallback\": 4,\n      \"units_unknown\": 1,\n      \"unsupported_entity_type\": 9\n    },\n    \"classification\": {\n      \"mixed_operational_content\": 4,\n      \"proxy_content\": 1,\n      \"unknown_units\": 1,\n      \"vendor_alias_conflict\": 1\n    },\n    \"measurement\": {\n      \"measurement_curve_approximated\": 3,\n      \"measurement_failed\": 5,\n      \"measurement_gap_too_large\": 18,\n      \"measurement_hole_relationship_uncertain\": 1,\n      \"measurement_low_confidence\": 2,\n      \"measurement_multiple_candidates\": 1,\n      \"measurement_open_geometry\": 11,\n      \"measurement_units_unknown\": 1,\n      \"measurement_unsupported_geometry\": 10\n    },\n    \"source_data\": {\n      \"missing_sku\": 1,\n      \"missing_top_view_cad\": 1\n    },\n    \"validation\": {\n      \"unverifiable_field\": 11,\n      \"validation_cad_risk_evidence\": 4,\n      \"validation_missing_cad_candidate\": 3,\n      \"validation_missing_json_value\": 2,\n      \"validation_top_view_not_verifiable\": 6,\n      \"validation_units_unknown\": 4\n    }\n  },\n  \"manifest_path\": \"C:\\\\Users\\\\jvsin\\\\Documents\\\\GitHub\\\\Gebal_Hub_CAD\\\\tests\\\\output\\\\stage13_qualification\\\\hang_diagnosis\\\\packages\\\\137004M_77975161a0\\\\manifest.json\",\n  \"occurrence_id\": \"137004M_77975161a0\",\n  \"overall_status\": \"fail\",\n  \"package_path\": \"C:\\\\Users\\\\jvsin\\\\Documents\\\\GitHub\\\\Gebal_Hub_CAD\\\\tests\\\\output\\\\stage13_qualification\\\\hang_diagnosis\\\\packages\\\\137004M_77975161a0\",\n  \"report_path\": \"C:\\\\Users\\\\jvsin\\\\Documents\\\\GitHub\\\\Gebal_Hub_CAD\\\\tests\\\\output\\\\stage13_qualification\\\\hang_diagnosis\\\\packages\\\\137004M_77975161a0\\\\report.md\",\n  \"sku\": \"137004M\",\n  \"source_checksums_unchanged\": true,\n  \"stage_statuses\": {\n    \"canonicalization\": \"pass_with_warnings\",\n    \"classification\": \"pass_with_warnings\",\n    \"dwg_export\": \"pass\",\n    \"input_conversion\": \"pass\",\n    \"inventory\": \"pass_with_warnings\",\n    \"measurement\": \"fail\",\n    \"region_conversion\": \"pass\",\n    \"rewrite\": \"pass_with_warnings\",\n    \"svg_export\": \"pass_with_warnings\",\n    \"validation\": \"fail\"\n  },\n  \"success\": false\n}\n",
+      "stage_statuses": {
+        "canonicalization": "pass_with_warnings",
+        "classification": "pass_with_warnings",
+        "dwg_export": "pass",
+        "input_conversion": "pass",
+        "inventory": "pass_with_warnings",
+        "measurement": "fail",
+        "region_conversion": "pass",
+        "rewrite": "pass_with_warnings",
+        "svg_export": "pass_with_warnings",
+        "validation": "fail"
+      },
+      "unit_override": null,
+      "unit_override_explicit": false
+    }
+  ],
+  "generated_at": "2026-07-23T16:26:07+0400",
+  "output_root": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage13_qualification\\hang_diagnosis",
+  "source_root": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples",
+  "stage": "13",
+  "summary": {
+    "average_runtime_seconds": 9.1446,
+    "cleanest_successful_demo_cases": [
+      {
+        "cad": "top_view.dwg",
+        "case": "Example2/137004M",
+        "issue_total": 146,
+        "package_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage13_qualification\\hang_diagnosis\\packages\\137004M_77975161a0",
+        "runtime_seconds": 9.144616,
+        "sku": "137004M",
+        "status": "fail"
+      }
+    ],
+    "conversion_success_rate": "1/1 (100.0%)",
+    "examples_scanned": [
+      "Example1",
+      "Example2",
+      "Example3",
+      "Example4",
+      "Example5"
+    ],
+    "failures_by_category": {
+      "cad": {
+        "contains_external_reference": 1,
+        "contains_proxy_entity": 1,
+        "mixed_content_preserved": 10,
+        "proxy_entity_preserved": 26,
+        "svg_entity_unsupported": 3,
+        "svg_text_fallback": 4,
+        "units_unknown": 1,
+        "unsupported_entity_type": 9
+      },
+      "classification": {
+        "mixed_operational_content": 4,
+        "proxy_content": 1,
+        "unknown_units": 1,
+        "vendor_alias_conflict": 1
+      },
+      "measurement": {
+        "measurement_curve_approximated": 3,
+        "measurement_failed": 5,
+        "measurement_gap_too_large": 18,
+        "measurement_hole_relationship_uncertain": 1,
+        "measurement_low_confidence": 2,
+        "measurement_multiple_candidates": 1,
+        "measurement_open_geometry": 11,
+        "measurement_units_unknown": 1,
+        "measurement_unsupported_geometry": 10
+      },
+      "pipeline_errors": {},
+      "source_data": {
+        "missing_sku": 1,
+        "missing_top_view_cad": 1
+      },
+      "units": {
+        "measurement_units_unknown": 1,
+        "units_unknown": 1,
+        "unknown_units": 1,
+        "validation_units_unknown": 4
+      },
+      "validation": {
+        "unverifiable_field": 11,
+        "validation_cad_risk_evidence": 4,
+        "validation_missing_cad_candidate": 3,
+        "validation_missing_json_value": 2,
+        "validation_top_view_not_verifiable": 6,
+        "validation_units_unknown": 4
+      }
+    },
+    "filename_mismatch_cases": [],
+    "folders_scanned": 26,
+    "most_important_review_fail_cases": [
+      {
+        "cad": "top_view.dwg",
+        "case": "Example2/137004M",
+        "issue_total": 146,
+        "package_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage13_qualification\\hang_diagnosis\\packages\\137004M_77975161a0",
+        "runtime_seconds": 9.144616,
+        "sku": "137004M",
+        "status": "fail"
+      }
+    ],
+    "occurrences_processed": 1,
+    "output_root": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage13_qualification\\hang_diagnosis",
+    "package_generation_success_rate": "1/1 (100.0%)",
+    "recommended_regression_fixtures": [
+      {
+        "cad": "top_view.dwg",
+        "case": "Example2/137004M",
+        "reason": "unit handling without silent assumption",
+        "sku": "137004M"
+      }
+    ],
+    "remaining_blockers_before_production": [
+      "Vendor CAD units are unknown in the source drawings; production must require explicit units or validated metadata.",
+      "Stage 12 validation failures remain and must be reviewed before unattended production use."
+    ],
+    "repeated_sku_cases": [],
+    "runtime_seconds": 9.1687,
+    "slowest_runtime": {
+      "cad": "top_view.dwg",
+      "case": "Example2/137004M",
+      "issue_total": 146,
+      "package_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage13_qualification\\hang_diagnosis\\packages\\137004M_77975161a0",
+      "runtime_seconds": 9.144616,
+      "sku": "137004M",
+      "status": "fail"
+    },
+    "source_checksum_preservation_rate": "1/1 (100.0%)",
+    "source_checksums_preserved": 1,
+    "source_root": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples",
+    "status_counts": {
+      "fail": 1,
+      "pass": 0,
+      "pass_with_warnings": 0,
+      "review_required": 0
+    },
+    "unit_override": null,
+    "unit_override_explicit": false
+  },
+  "unit_override": null,
+  "unit_override_explicit": false,
+  "vendor_profile": "bluestone_playground"
+}

@@ -1,0 +1,59 @@
+{
+  "results": [
+    {
+      "productNumber": "137132M",
+      "name": "Climbing Unit",
+      "vendor": "Bluestone",
+      "length": 4140,
+      "width": 4680,
+      "height": 3820,
+      "safetyZoneLength": 7700,
+      "safetyZoneWidth": 8350,
+      "fallingSpaceArea": 49.1,
+      "impactArea": 47.5,
+      "cfh": 1970,
+      "media": [
+        {
+          "id": "side-1",
+          "assetName": "SIDE VIEW",
+          "fileName": "137132M_side_view.dwg",
+          "url": "https://example.invalid/137132M_side_view.dwg",
+          "contentType": "application/acad",
+          "classification": "2dModel"
+        },
+        {
+          "id": "model-1",
+          "assetName": "3D product model",
+          "fileName": "137132M_3d.dwg",
+          "url": "https://example.invalid/137132M_3d.dwg",
+          "contentType": "application/acad",
+          "classification": "3dModel"
+        },
+        {
+          "id": "pdf-1",
+          "assetName": "Installation PDF",
+          "fileName": "137132M_installation.pdf",
+          "url": "https://example.invalid/137132M_installation.pdf",
+          "contentType": "application/pdf"
+        },
+        {
+          "id": "image-1",
+          "assetName": "Preview image",
+          "fileName": "137132M.png",
+          "url": "https://example.invalid/137132M.png",
+          "contentType": "image/png"
+        },
+        {
+          "id": "top-1",
+          "assetName": "TOP VIEW",
+          "fileName": "137132M_top_view.dwg",
+          "url": "https://example.invalid/137132M_top_view.dwg",
+          "contentType": "application/acad",
+          "classification": "2dModel",
+          "revision": "4.1",
+          "updatedAt": 1776837754032
+        }
+      ]
+    }
+  ]
+}

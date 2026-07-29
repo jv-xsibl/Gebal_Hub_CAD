@@ -1,0 +1,2174 @@
+{
+  "results": [
+    {
+      "id": "69366f5373fce2dcba75d604",
+      "type": "SINGLE",
+      "name": "Activity Tower",
+      "number": "137132M",
+      "lastUpdate": 1776838627653,
+      "createDate": 1765175123984,
+      "relatedProductsRelationSortingOrderSource": "RELATION_DEFINITION",
+      "attributes": [
+        {
+          "id": "690b7c0f106fe7b0bbb6801f",
+          "values": [
+            "Children 4-12"
+          ],
+          "select": [
+            {
+              "id": "690b7c0f106fe7b0bbb68021",
+              "number": "children",
+              "value": "Children 4-12"
+            }
+          ],
+          "groupName": "General",
+          "name": "Age group",
+          "dataType": "multi_select",
+          "groupNumber": "GENERAL",
+          "number": "AGE_GROUP",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c0d22d4b560b76c4c58",
+          "values": [],
+          "groupName": "General",
+          "name": "ASTM Age Group",
+          "dataType": "single_select",
+          "groupNumber": "GENERAL",
+          "number": "ASTM_AGE_GROUP",
+          "isCompound": false,
+          "select": []
+        },
+        {
+          "id": "690b7c39106fe7b0bbb68042",
+          "values": [
+            "true"
+          ],
+          "groupName": "General",
+          "name": "Configurable",
+          "dataType": "boolean",
+          "groupNumber": "GENERAL",
+          "number": "CONFIGURABLE",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c598139e6688fa25f08",
+          "values": [
+            "false"
+          ],
+          "groupName": "General",
+          "name": "Inclusive Design",
+          "dataType": "boolean",
+          "groupNumber": "GENERAL",
+          "number": "INCLUSIVE_DESIGN",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c2322d4b560b76c4c5e",
+          "values": [
+            "20"
+          ],
+          "groupName": "General",
+          "name": "Number of Users",
+          "dataType": "integer",
+          "groupNumber": "GENERAL",
+          "number": "NUMBER_OF_USERS",
+          "isCompound": false
+        },
+        {
+          "id": "690b7ca3106fe7b0bbb68059",
+          "values": [
+            "4+"
+          ],
+          "groupName": "General",
+          "name": "User Age",
+          "dataType": "text",
+          "groupNumber": "GENERAL",
+          "number": "USER_AGE",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c0a22d4b560b76c4c50",
+          "values": [
+            "Finland",
+            "UK",
+            "Sweden",
+            "Germany",
+            "France"
+          ],
+          "select": [
+            {
+              "id": "690b7c0a22d4b560b76c4c51",
+              "number": "fi",
+              "value": "Finland"
+            },
+            {
+              "id": "690b7c0a22d4b560b76c4c52",
+              "number": "uk",
+              "value": "UK"
+            },
+            {
+              "id": "690b7c0a22d4b560b76c4c53",
+              "number": "se",
+              "value": "Sweden"
+            },
+            {
+              "id": "690b7c0a22d4b560b76c4c54",
+              "number": "de",
+              "value": "Germany"
+            },
+            {
+              "id": "690b7c0a22d4b560b76c4c55",
+              "number": "fr",
+              "value": "France"
+            }
+          ],
+          "groupName": "General",
+          "name": "Visible",
+          "dataType": "multi_select",
+          "groupNumber": "GENERAL",
+          "number": "VISIBLE",
+          "isCompound": false
+        },
+        {
+          "id": "69d635313f175d0cc2cdbeb5",
+          "values": [
+            "true"
+          ],
+          "groupName": "General",
+          "name": "Standard catalog visibility",
+          "dataType": "boolean",
+          "groupNumber": "GENERAL",
+          "number": "str-cat-visibility",
+          "isCompound": false
+        },
+        {
+          "id": "690b7be68139e6688fa25ed6",
+          "values": [
+            "Multifunctional tower play with two towers and a climbing frame. The +1970 mm tower can be accessed by a climbing wall with holes, and the exhilarating descent at high speed is via the slide or a fireman's pole. There is a fun suspension bridge for safe passage between the towers. Beneath the towers there are four seats for having a rest when necessary. Thanks to its many options, it can accommodate several children at a time. The frame top is made of laminate and pine."
+          ],
+          "groupName": "Product classifications",
+          "name": "Product Description",
+          "dataType": "text",
+          "groupNumber": "692714cbafaec36a40ef6845",
+          "number": "PRODUCT_DESCRIPTION",
+          "isCompound": false
+        },
+        {
+          "id": "690b7bf9106fe7b0bbb67fdb",
+          "values": [
+            "Finno"
+          ],
+          "select": [
+            {
+              "id": "690b7bf9106fe7b0bbb68001",
+              "number": "PLG03",
+              "value": "Finno"
+            }
+          ],
+          "groupName": "Product classifications",
+          "name": "Product Group",
+          "dataType": "single_select",
+          "groupNumber": "692714cbafaec36a40ef6845",
+          "number": "PRODUCT_GROUP",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c0522d4b560b76c4c48",
+          "values": [
+            "PROD_STR"
+          ],
+          "groupName": "Product classifications",
+          "name": "Product Type",
+          "dataType": "text",
+          "groupNumber": "692714cbafaec36a40ef6845",
+          "number": "PRODUCT_TYPE",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c1e106fe7b0bbb6803a",
+          "values": [],
+          "groupName": "Installation",
+          "name": "Amount of Concrete",
+          "dataType": "decimal",
+          "groupNumber": "INSTALLATION",
+          "number": "AMOUNT_OF_CONCRETE_M3",
+          "unit": "m3",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c2122d4b560b76c4c5d",
+          "values": [],
+          "groupName": "Installation",
+          "name": "Amount of Sand",
+          "dataType": "decimal",
+          "groupNumber": "INSTALLATION",
+          "number": "AMOUNT_OF_SAND_M3",
+          "unit": "m3",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c1c106fe7b0bbb68031",
+          "values": [
+            "Deep mounting",
+            "Surface mounting"
+          ],
+          "select": [
+            {
+              "id": "690b7c1c106fe7b0bbb68034",
+              "number": "Deep",
+              "value": "Deep mounting"
+            },
+            {
+              "id": "690b7c1c106fe7b0bbb68035",
+              "number": "Surface",
+              "value": "Surface mounting"
+            }
+          ],
+          "groupName": "Installation",
+          "name": "Foundation Type",
+          "dataType": "multi_select",
+          "groupNumber": "INSTALLATION",
+          "number": "FOUNDATION_TYPE",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c5222d4b560b76c4c73",
+          "values": [
+            "56"
+          ],
+          "groupName": "Installation",
+          "name": "Heaviest part",
+          "dataType": "decimal",
+          "groupNumber": "INSTALLATION",
+          "number": "HEAVIEST_PART_KG",
+          "unit": "kg",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c5c8139e6688fa25f0a",
+          "values": [
+            "17"
+          ],
+          "groupName": "Installation",
+          "name": "Installation Time",
+          "dataType": "decimal",
+          "groupNumber": "INSTALLATION",
+          "number": "INSTALLATION_TIME_H",
+          "unit": "h",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c6b8139e6688fa25f0d",
+          "values": [
+            "2685"
+          ],
+          "groupName": "Installation",
+          "name": "Largest Part",
+          "dataType": "integer",
+          "groupNumber": "INSTALLATION",
+          "number": "LARGEST_PART_MM",
+          "unit": "mm",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c77106fe7b0bbb6804e",
+          "values": [
+            "699.601"
+          ],
+          "groupName": "Installation",
+          "name": "Netto Weight, Total Shipping Weight",
+          "dataType": "decimal",
+          "groupNumber": "INSTALLATION",
+          "number": "NETTO_WEIGHT_TOTAL_SHIPPING_WEIGHT_KG",
+          "unit": "kg",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c2d106fe7b0bbb6803d",
+          "values": [],
+          "groupName": "ASTM Measurements",
+          "name": "ASTM Max Fall Height",
+          "dataType": "integer",
+          "groupNumber": "693322eced4e394bee6564d8",
+          "number": "ASTM_MAX_FALL_HEIGHT_MM",
+          "unit": "mm",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c30106fe7b0bbb6803f",
+          "values": [],
+          "groupName": "ASTM Measurements",
+          "name": "ASTM Use Zone",
+          "dataType": "decimal",
+          "groupNumber": "693322eced4e394bee6564d8",
+          "number": "ASTM_USE_ZONE",
+          "isCompound": false
+        },
+        {
+          "id": "690b7cad8139e6688fa25f1e",
+          "values": [],
+          "groupName": "ASTM Measurements",
+          "name": "ASTM Use Zone Length",
+          "dataType": "integer",
+          "groupNumber": "693322eced4e394bee6564d8",
+          "number": "ASTM_USE_ZONE_LENGTH_MM",
+          "unit": "mm",
+          "isCompound": false
+        },
+        {
+          "id": "690b7caf8139e6688fa25f1f",
+          "values": [],
+          "groupName": "ASTM Measurements",
+          "name": "ASTM Use Zone Width",
+          "dataType": "integer",
+          "groupNumber": "693322eced4e394bee6564d8",
+          "number": "ASTM_USE_ZONE_WIDTH_MM",
+          "unit": "mm",
+          "isCompound": false
+        },
+        {
+          "id": "690b7cb78139e6688fa25f20",
+          "values": [],
+          "groupName": "ASTM Measurements",
+          "name": "CSA Max Height of Fall",
+          "dataType": "integer",
+          "groupNumber": "693322eced4e394bee6564d8",
+          "number": "CSA_MAX_HEIGHT_OF_FALL_MM",
+          "unit": "mm",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c4322d4b560b76c4c6b",
+          "values": [
+            "49.1"
+          ],
+          "groupName": "Measurements",
+          "name": "Falling Space",
+          "dataType": "decimal",
+          "groupNumber": "MEASUREMENTS",
+          "number": "FALLING_SPACE_M2",
+          "unit": "m2",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c4622d4b560b76c4c6d",
+          "values": [
+            "7700"
+          ],
+          "groupName": "Measurements",
+          "name": "Falling Space, Length",
+          "dataType": "integer",
+          "groupNumber": "MEASUREMENTS",
+          "number": "FALLING_SPACE_LENGTH_MM",
+          "unit": "mm",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c48106fe7b0bbb68045",
+          "values": [
+            "8350"
+          ],
+          "groupName": "Measurements",
+          "name": "Falling Space, Width",
+          "dataType": "integer",
+          "groupNumber": "MEASUREMENTS",
+          "number": "FALLING_SPACE_WIDTH_MM",
+          "unit": "mm",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c558139e6688fa25f07",
+          "values": [
+            "3820"
+          ],
+          "groupName": "Measurements",
+          "name": "Height",
+          "dataType": "integer",
+          "groupNumber": "MEASUREMENTS",
+          "number": "HEIGHT_MM",
+          "unit": "mm",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c5722d4b560b76c4c76",
+          "values": [
+            "47.5"
+          ],
+          "groupName": "Measurements",
+          "name": "Impact Area",
+          "dataType": "decimal",
+          "groupNumber": "MEASUREMENTS",
+          "number": "IMPACT_AREA_M2",
+          "unit": "m2",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c6d8139e6688fa25f0f",
+          "values": [
+            "4140"
+          ],
+          "groupName": "Measurements",
+          "name": "Length",
+          "dataType": "integer",
+          "groupNumber": "MEASUREMENTS",
+          "number": "LENGTH_MM",
+          "unit": "mm",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c708139e6688fa25f10",
+          "values": [
+            "1970"
+          ],
+          "groupName": "Measurements",
+          "name": "Max Free Fall Height, PLAY",
+          "dataType": "integer",
+          "groupNumber": "MEASUREMENTS",
+          "number": "MAX_FREE_FALL_HEIGHT_PLAY_MM",
+          "unit": "mm",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c74106fe7b0bbb6804d",
+          "values": [
+            "3860"
+          ],
+          "groupName": "Measurements",
+          "name": "Minimum Space/Height",
+          "dataType": "integer",
+          "groupNumber": "MEASUREMENTS",
+          "number": "MINIMUM_SPACE_HEIGHT_MM",
+          "unit": "mm",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c9c106fe7b0bbb68057",
+          "values": [
+            "7700"
+          ],
+          "groupName": "Measurements",
+          "name": "Safety Area, Length",
+          "dataType": "integer",
+          "groupNumber": "MEASUREMENTS",
+          "number": "SAFETY_AREA_LENGTH_MM",
+          "unit": "mm",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c9e22d4b560b76c4c8d",
+          "values": [
+            "8350"
+          ],
+          "groupName": "Measurements",
+          "name": "Safety Area, Width",
+          "dataType": "integer",
+          "groupNumber": "MEASUREMENTS",
+          "number": "SAFETY_AREA_WIDTH_MM",
+          "unit": "mm",
+          "isCompound": false
+        },
+        {
+          "id": "690b7ca822d4b560b76c4c8f",
+          "values": [
+            "4680"
+          ],
+          "groupName": "Measurements",
+          "name": "Width",
+          "dataType": "integer",
+          "groupNumber": "MEASUREMENTS",
+          "number": "WIDTH_MM",
+          "unit": "mm",
+          "isCompound": false
+        },
+        {
+          "id": "691c359755982562b2ec4f57",
+          "values": [
+            "PLAY"
+          ],
+          "select": [
+            {
+              "id": "691c359755982562b2ec4f5b",
+              "number": "PLAY",
+              "value": "PLAY"
+            }
+          ],
+          "groupName": "Technical information",
+          "name": "EN-Standard",
+          "dataType": "multi_select",
+          "groupNumber": "TECHNICAL_INFORMATION",
+          "number": "EN_STANDARD",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c018139e6688fa25ee9",
+          "values": [],
+          "groupName": "Technical information",
+          "name": "Main Material",
+          "dataType": "single_select",
+          "groupNumber": "TECHNICAL_INFORMATION",
+          "number": "MAIN_MATERIAL",
+          "isCompound": false,
+          "select": []
+        },
+        {
+          "id": "690b7c12106fe7b0bbb68025",
+          "values": [],
+          "groupName": "Technical information",
+          "name": "Roof Type",
+          "dataType": "multi_select",
+          "groupNumber": "TECHNICAL_INFORMATION",
+          "number": "ROOF_TYPE",
+          "isCompound": false,
+          "select": []
+        },
+        {
+          "id": "690b7c0822d4b560b76c4c49",
+          "values": [],
+          "groupName": "Technical information",
+          "name": "Slide Type",
+          "dataType": "multi_select",
+          "groupNumber": "TECHNICAL_INFORMATION",
+          "number": "SLIDE_TYPE",
+          "isCompound": false,
+          "select": []
+        },
+        {
+          "id": "690b7c148139e6688fa25ef6",
+          "values": [],
+          "groupName": "Technical information",
+          "name": "Wall material",
+          "dataType": "multi_select",
+          "groupNumber": "TECHNICAL_INFORMATION",
+          "number": "WALL_MATERIAL",
+          "isCompound": false,
+          "select": []
+        },
+        {
+          "id": "690b7c3222d4b560b76c4c65",
+          "values": [
+            "true"
+          ],
+          "groupName": "Conformance",
+          "name": "Avainlippu",
+          "dataType": "boolean",
+          "groupNumber": "CONFORMANCE",
+          "number": "AVAINLIPPU",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c17106fe7b0bbb6802d",
+          "values": [
+            "Accepted"
+          ],
+          "select": [
+            {
+              "id": "690b7c17106fe7b0bbb6802f",
+              "number": "Accepteras",
+              "value": "Accepted"
+            }
+          ],
+          "groupName": "Conformance",
+          "name": "Byggvarubedömningen",
+          "dataType": "single_select",
+          "groupNumber": "CONFORMANCE",
+          "number": "BYGGVARUBED_MNINGEN",
+          "isCompound": false
+        },
+        {
+          "id": "690b7bfe22d4b560b76c4c46",
+          "values": [
+            "EN 1176-1:2017; 3"
+          ],
+          "groupName": "Conformance",
+          "name": "Safety Standard",
+          "dataType": "text",
+          "groupNumber": "CONFORMANCE",
+          "number": "SAFETY_STANDARD",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c038139e6688fa25eed",
+          "values": [
+            "TÜV SÜD"
+          ],
+          "select": [
+            {
+              "id": "692e74db15df60075583991c",
+              "number": "TUV_SUD",
+              "value": "TÜV SÜD"
+            }
+          ],
+          "groupName": "Conformance",
+          "name": "Standard's 3rd party validation",
+          "dataType": "single_select",
+          "groupNumber": "CONFORMANCE",
+          "number": "STANDARD_3RD_PARTY_VALIDATION",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c798139e6688fa25f12",
+          "values": [],
+          "groupName": "Play Functions",
+          "name": "Number of Balancing",
+          "dataType": "integer",
+          "groupNumber": "PLAY_FUNCTIONS",
+          "number": "NUMBER_OF_BALANCING",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c7c106fe7b0bbb68050",
+          "values": [
+            "1"
+          ],
+          "groupName": "Play Functions",
+          "name": "Number of Bridges",
+          "dataType": "integer",
+          "groupNumber": "PLAY_FUNCTIONS",
+          "number": "NUMBER_OF_BRIDGES",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c7e22d4b560b76c4c80",
+          "values": [
+            "5"
+          ],
+          "groupName": "Play Functions",
+          "name": "Number of Climbing",
+          "dataType": "integer",
+          "groupNumber": "PLAY_FUNCTIONS",
+          "number": "NUMBER_OF_CLIMBING",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c818139e6688fa25f15",
+          "values": [],
+          "groupName": "Play Functions",
+          "name": "Number of Crawling",
+          "dataType": "integer",
+          "groupNumber": "PLAY_FUNCTIONS",
+          "number": "NUMBER_OF_CRAWLING",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c83106fe7b0bbb68051",
+          "values": [],
+          "groupName": "Play Functions",
+          "name": "Number of Dynamic Functions",
+          "dataType": "integer",
+          "groupNumber": "PLAY_FUNCTIONS",
+          "number": "NUMBER_OF_DYNAMIC_FUNCTIONS",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c868139e6688fa25f16",
+          "values": [],
+          "groupName": "Play Functions",
+          "name": "Number of Excercising",
+          "dataType": "integer",
+          "groupNumber": "PLAY_FUNCTIONS",
+          "number": "NUMBER_OF_EXCERCISING",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c88106fe7b0bbb68052",
+          "values": [],
+          "groupName": "Play Functions",
+          "name": "Number of Meeting Points",
+          "dataType": "integer",
+          "groupNumber": "PLAY_FUNCTIONS",
+          "number": "NUMBER_OF_MEETING_POINTS",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c8a106fe7b0bbb68053",
+          "values": [
+            "0"
+          ],
+          "groupName": "Play Functions",
+          "name": "Number of Play Walls",
+          "dataType": "integer",
+          "groupNumber": "PLAY_FUNCTIONS",
+          "number": "NUMBER_OF_PLAY_WALLS",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c8d22d4b560b76c4c86",
+          "values": [
+            "2"
+          ],
+          "groupName": "Play Functions",
+          "name": "Number of Roofs",
+          "dataType": "integer",
+          "groupNumber": "PLAY_FUNCTIONS",
+          "number": "NUMBER_OF_ROOFS",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c8f22d4b560b76c4c88",
+          "values": [],
+          "groupName": "Play Functions",
+          "name": "Number of Sandplay",
+          "dataType": "integer",
+          "groupNumber": "PLAY_FUNCTIONS",
+          "number": "NUMBER_OF_SANDPLAY",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c928139e6688fa25f17",
+          "values": [
+            "1"
+          ],
+          "groupName": "Play Functions",
+          "name": "Number of Slides",
+          "dataType": "integer",
+          "groupNumber": "PLAY_FUNCTIONS",
+          "number": "NUMBER_OF_SLIDES",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c948139e6688fa25f18",
+          "values": [
+            "0"
+          ],
+          "groupName": "Play Functions",
+          "name": "Number of Stairs",
+          "dataType": "integer",
+          "groupNumber": "PLAY_FUNCTIONS",
+          "number": "NUMBER_OF_STAIRS",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c978139e6688fa25f19",
+          "values": [],
+          "groupName": "Play Functions",
+          "name": "Number of Swinging",
+          "dataType": "integer",
+          "groupNumber": "PLAY_FUNCTIONS",
+          "number": "NUMBER_OF_SWINGING",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c99106fe7b0bbb68056",
+          "values": [
+            "4"
+          ],
+          "groupName": "Play Functions",
+          "name": "Number of Towers",
+          "dataType": "integer",
+          "groupNumber": "PLAY_FUNCTIONS",
+          "number": "NUMBER_OF_TOWERS",
+          "isCompound": false
+        },
+        {
+          "id": "690b7c5e106fe7b0bbb68048",
+          "values": [
+            "ACTIVITY TOWER"
+          ],
+          "groupName": "Internal",
+          "name": "Item Desc 1",
+          "dataType": "text",
+          "groupNumber": "INTERNAL",
+          "number": "ITEM_DESC_1",
+          "isCompound": false
+        }
+      ],
+      "media": [
+        {
+          "id": "cee46622-c64c-4d7c-9cfb-e82d938aa3d1",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/cee46622-c64c-4d7c-9cfb-e82d938aa3d1/9yjdD10cD5bcJ3NNmdYaGJtJV/SPTDUEwqaRqhHuCVpQA6RnRHf.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/cee46622-c64c-4d7c-9cfb-e82d938aa3d1/9yjdD10cD5bcJ3NNmdYaGJtJV/SPTDUEwqaRqhHuCVpQA6RnRHf.png?f=jpg&w=400",
+          "name": "IMAGE 137132M",
+          "fileName": "137132M:137132M_LimeGreen_NEW_001.png",
+          "contentType": "image/png",
+          "description": "IMAGE 137132M",
+          "labels": [
+            "Default"
+          ],
+          "createdAt": 1776837761070,
+          "updatedAt": 1776837761070,
+          "number": "137132M:137132M_LimeGreen_NEW_001.png",
+          "attributes": [
+            {
+              "id": "6915a6d9b44c9b356f287e3d",
+              "values": [
+                "Visualized"
+              ],
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e3f",
+                  "number": "10310",
+                  "value": "Visualized"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Info",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_INFO"
+            },
+            {
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "values": [
+                "254569"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Code",
+              "dataType": "text",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_CODE"
+            },
+            {
+              "id": "690b7bed8139e6688fa25ed8",
+              "values": [
+                "1"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Revision",
+              "dataType": "decimal",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_REV"
+            },
+            {
+              "id": "6911d2fec3f670a73515361b",
+              "values": [
+                "Lime green"
+              ],
+              "select": [
+                {
+                  "id": "6911d313a91f77c22f934d6d",
+                  "number": "01",
+                  "value": "Lime green"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Preset Color Combination",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "PRESET_CC"
+            },
+            {
+              "id": "6932e667ed4e394bee654977",
+              "values": [
+                "2023-04-12 05:22"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Last Modified",
+              "dataType": "date_time",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_LAST_MODIFIED"
+            },
+            {
+              "id": "690b7c618139e6688fa25f0b",
+              "values": [
+                "137132M"
+              ],
+              "groupName": "Internal",
+              "name": "Item Desc 2",
+              "dataType": "text",
+              "groupNumber": "INTERNAL",
+              "number": "ITEM_DESC_2"
+            }
+          ]
+        },
+        {
+          "id": "c47d4f55-b3c0-4f39-a170-0f064311f5a9",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/c47d4f55-b3c0-4f39-a170-0f064311f5a9/sBZjKpYdClwRELyAveYh08DLZ/TmhVmSKstyWisjJQPi8GgrU86.jpg",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/c47d4f55-b3c0-4f39-a170-0f064311f5a9/sBZjKpYdClwRELyAveYh08DLZ/TmhVmSKstyWisjJQPi8GgrU86.jpg?f=jpg&w=400",
+          "name": "PHOTO",
+          "fileName": "137132M:137132m_lime_green_holland_9.jpg",
+          "contentType": "image/jpeg",
+          "description": "PHOTO",
+          "labels": [],
+          "createdAt": 1763197510922,
+          "updatedAt": 1763226888482,
+          "number": "137132M:137132m_lime_green_holland_9.jpg",
+          "attributes": [
+            {
+              "id": "6915a6d9b44c9b356f287e3d",
+              "values": [
+                "PIM"
+              ],
+              "select": [
+                {
+                  "id": "6918a4dbad5108c4750b8a23",
+                  "number": "01",
+                  "value": "PIM"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Info",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_INFO"
+            },
+            {
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "values": [],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Code",
+              "dataType": "text",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_CODE"
+            },
+            {
+              "id": "690b7bed8139e6688fa25ed8",
+              "values": [],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Revision",
+              "dataType": "decimal",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_REV"
+            }
+          ]
+        },
+        {
+          "id": "b59850d1-252a-4eb9-b955-f52db516a4b6",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/b59850d1-252a-4eb9-b955-f52db516a4b6/lVK3ofa3c4rWNkRhUj4owBK7n/RHBgflst0HrlZezzFQ3CDRBdd.pdf",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/b59850d1-252a-4eb9-b955-f52db516a4b6/lVK3ofa3c4rWNkRhUj4owBK7n/RHBgflst0HrlZezzFQ3CDRBdd.pdf?f=jpg&w=400",
+          "name": "137132M_product-card_20260413_231809.pdf",
+          "fileName": "137132M_product-card_20260413_231809.pdf",
+          "contentType": "application/pdf",
+          "labels": [
+            "product-card"
+          ],
+          "createdAt": 1776127167206,
+          "updatedAt": 1776127167335,
+          "number": "b59850d1-252a-4eb9-b955-f52db516a4b6",
+          "attributes": []
+        },
+        {
+          "id": "8341f099-ed96-4293-9576-7eed7068539e",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/8341f099-ed96-4293-9576-7eed7068539e/oxbGlur6ccJ9RNixKRWvpyLBX/7iinxX5VofJFHrCxfZcWfluF0.DWG",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/8341f099-ed96-4293-9576-7eed7068539e/oxbGlur6ccJ9RNixKRWvpyLBX/7iinxX5VofJFHrCxfZcWfluF0.DWG?f=jpg&w=400",
+          "name": "TOP VIEW 137132M",
+          "fileName": "137132M:137132MPL.DWG",
+          "contentType": "image/dwg",
+          "description": "TOP VIEW 137132M",
+          "labels": [],
+          "createdAt": 1776837754032,
+          "updatedAt": 1776837754032,
+          "number": "137132M:137132MPL.DWG",
+          "attributes": [
+            {
+              "id": "6915a6d9b44c9b356f287e3d",
+              "values": [
+                "2dModel"
+              ],
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e42",
+                  "number": "107",
+                  "value": "2dModel"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Info",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_INFO"
+            },
+            {
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "values": [
+                "139575"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Code",
+              "dataType": "text",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_CODE"
+            },
+            {
+              "id": "690b7bed8139e6688fa25ed8",
+              "values": [
+                "4.1"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Revision",
+              "dataType": "decimal",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_REV"
+            },
+            {
+              "id": "6932e667ed4e394bee654977",
+              "values": [
+                "2016-10-25 06:00"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Last Modified",
+              "dataType": "date_time",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_LAST_MODIFIED"
+            },
+            {
+              "id": "690b7c618139e6688fa25f0b",
+              "values": [
+                "137132M"
+              ],
+              "groupName": "Internal",
+              "name": "Item Desc 2",
+              "dataType": "text",
+              "groupNumber": "INTERNAL",
+              "number": "ITEM_DESC_2"
+            }
+          ]
+        },
+        {
+          "id": "c1ae3ad9-6432-4708-9c66-41b2d37a7115",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/c1ae3ad9-6432-4708-9c66-41b2d37a7115/xDc2ocEHPUjFKtb2sQdWE3JyM/a95EY2N4FCgK4f6bY2T4IsdGW.pdf",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/c1ae3ad9-6432-4708-9c66-41b2d37a7115/xDc2ocEHPUjFKtb2sQdWE3JyM/a95EY2N4FCgK4f6bY2T4IsdGW.pdf?f=jpg&w=400",
+          "name": "InstallationInstructions",
+          "fileName": "137132M:MERGED_170075.pdf",
+          "contentType": "application/pdf",
+          "description": "InstallationInstructions",
+          "labels": [],
+          "createdAt": 1776837760556,
+          "updatedAt": 1776837760556,
+          "number": "137132M:MERGED_170075.pdf",
+          "attributes": [
+            {
+              "id": "6915a6d9b44c9b356f287e3d",
+              "values": [
+                "InstallationInstructions"
+              ],
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e3e",
+                  "number": "101",
+                  "value": "InstallationInstructions"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Info",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_INFO"
+            },
+            {
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "values": [
+                "258124"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Code",
+              "dataType": "text",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_CODE"
+            },
+            {
+              "id": "690b7bed8139e6688fa25ed8",
+              "values": [
+                "1"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Revision",
+              "dataType": "decimal",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_REV"
+            },
+            {
+              "id": "6932e667ed4e394bee654977",
+              "values": [
+                "2025-12-19 19:21"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Last Modified",
+              "dataType": "date_time",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_LAST_MODIFIED"
+            },
+            {
+              "id": "690b7c618139e6688fa25f0b",
+              "values": [],
+              "groupName": "Internal",
+              "name": "Item Desc 2",
+              "dataType": "text",
+              "groupNumber": "INTERNAL",
+              "number": "ITEM_DESC_2"
+            }
+          ]
+        },
+        {
+          "id": "9eb12c16-5f8d-4cba-ad6e-ce1bd97795b5",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/9eb12c16-5f8d-4cba-ad6e-ce1bd97795b5/wNyE0qHkadvtxDgkBqflKlzln/aB91oGceRPmfWWqfWrmVuS6hq.DWG",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/9eb12c16-5f8d-4cba-ad6e-ce1bd97795b5/wNyE0qHkadvtxDgkBqflKlzln/aB91oGceRPmfWWqfWrmVuS6hq.DWG?f=jpg&w=400",
+          "name": "PRODUCT MODEL 137132M",
+          "fileName": "137132M:137132M.DWG",
+          "contentType": "image/dwg",
+          "description": "PRODUCT MODEL 137132M",
+          "labels": [],
+          "createdAt": 1776837763123,
+          "updatedAt": 1776837763123,
+          "number": "137132M:137132M.DWG",
+          "attributes": [
+            {
+              "id": "6915a6d9b44c9b356f287e3d",
+              "values": [
+                "3dDwg"
+              ],
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e43",
+                  "number": "114",
+                  "value": "3dDwg"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Info",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_INFO"
+            },
+            {
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "values": [
+                "139573"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Code",
+              "dataType": "text",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_CODE"
+            },
+            {
+              "id": "690b7bed8139e6688fa25ed8",
+              "values": [
+                "4.3"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Revision",
+              "dataType": "decimal",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_REV"
+            },
+            {
+              "id": "6932e667ed4e394bee654977",
+              "values": [
+                "2018-01-18 06:03"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Last Modified",
+              "dataType": "date_time",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_LAST_MODIFIED"
+            },
+            {
+              "id": "690b7c618139e6688fa25f0b",
+              "values": [
+                "137132M"
+              ],
+              "groupName": "Internal",
+              "name": "Item Desc 2",
+              "dataType": "text",
+              "groupNumber": "INTERNAL",
+              "number": "ITEM_DESC_2"
+            }
+          ]
+        },
+        {
+          "id": "d4f2f397-92b1-4d05-a05b-d25657a11aae",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/d4f2f397-92b1-4d05-a05b-d25657a11aae/6Rme8ddcSV3ln1i152o9Ana0C/MGdLoubDnBgDSpyVPN4fla1K6.pdf",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/d4f2f397-92b1-4d05-a05b-d25657a11aae/6Rme8ddcSV3ln1i152o9Ana0C/MGdLoubDnBgDSpyVPN4fla1K6.pdf?f=jpg&w=400",
+          "name": "CERTIFICATE Finno",
+          "fileName": "137132M:Finno.eng.pdf",
+          "contentType": "application/pdf",
+          "description": "CERTIFICATE Finno",
+          "labels": [
+            "TUV SUD"
+          ],
+          "createdAt": 1776837757038,
+          "updatedAt": 1776837757038,
+          "number": "137132M:Finno.eng.pdf",
+          "attributes": [
+            {
+              "id": "6915a6d9b44c9b356f287e3d",
+              "values": [
+                "ProductCertificates"
+              ],
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e46",
+                  "number": "11012",
+                  "value": "ProductCertificates"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Info",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_INFO"
+            },
+            {
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "values": [
+                "017214"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Code",
+              "dataType": "text",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_CODE"
+            },
+            {
+              "id": "690b7bed8139e6688fa25ed8",
+              "values": [
+                "12"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Revision",
+              "dataType": "decimal",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_REV"
+            },
+            {
+              "id": "6932e667ed4e394bee654977",
+              "values": [
+                "2022-12-27 13:32"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Last Modified",
+              "dataType": "date_time",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_LAST_MODIFIED"
+            },
+            {
+              "id": "690b7c618139e6688fa25f0b",
+              "values": [
+                "Finno"
+              ],
+              "groupName": "Internal",
+              "name": "Item Desc 2",
+              "dataType": "text",
+              "groupNumber": "INTERNAL",
+              "number": "ITEM_DESC_2"
+            }
+          ]
+        },
+        {
+          "id": "e41e425d-2edd-4115-8f21-b3ce6d82aed8",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/e41e425d-2edd-4115-8f21-b3ce6d82aed8/QhdTkuDZnO1tlkTCVckaKLCzv/ROlLVlOjklO7njeom20PAK9jh.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/e41e425d-2edd-4115-8f21-b3ce6d82aed8/QhdTkuDZnO1tlkTCVckaKLCzv/ROlLVlOjklO7njeom20PAK9jh.png?f=jpg&w=400",
+          "name": "IMAGE 137132M",
+          "fileName": "137132M:137132M_Unpainted_NEW_001.png",
+          "contentType": "image/png",
+          "description": "IMAGE 137132M",
+          "labels": [],
+          "createdAt": 1776837756081,
+          "updatedAt": 1776837756081,
+          "number": "137132M:137132M_Unpainted_NEW_001.png",
+          "attributes": [
+            {
+              "id": "6915a6d9b44c9b356f287e3d",
+              "values": [
+                "Visualized"
+              ],
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e3f",
+                  "number": "10310",
+                  "value": "Visualized"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Info",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_INFO"
+            },
+            {
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "values": [
+                "254572"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Code",
+              "dataType": "text",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_CODE"
+            },
+            {
+              "id": "690b7bed8139e6688fa25ed8",
+              "values": [
+                "1"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Revision",
+              "dataType": "decimal",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_REV"
+            },
+            {
+              "id": "6932e667ed4e394bee654977",
+              "values": [
+                "2023-04-12 05:22"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Last Modified",
+              "dataType": "date_time",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_LAST_MODIFIED"
+            },
+            {
+              "id": "690b7c618139e6688fa25f0b",
+              "values": [
+                "137132M"
+              ],
+              "groupName": "Internal",
+              "name": "Item Desc 2",
+              "dataType": "text",
+              "groupNumber": "INTERNAL",
+              "number": "ITEM_DESC_2"
+            }
+          ]
+        },
+        {
+          "id": "09e02e07-a60c-4dc0-8ddc-7e626d5341cb",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/09e02e07-a60c-4dc0-8ddc-7e626d5341cb/d4CwcHRK2LWc0Bafc3aV8sbKK/P66goLDb2Y5XQEMh1eSescTiA.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/09e02e07-a60c-4dc0-8ddc-7e626d5341cb/d4CwcHRK2LWc0Bafc3aV8sbKK/P66goLDb2Y5XQEMh1eSescTiA.png?f=jpg&w=400",
+          "name": "SIDE VIEW 137132M",
+          "fileName": "137132M:137132MSI-Model.png",
+          "contentType": "image/png",
+          "description": "SIDE VIEW 137132M",
+          "labels": [],
+          "createdAt": 1776837800537,
+          "updatedAt": 1776837800537,
+          "number": "137132M:137132MSI-Model.png",
+          "attributes": [
+            {
+              "id": "6915a6d9b44c9b356f287e3d",
+              "values": [
+                "SalesPictures"
+              ],
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e40",
+                  "number": "10313",
+                  "value": "SalesPictures"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Info",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_INFO"
+            },
+            {
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "values": [
+                "160742"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Code",
+              "dataType": "text",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_CODE"
+            },
+            {
+              "id": "690b7bed8139e6688fa25ed8",
+              "values": [
+                "4"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Revision",
+              "dataType": "decimal",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_REV"
+            },
+            {
+              "id": "6932e667ed4e394bee654977",
+              "values": [
+                "2016-10-13 05:50"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Last Modified",
+              "dataType": "date_time",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_LAST_MODIFIED"
+            },
+            {
+              "id": "690b7c618139e6688fa25f0b",
+              "values": [
+                "137132M"
+              ],
+              "groupName": "Internal",
+              "name": "Item Desc 2",
+              "dataType": "text",
+              "groupNumber": "INTERNAL",
+              "number": "ITEM_DESC_2"
+            }
+          ]
+        },
+        {
+          "id": "7c137b0e-05ea-4bfa-89a1-07a620c9bf92",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/7c137b0e-05ea-4bfa-89a1-07a620c9bf92/USIFnKoBYSKoo9dk0Au4Aotxn/DX4sDrlT9qWHMn3fLRzkUv0I3.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/7c137b0e-05ea-4bfa-89a1-07a620c9bf92/USIFnKoBYSKoo9dk0Au4Aotxn/DX4sDrlT9qWHMn3fLRzkUv0I3.png?f=jpg&w=400",
+          "name": "IMAGE 137132M",
+          "fileName": "137132M:137132M_CandyFuchsia_NEW_001.png",
+          "contentType": "image/png",
+          "description": "IMAGE 137132M",
+          "labels": [],
+          "createdAt": 1776837759037,
+          "updatedAt": 1776837759037,
+          "number": "137132M:137132M_CandyFuchsia_NEW_001.png",
+          "attributes": [
+            {
+              "id": "6915a6d9b44c9b356f287e3d",
+              "values": [
+                "Visualized"
+              ],
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e3f",
+                  "number": "10310",
+                  "value": "Visualized"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Info",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_INFO"
+            },
+            {
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "values": [
+                "254568"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Code",
+              "dataType": "text",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_CODE"
+            },
+            {
+              "id": "690b7bed8139e6688fa25ed8",
+              "values": [
+                "1"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Revision",
+              "dataType": "decimal",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_REV"
+            },
+            {
+              "id": "6911d2fec3f670a73515361b",
+              "values": [
+                "Candy Fuchsia"
+              ],
+              "select": [
+                {
+                  "id": "6911d313a91f77c22f934d71",
+                  "number": "05",
+                  "value": "Candy Fuchsia"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Preset Color Combination",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "PRESET_CC"
+            },
+            {
+              "id": "6932e667ed4e394bee654977",
+              "values": [
+                "2023-04-12 05:22"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Last Modified",
+              "dataType": "date_time",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_LAST_MODIFIED"
+            },
+            {
+              "id": "690b7c618139e6688fa25f0b",
+              "values": [
+                "137132M"
+              ],
+              "groupName": "Internal",
+              "name": "Item Desc 2",
+              "dataType": "text",
+              "groupNumber": "INTERNAL",
+              "number": "ITEM_DESC_2"
+            }
+          ]
+        },
+        {
+          "id": "88e77762-2764-4962-b76f-1865abc87002",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/88e77762-2764-4962-b76f-1865abc87002/ENsofxjj1gjvaMG3BaFgUQrRs/SmobcY8jUTcrd44aMPBZOa3rD.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/88e77762-2764-4962-b76f-1865abc87002/ENsofxjj1gjvaMG3BaFgUQrRs/SmobcY8jUTcrd44aMPBZOa3rD.png?f=jpg&w=400",
+          "name": "IMAGE 137132M",
+          "fileName": "137132M:137132M_LiquoriceGrey_NEW_001.png",
+          "contentType": "image/png",
+          "description": "IMAGE 137132M",
+          "labels": [],
+          "createdAt": 1776837756541,
+          "updatedAt": 1776837756541,
+          "number": "137132M:137132M_LiquoriceGrey_NEW_001.png",
+          "attributes": [
+            {
+              "id": "6915a6d9b44c9b356f287e3d",
+              "values": [
+                "Visualized"
+              ],
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e3f",
+                  "number": "10310",
+                  "value": "Visualized"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Info",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_INFO"
+            },
+            {
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "values": [
+                "254570"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Code",
+              "dataType": "text",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_CODE"
+            },
+            {
+              "id": "690b7bed8139e6688fa25ed8",
+              "values": [
+                "1"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Revision",
+              "dataType": "decimal",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_REV"
+            },
+            {
+              "id": "6911d2fec3f670a73515361b",
+              "values": [
+                "Liquorice Grey"
+              ],
+              "select": [
+                {
+                  "id": "6911d313a91f77c22f934d6f",
+                  "number": "03",
+                  "value": "Liquorice Grey"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Preset Color Combination",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "PRESET_CC"
+            },
+            {
+              "id": "6932e667ed4e394bee654977",
+              "values": [
+                "2023-04-12 05:22"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Last Modified",
+              "dataType": "date_time",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_LAST_MODIFIED"
+            },
+            {
+              "id": "690b7c618139e6688fa25f0b",
+              "values": [
+                "137132M"
+              ],
+              "groupName": "Internal",
+              "name": "Item Desc 2",
+              "dataType": "text",
+              "groupNumber": "INTERNAL",
+              "number": "ITEM_DESC_2"
+            }
+          ]
+        },
+        {
+          "id": "499600e3-95ce-4c00-83e5-f30209218703",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/499600e3-95ce-4c00-83e5-f30209218703/XC1BufqDcTQA2u3RR5TtGz1h3/kC31vuCN7P9B8km326N4MQ766.jpg",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/499600e3-95ce-4c00-83e5-f30209218703/XC1BufqDcTQA2u3RR5TtGz1h3/kC31vuCN7P9B8km326N4MQ766.jpg?f=jpg&w=400",
+          "name": "CONFIGURATIONS 137132M",
+          "fileName": "137132M:137132M_SWITCHIT_steel.jpg",
+          "contentType": "image/jpeg",
+          "description": "CONFIGURATIONS 137132M",
+          "labels": [],
+          "createdAt": 1776837761558,
+          "updatedAt": 1776837761558,
+          "number": "137132M:137132M_SWITCHIT_steel.jpg",
+          "attributes": [
+            {
+              "id": "6915a6d9b44c9b356f287e3d",
+              "values": [
+                "SwitchitPicture"
+              ],
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e41",
+                  "number": "10318",
+                  "value": "SwitchitPicture"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Info",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_INFO"
+            },
+            {
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "values": [
+                "232724"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Code",
+              "dataType": "text",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_CODE"
+            },
+            {
+              "id": "690b7bed8139e6688fa25ed8",
+              "values": [
+                "1"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Revision",
+              "dataType": "decimal",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_REV"
+            },
+            {
+              "id": "6932e667ed4e394bee654977",
+              "values": [
+                "2021-08-25 07:35"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Last Modified",
+              "dataType": "date_time",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_LAST_MODIFIED"
+            },
+            {
+              "id": "690b7c618139e6688fa25f0b",
+              "values": [
+                "137132M"
+              ],
+              "groupName": "Internal",
+              "name": "Item Desc 2",
+              "dataType": "text",
+              "groupNumber": "INTERNAL",
+              "number": "ITEM_DESC_2"
+            }
+          ]
+        },
+        {
+          "id": "523c16f6-0963-434c-a047-468ff7e378e9",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/523c16f6-0963-434c-a047-468ff7e378e9/0wJKHrKQpuLKo87WqCrplmPLa/PC4HbIuhDbSb8cP8pGrwRyQtI.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/523c16f6-0963-434c-a047-468ff7e378e9/0wJKHrKQpuLKo87WqCrplmPLa/PC4HbIuhDbSb8cP8pGrwRyQtI.png?f=jpg&w=400",
+          "name": "TOP VIEW 137132M",
+          "fileName": "137132M:137132MPL-Model.png",
+          "contentType": "image/png",
+          "description": "TOP VIEW 137132M",
+          "labels": [],
+          "createdAt": 1776837814624,
+          "updatedAt": 1776837814624,
+          "number": "137132M:137132MPL-Model.png",
+          "attributes": [
+            {
+              "id": "6915a6d9b44c9b356f287e3d",
+              "values": [
+                "SalesPictures"
+              ],
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e40",
+                  "number": "10313",
+                  "value": "SalesPictures"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Info",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_INFO"
+            },
+            {
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "values": [
+                "160741"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Code",
+              "dataType": "text",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_CODE"
+            },
+            {
+              "id": "690b7bed8139e6688fa25ed8",
+              "values": [
+                "4"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Revision",
+              "dataType": "decimal",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_REV"
+            },
+            {
+              "id": "6932e667ed4e394bee654977",
+              "values": [
+                "2016-10-13 05:52"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Last Modified",
+              "dataType": "date_time",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_LAST_MODIFIED"
+            },
+            {
+              "id": "690b7c618139e6688fa25f0b",
+              "values": [
+                "137132M"
+              ],
+              "groupName": "Internal",
+              "name": "Item Desc 2",
+              "dataType": "text",
+              "groupNumber": "INTERNAL",
+              "number": "ITEM_DESC_2"
+            }
+          ]
+        },
+        {
+          "id": "af4f794b-c79b-49cf-833b-bbaa1112fe71",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/af4f794b-c79b-49cf-833b-bbaa1112fe71/BMBnQW5Qp9dqPA2JwcGTQKRd8/nxGfk2I4CB8smIdYcqM30DK0N.DWG",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/af4f794b-c79b-49cf-833b-bbaa1112fe71/BMBnQW5Qp9dqPA2JwcGTQKRd8/nxGfk2I4CB8smIdYcqM30DK0N.DWG?f=jpg&w=400",
+          "name": "SIDE VIEW 137132M",
+          "fileName": "137132M:137132MSI.DWG",
+          "contentType": "image/dwg",
+          "description": "SIDE VIEW 137132M",
+          "labels": [],
+          "createdAt": 1776837762091,
+          "updatedAt": 1776837762091,
+          "number": "137132M:137132MSI.DWG",
+          "attributes": [
+            {
+              "id": "6915a6d9b44c9b356f287e3d",
+              "values": [
+                "2dModel"
+              ],
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e42",
+                  "number": "107",
+                  "value": "2dModel"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Info",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_INFO"
+            },
+            {
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "values": [
+                "139576"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Code",
+              "dataType": "text",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_CODE"
+            },
+            {
+              "id": "690b7bed8139e6688fa25ed8",
+              "values": [
+                "4.1"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Revision",
+              "dataType": "decimal",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_REV"
+            },
+            {
+              "id": "6932e667ed4e394bee654977",
+              "values": [
+                "2016-10-24 10:52"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Last Modified",
+              "dataType": "date_time",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_LAST_MODIFIED"
+            },
+            {
+              "id": "690b7c618139e6688fa25f0b",
+              "values": [
+                "137132M"
+              ],
+              "groupName": "Internal",
+              "name": "Item Desc 2",
+              "dataType": "text",
+              "groupNumber": "INTERNAL",
+              "number": "ITEM_DESC_2"
+            }
+          ]
+        },
+        {
+          "id": "96765579-321d-4022-8ade-1165a7f0d7b7",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/96765579-321d-4022-8ade-1165a7f0d7b7/KslQhZKx5cy2otuToRRcpHVc0/1l2PpcArsa3lz0OeX9X2WYot7.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/96765579-321d-4022-8ade-1165a7f0d7b7/KslQhZKx5cy2otuToRRcpHVc0/1l2PpcArsa3lz0OeX9X2WYot7.png?f=jpg&w=400",
+          "name": "IMAGE 137132M",
+          "fileName": "137132M:137132M_TuttiFrutti_UPDATE_001.png",
+          "contentType": "image/png",
+          "description": "IMAGE 137132M",
+          "labels": [],
+          "createdAt": 1776837754528,
+          "updatedAt": 1776837754528,
+          "number": "137132M:137132M_TuttiFrutti_UPDATE_001.png",
+          "attributes": [
+            {
+              "id": "6915a6d9b44c9b356f287e3d",
+              "values": [
+                "Visualized"
+              ],
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e3f",
+                  "number": "10310",
+                  "value": "Visualized"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Info",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_INFO"
+            },
+            {
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "values": [
+                "254571"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Code",
+              "dataType": "text",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_CODE"
+            },
+            {
+              "id": "690b7bed8139e6688fa25ed8",
+              "values": [
+                "1"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Revision",
+              "dataType": "decimal",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_REV"
+            },
+            {
+              "id": "6911d2fec3f670a73515361b",
+              "values": [
+                "Tuttifrutti"
+              ],
+              "select": [
+                {
+                  "id": "6911d313a91f77c22f934d70",
+                  "number": "04",
+                  "value": "Tuttifrutti"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Preset Color Combination",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "PRESET_CC"
+            },
+            {
+              "id": "6932e667ed4e394bee654977",
+              "values": [
+                "2024-09-16 14:46"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Last Modified",
+              "dataType": "date_time",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_LAST_MODIFIED"
+            },
+            {
+              "id": "690b7c618139e6688fa25f0b",
+              "values": [
+                "137132M"
+              ],
+              "groupName": "Internal",
+              "name": "Item Desc 2",
+              "dataType": "text",
+              "groupNumber": "INTERNAL",
+              "number": "ITEM_DESC_2"
+            }
+          ]
+        },
+        {
+          "id": "42f4da9d-be3f-4427-9064-bf1087e52eb7",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/42f4da9d-be3f-4427-9064-bf1087e52eb7/HuykFkIFfj7NGDbvlXlLhOYUX/V610ZnO1hrm5PW2DIh5StkaLy.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/42f4da9d-be3f-4427-9064-bf1087e52eb7/HuykFkIFfj7NGDbvlXlLhOYUX/V610ZnO1hrm5PW2DIh5StkaLy.png?f=jpg&w=400",
+          "name": "IMAGE 137132M",
+          "fileName": "137132M:137132M_AppleRed_NEW_001.png",
+          "contentType": "image/png",
+          "description": "IMAGE 137132M",
+          "labels": [],
+          "createdAt": 1776837759131,
+          "updatedAt": 1776837759131,
+          "number": "137132M:137132M_AppleRed_NEW_001.png",
+          "attributes": [
+            {
+              "id": "6915a6d9b44c9b356f287e3d",
+              "values": [
+                "Visualized"
+              ],
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e3f",
+                  "number": "10310",
+                  "value": "Visualized"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Info",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_INFO"
+            },
+            {
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "values": [
+                "254567"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Code",
+              "dataType": "text",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_CODE"
+            },
+            {
+              "id": "690b7bed8139e6688fa25ed8",
+              "values": [
+                "1"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Document Revision",
+              "dataType": "decimal",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_DOC_REV"
+            },
+            {
+              "id": "6911d2fec3f670a73515361b",
+              "values": [
+                "Apple Red"
+              ],
+              "select": [
+                {
+                  "id": "6911d313a91f77c22f934d6e",
+                  "number": "02",
+                  "value": "Apple Red"
+                }
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Preset Color Combination",
+              "dataType": "single_select",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "PRESET_CC"
+            },
+            {
+              "id": "6932e667ed4e394bee654977",
+              "values": [
+                "2023-04-12 05:22"
+              ],
+              "groupName": "Asset Attributes",
+              "name": "Aton Last Modified",
+              "dataType": "date_time",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "number": "ATON_LAST_MODIFIED"
+            },
+            {
+              "id": "690b7c618139e6688fa25f0b",
+              "values": [
+                "137132M"
+              ],
+              "groupName": "Internal",
+              "name": "Item Desc 2",
+              "dataType": "text",
+              "groupNumber": "INTERNAL",
+              "number": "ITEM_DESC_2"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "categories": [
+        "690b7b62106fe7b0bbb67fc8",
+        "690b7b24106fe7b0bbb67faa",
+        "690b7ab122d4b560b76c4c0b",
+        "698b2801be955c916cd43bd3"
+      ],
+      "relations": [
+        {
+          "id": "690b7cba22d4b560b76c4c99",
+          "productId": "6925b83acaf0c11ebd877af9",
+          "reverse": false,
+          "name": "Color, Wood",
+          "number": "COLOR_WOOD",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba22d4b560b76c4c99",
+          "productId": "6925b83b31826ee3190280f8",
+          "reverse": false,
+          "name": "Color, Wood",
+          "number": "COLOR_WOOD",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba22d4b560b76c4c99",
+          "productId": "6925b83aafaec36a40ef5d06",
+          "reverse": false,
+          "name": "Color, Wood",
+          "number": "COLOR_WOOD",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba22d4b560b76c4c99",
+          "productId": "6925b83bcaf0c11ebd877afe",
+          "reverse": false,
+          "name": "Color, Wood",
+          "number": "COLOR_WOOD",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba22d4b560b76c4c98",
+          "productId": "6925b83aafaec36a40ef5d00",
+          "reverse": false,
+          "name": "Colors of Walls and HPL-Components",
+          "number": "COLOR_WALLS_HPL",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba22d4b560b76c4c98",
+          "productId": "6925b83a31826ee3190280ec",
+          "reverse": false,
+          "name": "Colors of Walls and HPL-Components",
+          "number": "COLOR_WALLS_HPL",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba22d4b560b76c4c98",
+          "productId": "6925b83a31826ee3190280ee",
+          "reverse": false,
+          "name": "Colors of Walls and HPL-Components",
+          "number": "COLOR_WALLS_HPL",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba22d4b560b76c4c98",
+          "productId": "6925b83a31826ee3190280ed",
+          "reverse": false,
+          "name": "Colors of Walls and HPL-Components",
+          "number": "COLOR_WALLS_HPL",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba22d4b560b76c4c98",
+          "productId": "6925b83aafaec36a40ef5d01",
+          "reverse": false,
+          "name": "Colors of Walls and HPL-Components",
+          "number": "COLOR_WALLS_HPL",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba22d4b560b76c4c98",
+          "productId": "6925b83acaf0c11ebd877af4",
+          "reverse": false,
+          "name": "Colors of Walls and HPL-Components",
+          "number": "COLOR_WALLS_HPL",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba22d4b560b76c4c98",
+          "productId": "6925b83acaf0c11ebd877af5",
+          "reverse": false,
+          "name": "Colors of Walls and HPL-Components",
+          "number": "COLOR_WALLS_HPL",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba22d4b560b76c4c98",
+          "productId": "6925b83acaf0c11ebd877af3",
+          "reverse": false,
+          "name": "Colors of Walls and HPL-Components",
+          "number": "COLOR_WALLS_HPL",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba8139e6688fa25f22",
+          "productId": "6925b83dafaec36a40ef5d1c",
+          "reverse": false,
+          "name": "Colour of Ropes",
+          "number": "COLOR_ROPES",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba8139e6688fa25f22",
+          "productId": "6925b83ccaf0c11ebd877b0b",
+          "reverse": false,
+          "name": "Colour of Ropes",
+          "number": "COLOR_ROPES",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba8139e6688fa25f22",
+          "productId": "6925b83cafaec36a40ef5d1b",
+          "reverse": false,
+          "name": "Colour of Ropes",
+          "number": "COLOR_ROPES",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba8139e6688fa25f22",
+          "productId": "6925b83ccaf0c11ebd877b0c",
+          "reverse": false,
+          "name": "Colour of Ropes",
+          "number": "COLOR_ROPES",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba8139e6688fa25f22",
+          "productId": "6925b83cafaec36a40ef5d1a",
+          "reverse": false,
+          "name": "Colour of Ropes",
+          "number": "COLOR_ROPES",
+          "direction": "ONE_WAY"
+        },
+        {
+          "id": "690b7cba22d4b560b76c4c97",
+          "productId": "6925b83b31826ee3190280fc",
+          "reverse": false,
+          "name": "Color, Metal",
+          "number": "COLOR_METAL",
+          "direction": "ONE_WAY"
+        }
+      ],
+      "bundles": [],
+      "variants": [],
+      "metadata": [],
+      "publishInfoRef": "6a2802b300dea670141fe3f5",
+      "contextId": "en"
+    }
+  ]
+}

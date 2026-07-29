@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 2289.355657 5861.32763" fill="none" stroke-linecap="round" stroke-linejoin="round" style="background:transparent" data-source-layer="REVIEW_REQUIRED">
+
+
+<g vector-effect="non-scaling-stroke" stroke-width="1.5" transform="translate(1427.33799 4058.476642) scale(1 -1)">
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-1410.172584" y="3727.602053" fill="#ff7f00" font-family="sans-serif" font-size="185">EN Impact Area 7.2 m2</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-1407.198076" y="4042.476642" fill="#ff7f00" font-family="sans-serif" font-size="175">LAPPSET</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-174.566284" y="4040.14731" fill="#ff7f00" font-family="sans-serif" font-size="60">®</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-1411.33799" y="3404.890368" fill="#a5a500" font-family="sans-serif" font-size="185">EN Falling space 19.1 m2 </text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-849.457334" y1="-446.975" x2="-753.507334" y2="-446.975" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M -758.118203 -442.36413 L -758.11045 -442.371883 L -758.102702 -442.379632 L -758.094958 -442.387376 L -758.087218 -442.395115 L -757.684656 -442.797677 L -757.29477 -443.187564 L -756.918384 -443.56395 L -756.556321 -443.926013 L -755.765174 -444.71716 L -755.083682 -445.398652 L -754.516919 -445.965414 L -754.06996 -446.412374 L -753.824746 -446.657588 L -753.648821 -446.833512 L -753.542809 -446.939524 L -753.507334 -446.975" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-753.507334" y1="-446.975" x2="-753.507334" y2="-351.025" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M -758.118203 -355.63587 L -758.11045 -355.628117 L -758.102702 -355.620368 L -758.094958 -355.612624 L -758.087218 -355.604885 L -757.684656 -355.202323 L -757.29477 -354.812436 L -756.918384 -354.43605 L -756.556321 -354.073987 L -755.765174 -353.28284 L -755.083682 -352.601348 L -754.516919 -352.034586 L -754.06996 -351.587626 L -753.824746 -351.342412 L -753.648821 -351.166488 L -753.542809 -351.060476 L -753.507334 -351.025" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-753.507334" y1="-351.025" x2="-849.457334" y2="-351.025" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M -844.846464 -355.63587 L -844.854217 -355.628117 L -844.861965 -355.620368 L -844.869709 -355.612624 L -844.877449 -355.604885 L -845.280011 -355.202323 L -845.669897 -354.812436 L -846.046283 -354.43605 L -846.408346 -354.073987 L -847.199493 -353.28284 L -847.880985 -352.601348 L -848.447748 -352.034586 L -848.894708 -351.587626 L -849.139921 -351.342412 L -849.315846 -351.166488 L -849.421858 -351.060476 L -849.457334 -351.025" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M -849.457334 -446.975 L -849.421858 -446.939524 L -849.315846 -446.833512 L -849.139921 -446.657588 L -848.894708 -446.412374 L -848.447748 -445.965414 L -847.880985 -445.398652 L -847.199493 -444.71716 L -846.408346 -443.926013 L -846.046283 -443.56395 L -845.669897 -443.187564 L -845.280011 -442.797677 L -844.877449 -442.395115 L -844.869709 -442.387376 L -844.861965 -442.379632 L -844.854217 -442.371883 L -844.846464 -442.36413" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-849.457334" y1="-351.025" x2="-849.457334" y2="-446.975" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-849.457334" y1="353.025" x2="-753.507334" y2="353.025" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M -758.118203 357.63587 L -758.11045 357.628117 L -758.102702 357.620368 L -758.094958 357.612624 L -758.087218 357.604885 L -757.684656 357.202323 L -757.29477 356.812436 L -756.918384 356.43605 L -756.556321 356.073987 L -755.765174 355.28284 L -755.083682 354.601348 L -754.516919 354.034586 L -754.06996 353.587626 L -753.824746 353.342412 L -753.648821 353.166488 L -753.542809 353.060476 L -753.507334 353.025" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-753.507334" y1="353.025" x2="-753.507334" y2="448.975" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M -758.118203 444.36413 L -758.11045 444.371883 L -758.102702 444.379632 L -758.094958 444.387376 L -758.087218 444.395115 L -757.684656 444.797677 L -757.29477 445.187564 L -756.918384 445.56395 L -756.556321 445.926013 L -755.765174 446.71716 L -755.083682 447.398652 L -754.516919 447.965414 L -754.06996 448.412374 L -753.824746 448.657588 L -753.648821 448.833512 L -753.542809 448.939524 L -753.507334 448.975" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-753.507334" y1="448.975" x2="-849.457334" y2="448.975" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M -844.846464 444.36413 L -844.854217 444.371883 L -844.861965 444.379632 L -844.869709 444.387376 L -844.877449 444.395115 L -845.280011 444.797677 L -845.669897 445.187564 L -846.046283 445.56395 L -846.408346 445.926013 L -847.199493 446.71716 L -847.880985 447.398652 L -848.447748 447.965414 L -848.894708 448.412374 L -849.139921 448.657588 L -849.315846 448.833512 L -849.421858 448.939524 L -849.457334 448.975" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M -849.457334 353.025 L -849.421858 353.060476 L -849.315846 353.166488 L -849.139921 353.342412 L -848.894708 353.587626 L -848.447748 354.034586 L -847.880985 354.601348 L -847.199493 355.28284 L -846.408346 356.073987 L -846.046283 356.43605 L -845.669897 356.812436 L -845.280011 357.202323 L -844.877449 357.604885 L -844.869709 357.612624 L -844.861965 357.620368 L -844.854217 357.628117 L -844.846464 357.63587" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-849.457334" y1="448.975" x2="-849.457334" y2="353.025" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-49.457334" y1="-446.975" x2="46.492666" y2="-446.975" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M 41.881797 -442.36413 L 41.88955 -442.371883 L 41.897298 -442.379632 L 41.905042 -442.387376 L 41.912782 -442.395115 L 42.315344 -442.797677 L 42.70523 -443.187564 L 43.081616 -443.56395 L 43.443679 -443.926013 L 44.234826 -444.71716 L 44.916318 -445.398652 L 45.483081 -445.965414 L 45.93004 -446.412374 L 46.175254 -446.657588 L 46.351179 -446.833512 L 46.457191 -446.939524 L 46.492666 -446.975" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="46.492666" y1="-446.975" x2="46.492666" y2="-351.025" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M 41.881797 -355.63587 L 41.88955 -355.628117 L 41.897298 -355.620368 L 41.905042 -355.612624 L 41.912782 -355.604885 L 42.315344 -355.202323 L 42.70523 -354.812436 L 43.081616 -354.43605 L 43.443679 -354.073987 L 44.234826 -353.28284 L 44.916318 -352.601348 L 45.483081 -352.034586 L 45.93004 -351.587626 L 46.175254 -351.342412 L 46.351179 -351.166488 L 46.457191 -351.060476 L 46.492666 -351.025" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="46.492666" y1="-351.025" x2="-49.457334" y2="-351.025" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M -44.846464 -355.63587 L -44.854217 -355.628117 L -44.861965 -355.620368 L -44.869709 -355.612624 L -44.877449 -355.604885 L -45.280011 -355.202323 L -45.669897 -354.812436 L -46.046283 -354.43605 L -46.408346 -354.073987 L -47.199493 -353.28284 L -47.880985 -352.601348 L -48.447748 -352.034586 L -48.894708 -351.587626 L -49.139921 -351.342412 L -49.315846 -351.166488 L -49.421858 -351.060476 L -49.457334 -351.025" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M -49.457334 -446.975 L -49.421858 -446.939524 L -49.315846 -446.833512 L -49.139921 -446.657588 L -48.894708 -446.412374 L -48.447748 -445.965414 L -47.880985 -445.398652 L -47.199493 -444.71716 L -46.408346 -443.926013 L -46.046283 -443.56395 L -45.669897 -443.187564 L -45.280011 -442.797677 L -44.877449 -442.395115 L -44.869709 -442.387376 L -44.861965 -442.379632 L -44.854217 -442.371883 L -44.846464 -442.36413" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-49.457334" y1="-351.025" x2="-49.457334" y2="-446.975" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-49.457334" y1="353.025" x2="46.492666" y2="353.025" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M 41.881797 357.63587 L 41.88955 357.628117 L 41.897298 357.620368 L 41.905042 357.612624 L 41.912782 357.604885 L 42.315344 357.202323 L 42.70523 356.812436 L 43.081616 356.43605 L 43.443679 356.073987 L 44.234826 355.28284 L 44.916318 354.601348 L 45.483081 354.034586 L 45.93004 353.587626 L 46.175254 353.342412 L 46.351179 353.166488 L 46.457191 353.060476 L 46.492666 353.025" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="46.492666" y1="353.025" x2="46.492666" y2="448.975" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M 41.881797 444.36413 L 41.88955 444.371883 L 41.897298 444.379632 L 41.905042 444.387376 L 41.912782 444.395115 L 42.315344 444.797677 L 42.70523 445.187564 L 43.081616 445.56395 L 43.443679 445.926013 L 44.234826 446.71716 L 44.916318 447.398652 L 45.483081 447.965414 L 45.93004 448.412374 L 46.175254 448.657588 L 46.351179 448.833512 L 46.457191 448.939524 L 46.492666 448.975" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="46.492666" y1="448.975" x2="-49.457334" y2="448.975" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M -44.846464 444.36413 L -44.854217 444.371883 L -44.861965 444.379632 L -44.869709 444.387376 L -44.877449 444.395115 L -45.280011 444.797677 L -45.669897 445.187564 L -46.046283 445.56395 L -46.408346 445.926013 L -47.199493 446.71716 L -47.880985 447.398652 L -48.447748 447.965414 L -48.894708 448.412374 L -49.139921 448.657588 L -49.315846 448.833512 L -49.421858 448.939524 L -49.457334 448.975" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="SPLINE"><path d="M -49.457334 353.025 L -49.421858 353.060476 L -49.315846 353.166488 L -49.139921 353.342412 L -48.894708 353.587626 L -48.447748 354.034586 L -47.880985 354.601348 L -47.199493 355.28284 L -46.408346 356.073987 L -46.046283 356.43605 L -45.669897 356.812436 L -45.280011 357.202323 L -44.877449 357.604885 L -44.869709 357.612624 L -44.861965 357.620368 L -44.854217 357.628117 L -44.846464 357.63587" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-49.457334" y1="448.975" x2="-49.457334" y2="353.025" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-823.982334" y1="353" x2="-823.982334" y2="-351" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-778.982334" y1="353" x2="-823.982334" y2="353" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-778.982334" y1="-351" x2="-778.982334" y2="353" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-823.982334" y1="-351" x2="-778.982334" y2="-351" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-23.982334" y1="353" x2="-23.982334" y2="-351" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="21.017666" y1="353" x2="-23.982334" y2="353" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="21.017666" y1="-351" x2="21.017666" y2="353" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-23.982334" y1="-351" x2="-21.482334" y2="-351" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="18.517666" y1="-351" x2="21.017666" y2="-351" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="776.017666" y1="353" x2="776.017666" y2="-351" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="821.017666" y1="353" x2="776.017666" y2="353" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="821.017666" y1="-351" x2="821.017666" y2="353" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="776.017666" y1="-351" x2="821.017666" y2="-351" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-84.482334" y1="-376.5" x2="-86.482334" y2="-376.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-116.482334" y1="-376.5" x2="-686.482334" y2="-376.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-716.482334" y1="-376.5" x2="-718.482334" y2="-376.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-718.482334" y1="-421.5" x2="-716.482334" y2="-421.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="-421.5" x2="-84.482334" y2="-421.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-84.482334" y1="423.5" x2="-86.482334" y2="423.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-101.482334" y1="423.5" x2="-701.482334" y2="423.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-716.482334" y1="423.5" x2="-718.482334" y2="423.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-718.482334" y1="378.5" x2="-716.482334" y2="378.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="378.5" x2="-101.482334" y2="378.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="378.5" x2="-84.482334" y2="378.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="750.517666" y1="-376.5" x2="46.517666" y2="-376.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="750.517666" y1="-421.5" x2="750.517666" y2="-376.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="46.517666" y1="-421.5" x2="750.517666" y2="-421.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="46.517666" y1="-376.5" x2="46.517666" y2="-421.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="750.517666" y1="423.5" x2="46.517666" y2="423.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="750.517666" y1="378.5" x2="750.517666" y2="423.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="46.517666" y1="378.5" x2="750.517666" y2="378.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="46.517666" y1="423.5" x2="46.517666" y2="378.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="723.517666" y1="-373.6" x2="723.517666" y2="-376.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="73.517666" y1="-376.5" x2="73.517666" y2="-373.6" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="723.517666" y1="376.4" x2="723.517666" y2="378.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="73.517666" y1="376.4" x2="73.517666" y2="378.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="22.517666" y1="-324" x2="21.017666" y2="-324" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="21.017666" y1="326" x2="22.517666" y2="326" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="772.517666" y1="-324" x2="776.017666" y2="-324" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="772.517666" y1="326" x2="776.017666" y2="326" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 247.517666 96.9 A 79.5 79.5 0 0 1 247.517666 255.9" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 547.517666 96.9 A 79.5 79.5 0 0 1 547.517666 255.9" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 547.517666 266.4 A 90 90 0 0 1 547.517666 86.4" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 547.517666 66.9 A 109.5 109.5 0 0 1 547.517666 285.9" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="749.517666" y1="376.4" x2="749.517666" y2="353.4" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="749.517666" y1="353.4" x2="772.517666" y2="353.4" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="772.517666" y1="1.4" x2="772.517666" y2="353.4" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="22.517666" y1="1.4" x2="772.517666" y2="1.4" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="22.517666" y1="353.025" x2="22.517666" y2="1.4" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 547.517666 296.4 A 120 120 0 0 1 547.517666 56.4" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 247.517666 266.4 A 90 90 0 0 1 247.517666 86.4" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="749.517666" y1="376.4" x2="46.492666" y2="376.4" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 547.517666 285.9 A 109.5 109.5 0 0 1 547.517666 66.9" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 547.517666 56.4 A 120 120 0 0 1 547.517666 296.4" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 547.517666 255.9 A 79.5 79.5 0 0 1 547.517666 96.9" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 547.517666 86.4 A 90 90 0 0 1 547.517666 266.4" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 247.517666 255.9 A 79.5 79.5 0 0 1 247.517666 96.9" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 247.517666 86.4 A 90 90 0 0 1 247.517666 266.4" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 547.517666 -94.1 A 79.5 79.5 0 0 1 547.517666 -253.1" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 247.517666 -94.1 A 79.5 79.5 0 0 1 247.517666 -253.1" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 247.517666 -263.6 A 90 90 0 0 1 247.517666 -83.6" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 247.517666 -64.1 A 109.5 109.5 0 0 1 247.517666 -283.1" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="45.517666" y1="-351.025" x2="45.517666" y2="-350.6" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="45.517666" y1="-350.6" x2="22.517666" y2="-350.6" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="22.517666" y1="1.4" x2="22.517666" y2="-350.6" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="772.517666" y1="1.4" x2="22.517666" y2="1.4" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="772.517666" y1="-350.6" x2="772.517666" y2="1.4" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="772.517666" y1="-350.6" x2="749.517666" y2="-350.6" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="749.517666" y1="-350.6" x2="749.517666" y2="-373.6" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 247.517666 -293.6 A 120 120 0 0 1 247.517666 -53.6" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 547.517666 -263.6 A 90 90 0 0 1 547.517666 -83.6" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="46.492666" y1="-373.6" x2="749.517666" y2="-373.6" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 247.517666 -283.1 A 109.5 109.5 0 0 1 247.517666 -64.1" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 247.517666 -53.6 A 120 120 0 0 1 247.517666 -293.6" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 247.517666 -253.1 A 79.5 79.5 0 0 1 247.517666 -94.1" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 247.517666 -83.6 A 90 90 0 0 1 247.517666 -263.6" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 547.517666 -253.1 A 79.5 79.5 0 0 1 547.517666 -94.1" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 547.517666 -83.6 A 90 90 0 0 1 547.517666 -263.6" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-776.882334" y1="0" x2="-776.882334" y2="-351.025" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-26.882334" y1="0" x2="-776.882334" y2="0" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-26.882334" y1="-351.025" x2="-26.882334" y2="0" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-49.457334" y1="-352" x2="-49.882334" y2="-352" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-49.882334" y1="-352" x2="-49.882334" y2="-364" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-753.507334" y1="-375" x2="-753.482334" y2="-375" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-718.482334" y1="-375" x2="-716.482334" y2="-375" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-686.482334" y1="-375" x2="-116.482334" y2="-375" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="-375" x2="-84.482334" y2="-375" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-49.457334" y1="354" x2="-49.882334" y2="354" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-26.882334" y1="353.025" x2="-26.882334" y2="2" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-26.882334" y1="2" x2="-776.882334" y2="2" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-776.882334" y1="2" x2="-776.882334" y2="353.025" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-49.882334" y1="354" x2="-49.882334" y2="366" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-753.507334" y1="377" x2="-753.482334" y2="377" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-718.482334" y1="377" x2="-716.482334" y2="377" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="377" x2="-101.482334" y2="377" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="377" x2="-84.482334" y2="377" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-26.882334" y1="326" x2="-23.982334" y2="326" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-55.882334" y1="0" x2="-55.882334" y2="2" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-23.982334" y1="-324" x2="-26.882334" y2="-324" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-776.882334" y1="326" x2="-778.982334" y2="326" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-747.082334" y1="2" x2="-747.082334" y2="0" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-776.882334" y1="-324" x2="-778.982334" y2="-324" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-815.482334" y1="348.952621" x2="-813.482334" y2="348.952621" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M -812.482334 352 A 3 3 0 0 1 -815.482334 349" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M -812.482334 350 A 1 1 0 0 1 -813.482334 349" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-793.222334" y1="350" x2="-812.482334" y2="350" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-793.222334" y1="352" x2="-812.482334" y2="352" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-783.222333" y1="350" x2="-793.222334" y2="350" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-793.222334" y1="350" x2="-793.222334" y2="352" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-783.222333" y1="352" x2="-793.222334" y2="352" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-815.482334" y1="325.5" x2="-813.482334" y2="325.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-815.482334" y1="315.755002" x2="-813.482334" y2="315.755002" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="347.148573" x2="-813.482334" y2="348.952621" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="348.952621" x2="-813.482334" y2="349" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-815.482334" y1="348.952621" x2="-815.482334" y2="349" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-815.482334" y1="325.5" x2="-815.482334" y2="348.952621" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-815.482334" y1="315.755002" x2="-815.482334" y2="325.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-815.482334" y1="315.755002" x2="-815.482334" y2="302" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-815.482334" y1="-346.952621" x2="-813.482334" y2="-346.952621" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M -815.482334 -347 A 3 3 0 0 1 -812.482334 -350" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M -813.482334 -347 A 1 1 0 0 1 -812.482334 -348" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-812.482334" y1="-348" x2="-793.222334" y2="-348" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-812.482334" y1="-350" x2="-793.222334" y2="-350" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-793.222334" y1="-348" x2="-793.222334" y2="-350" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-793.222334" y1="-348" x2="-783.222333" y2="-348" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-793.222334" y1="-350" x2="-783.222333" y2="-350" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-815.482334" y1="-323.5" x2="-813.482334" y2="-323.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="-313.755002" x2="-815.482334" y2="-313.755002" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="-347" x2="-813.482334" y2="-346.952621" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="-346.952621" x2="-813.482334" y2="-345.148573" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-815.482334" y1="-346.952621" x2="-815.482334" y2="-323.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-815.482334" y1="-347" x2="-815.482334" y2="-346.952621" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-815.482334" y1="-300" x2="-815.482334" y2="-313.755002" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-815.482334" y1="-323.5" x2="-815.482334" y2="-313.755002" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="-282.824043" x2="-813.482334" y2="-292.284844" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="-323.020181" x2="-813.482334" y2="-292.284844" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="-345" x2="-813.482334" y2="-323.020181" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="-323.020181" x2="-803.482334" y2="-323.020181" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="347.148573" x2="-813.482334" y2="347" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="347" x2="-813.482334" y2="325.020181" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="347" x2="-803.482334" y2="347" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="325.020181" x2="-813.482334" y2="294.284844" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="325.020181" x2="-803.482334" y2="325.020181" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="284.824043" x2="-813.482334" y2="294.284844" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="284.824043" x2="-813.482334" y2="-282.824043" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-803.482334" y1="-345" x2="-803.482334" y2="-323.020181" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-803.482334" y1="-323.020181" x2="-803.482334" y2="-292.284844" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-803.482334" y1="-282.824043" x2="-803.482334" y2="-292.284844" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-803.482334" y1="284.824043" x2="-803.482334" y2="-282.824043" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-803.482334" y1="284.824043" x2="-803.482334" y2="294.284844" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-803.482334" y1="325.020181" x2="-803.482334" y2="294.284844" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-803.482334" y1="347" x2="-803.482334" y2="325.020181" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-803.482334" y1="350" x2="-803.482334" y2="347" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="-345.148573" x2="-813.482334" y2="-345" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="-345" x2="-803.482334" y2="-345" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-803.482334" y1="-348" x2="-803.482334" y2="-345" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="-350" x2="-812.482334" y2="-350" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="-350" x2="-813.482334" y2="-349.828427" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="352" x2="-813.482334" y2="351.828427" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-813.482334" y1="352" x2="-812.482334" y2="352" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="787.517666" y1="-446.5" x2="751.017666" y2="-446.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="751.017666" y1="-446.5" x2="751.017666" y2="-410" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 752.017666 -406.127017 A 8 8 0 0 1 751.017666 -410" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 751.017666 -388 A 8 8 0 0 1 752.017666 -391.872983" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 787.517666 -446.5 A 8 8 0 0 1 791.39065 -445.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="846.017666" y1="-410" x2="846.017666" y2="-446.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="846.017666" y1="-446.5" x2="809.517666" y2="-446.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 805.644683 -445.5 A 8 8 0 0 1 809.517666 -446.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="751.017666" y1="-388" x2="751.017666" y2="-351.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="751.017666" y1="-351.5" x2="787.517666" y2="-351.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 791.39065 -352.5 A 8 8 0 0 1 787.517666 -351.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 809.517666 -351.5 A 8 8 0 0 1 805.644683 -352.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="809.517666" y1="-351.5" x2="846.017666" y2="-351.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="846.017666" y1="-351.5" x2="846.017666" y2="-388" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 845.017666 -391.872983 A 8 8 0 0 1 846.017666 -388" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 846.017666 -410 A 8 8 0 0 1 845.017666 -406.127017" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="787.517666" y1="353.5" x2="751.017666" y2="353.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="751.017666" y1="353.5" x2="751.017666" y2="390" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 752.017666 393.872983 A 8 8 0 0 1 751.017666 390" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 751.017666 412 A 8 8 0 0 1 752.017666 408.127017" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 787.517666 353.5 A 8 8 0 0 1 791.39065 354.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="846.017666" y1="390" x2="846.017666" y2="353.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="846.017666" y1="353.5" x2="809.517666" y2="353.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 805.644683 354.5 A 8 8 0 0 1 809.517666 353.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="751.017666" y1="412" x2="751.017666" y2="448.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="751.017666" y1="448.5" x2="787.517666" y2="448.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 791.39065 447.5 A 8 8 0 0 1 787.517666 448.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 809.517666 448.5 A 8 8 0 0 1 805.644683 447.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="809.517666" y1="448.5" x2="846.017666" y2="448.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="846.017666" y1="448.5" x2="846.017666" y2="412" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 845.017666 408.127017 A 8 8 0 0 1 846.017666 412" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 846.017666 390 A 8 8 0 0 1 845.017666 393.872983" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="809.517666" y1="-446.5" x2="787.517666" y2="-446.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="831.017666" y1="-446.5" x2="831.017666" y2="-448.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="766.017666" y1="-448.5" x2="831.017666" y2="-448.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="766.017666" y1="-446.5" x2="766.017666" y2="-448.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-18.332334" y1="-346.5" x2="-18.332334" y2="347" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="15.367666" y1="-346.5" x2="15.367666" y2="347" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="13.517666" y1="352" x2="18.517666" y2="352" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-21.482334" y1="352" x2="-16.482334" y2="352" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-16.482334" y1="347" x2="-21.482334" y2="347" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="18.517666" y1="347" x2="13.517666" y2="347" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-21.482334" y1="347" x2="-21.482334" y2="352" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="13.517666" y1="352" x2="-16.482334" y2="352" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="13.517666" y1="347" x2="-16.482334" y2="347" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="18.517666" y1="352" x2="18.517666" y2="347" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="13.517666" y1="-346.5" x2="18.517666" y2="-346.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-21.482334" y1="-346.5" x2="-16.482334" y2="-346.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="18.517666" y1="-346.5" x2="18.517666" y2="-351.025" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-16.482334" y1="-346.5" x2="13.517666" y2="-346.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-21.482334" y1="-351.025" x2="-21.482334" y2="-346.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-116.482334" y1="-374.5" x2="-101.482334" y2="-374.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-101.482334" y1="-1785.633" x2="-101.482334" y2="-1786.850989" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-116.482334" y1="-1786.850989" x2="-116.482334" y2="-1785.633" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-116.482334" y1="-389.5" x2="-116.482334" y2="-374.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-116.482334" y1="-389.5" x2="-116.482334" y2="-421.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-116.482334" y1="-1634.593171" x2="-116.482334" y2="-609.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-116.482334" y1="-579.5" x2="-116.482334" y2="-421.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-101.482334" y1="-1634.593171" x2="-101.482334" y2="-717.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-101.482334" y1="-1634.593171" x2="-101.482334" y2="-1785.633" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-116.482334" y1="-1634.593171" x2="-116.482334" y2="-1785.633" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="-374.5" x2="-686.482334" y2="-374.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-686.482334" y1="-1785.633" x2="-686.482334" y2="-1786.850989" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-686.482334" y1="-389.5" x2="-686.482334" y2="-421.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-686.482334" y1="-374.5" x2="-686.482334" y2="-389.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="-1786.850989" x2="-701.482334" y2="-1785.633" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="-1634.593171" x2="-701.482334" y2="-717.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-686.482334" y1="-1634.593171" x2="-686.482334" y2="-609.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-686.482334" y1="-579.5" x2="-686.482334" y2="-421.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-686.482334" y1="-1634.593171" x2="-686.482334" y2="-1785.633" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="-1634.593171" x2="-701.482334" y2="-1785.633" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-686.482334" y1="-451.5" x2="-116.482334" y2="-451.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-686.482334" y1="-384.5" x2="-116.482334" y2="-384.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-716.482334" y1="-389.5" x2="-716.482334" y2="-374.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-716.482334" y1="-374.5" x2="-701.482334" y2="-374.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="-389.5" x2="-701.482334" y2="-374.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-716.482334" y1="-657.5" x2="-716.482334" y2="-389.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="-657.5" x2="-701.482334" y2="-389.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-716.482334" y1="-717.5" x2="-701.482334" y2="-717.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-716.482334" y1="-717.5" x2="-716.482334" y2="-657.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="-717.5" x2="-701.482334" y2="-657.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="-374.5" x2="-101.482334" y2="-374.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="-389.5" x2="-86.482334" y2="-374.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-101.482334" y1="-389.5" x2="-101.482334" y2="-374.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="-657.5" x2="-86.482334" y2="-389.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-101.482334" y1="-657.5" x2="-101.482334" y2="-389.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="-717.5" x2="-86.482334" y2="-657.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="-717.5" x2="-101.482334" y2="-717.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-101.482334" y1="-717.5" x2="-101.482334" y2="-657.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-718.482334" y1="-364" x2="-718.482334" y2="-434" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-753.482334" y1="-364" x2="-753.482334" y2="-434" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-718.482334" y1="-364" x2="-753.482334" y2="-364" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-718.482334" y1="-434" x2="-753.482334" y2="-434" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-84.482334" y1="-364" x2="-84.482334" y2="-434" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-49.482334" y1="-364" x2="-49.482334" y2="-434" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-84.482334" y1="-364" x2="-49.482334" y2="-364" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-84.482334" y1="-434" x2="-49.482334" y2="-434" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-103.482334" y1="-579.5" x2="-103.482334" y2="-609.307408" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-103.482334" y1="-609.307408" x2="-103.482334" y2="-609.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="366" x2="-716.482334" y2="366" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="904" x2="-716.482334" y2="904" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-716.482334" y1="366" x2="-716.482334" y2="406" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-716.482334" y1="850.713672" x2="-716.482334" y2="904" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-716.482334" y1="434.656212" x2="-716.482334" y2="850.713672" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-716.482334" y1="411.117732" x2="-716.482334" y2="434.656212" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-716.482334" y1="411.117732" x2="-716.482334" y2="406" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="850.713672" x2="-701.482334" y2="904" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="406" x2="-701.482334" y2="366" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="411.117732" x2="-701.482334" y2="406" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="434.656212" x2="-701.482334" y2="411.117732" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="434.656212" x2="-701.482334" y2="850.713672" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="366" x2="-101.482334" y2="366" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="904" x2="-101.482334" y2="904" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-101.482334" y1="366" x2="-101.482334" y2="406" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-101.482334" y1="850.713672" x2="-101.482334" y2="904" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-101.482334" y1="434.656212" x2="-101.482334" y2="850.713672" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-101.482334" y1="411.117732" x2="-101.482334" y2="434.656212" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-101.482334" y1="411.117732" x2="-101.482334" y2="406" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="850.713672" x2="-86.482334" y2="904" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="406" x2="-86.482334" y2="366" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="411.117732" x2="-86.482334" y2="406" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="434.656212" x2="-86.482334" y2="411.117732" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-86.482334" y1="434.656212" x2="-86.482334" y2="850.713672" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M -401.482334 597.175623 A 1836 1836 0 0 1 -701.482334 572.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="424" x2="-101.482334" y2="424" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M -101.482334 572.5 A 1836 1836 0 0 1 -401.482334 597.175623" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M -401.482334 895.175623 A 1836 1836 0 0 1 -701.482334 870.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="722" x2="-698.447695" y2="722" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-104.516973" y1="722" x2="-101.482334" y2="722" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M -101.482334 870.5 A 1836 1836 0 0 1 -401.482334 895.175623" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M -401.482334 746.175623 A 1836 1836 0 0 1 -701.482334 721.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="573" x2="-698.447695" y2="573" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-104.516973" y1="573" x2="-101.482334" y2="573" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M -101.482334 721.5 A 1836 1836 0 0 1 -401.482334 746.175623" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-718.482334" y1="436" x2="-718.482334" y2="366" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-753.482334" y1="436" x2="-753.482334" y2="366" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-718.482334" y1="436" x2="-753.482334" y2="436" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-718.482334" y1="366" x2="-753.482334" y2="366" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-49.482334" y1="436" x2="-49.482334" y2="366" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-84.482334" y1="436" x2="-84.482334" y2="366" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-49.482334" y1="436" x2="-84.482334" y2="436" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-49.482334" y1="366" x2="-84.482334" y2="366" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 752.017666 362.5 A 8 8 0 0 1 760.017666 354.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 837.017666 354.5 A 8 8 0 0 1 845.017666 362.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 845.017666 439.5 A 8 8 0 0 1 837.017666 447.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 760.017666 447.5 A 8 8 0 0 1 752.017666 439.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="837.017666" y1="354.5" x2="760.017666" y2="354.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="752.017666" y1="362.5" x2="752.017666" y2="439.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="760.017666" y1="447.5" x2="837.017666" y2="447.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="845.017666" y1="439.5" x2="845.017666" y2="362.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 752.017666 -437.5 A 8 8 0 0 1 760.017666 -445.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 837.017666 -445.5 A 8 8 0 0 1 845.017666 -437.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 845.017666 -360.5 A 8 8 0 0 1 837.017666 -352.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 760.017666 -352.5 A 8 8 0 0 1 752.017666 -360.5" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="837.017666" y1="-445.5" x2="760.017666" y2="-445.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="752.017666" y1="-437.5" x2="752.017666" y2="-360.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="760.017666" y1="-352.5" x2="837.017666" y2="-352.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="845.017666" y1="-360.5" x2="845.017666" y2="-437.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-815.482334" y1="302" x2="-813.482334" y2="302" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-783.222333" y1="350" x2="-783.222333" y2="352" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-815.482334" y1="-300" x2="-813.482334" y2="-300" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-783.222333" y1="-348" x2="-783.222333" y2="-350" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-116.482334" y1="-1786.850989" x2="-101.482334" y2="-1786.850989" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-701.482334" y1="-1786.850989" x2="-686.482334" y2="-1786.850989" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-686.482334" y1="-1726.67414" x2="-116.482334" y2="-1726.67414" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-103.482334" y1="-579.5" x2="-701.482334" y2="-579.5" stroke="#ffbf00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-103.482334" y1="-609.5" x2="-701.482334" y2="-609.5" stroke="#ffbf00" /></g>
+</g>
+</svg>

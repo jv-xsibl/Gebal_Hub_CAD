@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1961.724465 669.586273" fill="none" stroke-linecap="round" stroke-linejoin="round" style="background:transparent" data-source-layer="Lg_txt">
+
+
+<g vector-effect="non-scaling-stroke" stroke-width="1.5" transform="translate(1816.870976 5471.845478) scale(1 -1)">
+<g data-layer="Lg_txt" data-entity-type="TEXT"><text x="-1106.752811" y="5140.970889" fill="#00ffff" font-family="sans-serif" font-size="185">EN Impact Area 28.8 m2</text></g>
+<g data-layer="Lg_txt" data-entity-type="TEXT"><text x="-1103.778303" y="5455.845478" fill="#00ffff" font-family="sans-serif" font-size="175">LAPPSET</text></g>
+<g data-layer="Lg_txt" data-entity-type="TEXT"><text x="128.85349" y="5453.516146" fill="#00ffff" font-family="sans-serif" font-size="60">®</text></g>
+<g data-layer="Lg_txt" data-entity-type="TEXT"><text x="-1107.918217" y="4818.259204" fill="#67a552" font-family="sans-serif" font-size="185">EN Falling space 28.8 m2 </text></g>
+<g data-layer="Lg_txt" data-entity-type="POLYLINE"><path d="M -1238.551246 5234.623405 L -1800.870976 5234.623405" fill="none" stroke="#00ffff" data-closed="false" /></g>
+<g data-layer="Lg_txt" data-entity-type="POLYLINE"><path d="M -1238.551246 4909.468076 L -1800.870976 4909.468076" fill="none" stroke="#67a552" data-closed="false" /></g>
+</g>
+</svg>

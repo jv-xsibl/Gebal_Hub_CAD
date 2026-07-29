@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 6375 7390.693287" fill="none" stroke-linecap="round" stroke-linejoin="round" style="background:transparent" data-source-layer="SAFETY_ZONE">
+
+
+<g vector-effect="non-scaling-stroke" stroke-width="1.5" transform="translate(3523 4247.037057) scale(1 -1)">
+<g data-layer="SAFETY_ZONE" data-entity-type="POLYLINE"><path d="M -1925.960005 4231.037057 L -2780.417793 4231.037057" fill="none" stroke="#ff0000" data-closed="false" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 2836 1602.789237 A 1500 1500 0 0 1 1449.294407 3098.504576" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="2836" y1="802.789237" x2="2836" y2="1602.789237" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 2546.026288 -83.684893 A 1500 1500 0 0 1 2836 802.789237" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 2050.3212 -1122.256652 A 1499.854849 1499.854849 0 0 1 2546.026288 -83.684893" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="2050.3212" y1="-2127.65623" x2="2050.3212" y2="-1122.256652" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 1050.3212 -3127.65623 A 1000 1000 0 0 1 2050.3212 -2127.65623" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="440.6788" y1="-3127.65623" x2="1050.3212" y2="-3127.65623" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -559.3212 -2127.65623 A 1000 1000 0 0 1 440.6788 -3127.65623" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="-559.3212" y1="-1122.256652" x2="-559.3212" y2="-2127.65623" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -879.901528 -713.410763 A 1499.854852 1499.854852 0 0 1 -559.3212 -1122.256652" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="-2006" y1="-713.410763" x2="-879.901528" y2="-713.410763" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -3507 787.589237 A 1501 1501 0 0 1 -2006 -713.410763" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="-3507" y1="817.989237" x2="-3507" y2="787.589237" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -2006 2318.989237 A 1501 1501 0 0 1 -3507 817.989237" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="-1006.561126" y1="2318.989237" x2="-2006" y2="2318.989237" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 324 3125.289237 A 1501 1501 0 0 1 -1006.561126 2318.989237" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="1167" y1="3125.289237" x2="324" y2="3125.289237" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 1449.294407 3098.504576 A 1501 1501 0 0 1 1167 3125.289237" fill="none" stroke="#ff0000" /></g>
+</g>
+</svg>

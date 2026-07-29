@@ -1,0 +1,1038 @@
+{
+  "files": [
+    {
+      "dxf_checksum_preserved": true,
+      "dxf_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage7_region_verification\\converted_dxfs\\Example2\\175551M\\top_view.dxf",
+      "dxf_sha256_after_stage7_read_only": "0ca2a923784e88ace2e54b72d630f6b0f43061d9ab9486f4cfef3e9e28ec8063",
+      "dxf_sha256_before_stage7": "0ca2a923784e88ace2e54b72d630f6b0f43061d9ab9486f4cfef3e9e28ec8063",
+      "entity_counts_after_read_only": {
+        "ACAD_PROXY_ENTITY": 1,
+        "ARC": 70,
+        "ATTDEF": 1,
+        "DIMENSION": 4,
+        "ELLIPSE": 4,
+        "INSERT": 10,
+        "LINE": 435,
+        "MTEXT": 4,
+        "POINT": 12,
+        "POLYLINE": 2,
+        "REGION": 2,
+        "SOLID": 8,
+        "SPLINE": 52,
+        "TEXT": 4,
+        "VIEWPORT": 1
+      },
+      "entity_counts_before": {
+        "ACAD_PROXY_ENTITY": 1,
+        "ARC": 70,
+        "ATTDEF": 1,
+        "DIMENSION": 4,
+        "ELLIPSE": 4,
+        "INSERT": 10,
+        "LINE": 435,
+        "MTEXT": 4,
+        "POINT": 12,
+        "POLYLINE": 2,
+        "REGION": 2,
+        "SOLID": 8,
+        "SPLINE": 52,
+        "TEXT": 4,
+        "VIEWPORT": 1
+      },
+      "entity_counts_preserved_read_only": true,
+      "extents_after_read_only": {
+        "max_x": 4399.9191351957015,
+        "max_y": 4498.292139322002,
+        "max_z": 0.0,
+        "min_x": -4284.538097145651,
+        "min_y": -3678.178402783322,
+        "min_z": 0.0
+      },
+      "extents_before": {
+        "max_x": 4399.9191351957015,
+        "max_y": 4498.292139322002,
+        "max_z": 0.0,
+        "min_x": -4284.538097145651,
+        "min_y": -3678.178402783322,
+        "min_z": 0.0
+      },
+      "extents_preserved_read_only": true,
+      "oda_elapsed_seconds": 0.312,
+      "oda_output_size_bytes": 404887,
+      "region_count": 2,
+      "regions": [
+        {
+          "acis_evidence": {
+            "byte_count": 5350,
+            "is_opaque_to_stage7": true,
+            "keywords": [
+              "ACIS BinaryFile",
+              "body",
+              "coedge",
+              "edge",
+              "ellipse",
+              "face",
+              "loop",
+              "lump",
+              "plane",
+              "shell",
+              "vertex"
+            ],
+            "sat_string_count": 0,
+            "sha256": "9d878cde31e3e3782c4686158dde117a6c4d00d6af2646a5508ca735d8a8a83b",
+            "storage": "binary_acis"
+          },
+          "boundary_evidence": {
+            "has_supported_xdata": false,
+            "loop_count": null,
+            "loop_roles": [],
+            "payload_bytes": 0,
+            "supported_appid": "GEBAL_REGION_BOUNDARY"
+          },
+          "color": null,
+          "conversion_status": "failed",
+          "extents": null,
+          "handle": "7339",
+          "index": 0,
+          "issue_codes": [
+            "region_conversion_failed"
+          ],
+          "layer": "Lg_area",
+          "linetype": "Continuous",
+          "loops": [],
+          "reason": "ODA preserved the REGION as binary ACIS body data only; no supported boundary-loop evidence is available.",
+          "representation": "opaque_acis_region"
+        },
+        {
+          "acis_evidence": {
+            "byte_count": 6322,
+            "is_opaque_to_stage7": true,
+            "keywords": [
+              "ACIS BinaryFile",
+              "body",
+              "coedge",
+              "edge",
+              "ellipse",
+              "face",
+              "loop",
+              "lump",
+              "plane",
+              "shell",
+              "vertex"
+            ],
+            "sat_string_count": 0,
+            "sha256": "e09e64fa5fd49afff0858f046b3c09e588576335c536cba78efb85ab3bb0a464",
+            "storage": "binary_acis"
+          },
+          "boundary_evidence": {
+            "has_supported_xdata": false,
+            "loop_count": null,
+            "loop_roles": [],
+            "payload_bytes": 0,
+            "supported_appid": "GEBAL_REGION_BOUNDARY"
+          },
+          "color": 83,
+          "conversion_status": "failed",
+          "extents": null,
+          "handle": "733A",
+          "index": 1,
+          "issue_codes": [
+            "region_conversion_failed"
+          ],
+          "layer": "Lg_area",
+          "linetype": "Continuous",
+          "loops": [],
+          "reason": "ODA preserved the REGION as binary ACIS body data only; no supported boundary-loop evidence is available.",
+          "representation": "opaque_acis_region"
+        }
+      ],
+      "source_checksum_preserved": true,
+      "source_path": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example2\\175551M\\top_view.dwg",
+      "source_sha256_after": "cf274e868a4568d6e2ee02dff50cc5415e64af905d297be522a6333bcd89b2ff",
+      "source_sha256_before": "cf274e868a4568d6e2ee02dff50cc5415e64af905d297be522a6333bcd89b2ff",
+      "stage7": {
+        "approximated_count": 0,
+        "converted_count": 0,
+        "counts_by_status": {
+          "failed": 2
+        },
+        "dxf_version": "AC1027",
+        "failed_count": 2,
+        "issues": [
+          {
+            "code": "region_conversion_failed",
+            "evidence": {
+              "supported_evidence_appid": "GEBAL_REGION_BOUNDARY"
+            },
+            "layer": "Lg_area",
+            "message": "REGION boundary loops are unavailable; opaque ACIS data was not guessed.",
+            "severity": "fail",
+            "source_handle": "7339"
+          },
+          {
+            "code": "region_conversion_failed",
+            "evidence": {
+              "supported_evidence_appid": "GEBAL_REGION_BOUNDARY"
+            },
+            "layer": "Lg_area",
+            "message": "REGION boundary loops are unavailable; opaque ACIS data was not guessed.",
+            "severity": "fail",
+            "source_handle": "733A"
+          }
+        ],
+        "loop_count": 0,
+        "output_path": null,
+        "region_count": 2,
+        "regions": [
+          {
+            "area_deviation": null,
+            "color": null,
+            "conversion_evidence": {},
+            "converted_area": null,
+            "converted_perimeter": null,
+            "elevation": 0.0,
+            "issue_codes": [
+              "region_conversion_failed"
+            ],
+            "layer": "Lg_area",
+            "linetype": "Continuous",
+            "loops": [],
+            "order_index": 0,
+            "perimeter_deviation": null,
+            "source_area": null,
+            "source_handle": "7339",
+            "source_perimeter": null,
+            "status": "failed"
+          },
+          {
+            "area_deviation": null,
+            "color": 83,
+            "conversion_evidence": {},
+            "converted_area": null,
+            "converted_perimeter": null,
+            "elevation": 0.0,
+            "issue_codes": [
+              "region_conversion_failed"
+            ],
+            "layer": "Lg_area",
+            "linetype": "Continuous",
+            "loops": [],
+            "order_index": 1,
+            "perimeter_deviation": null,
+            "source_area": null,
+            "source_handle": "733A",
+            "source_perimeter": null,
+            "status": "failed"
+          }
+        ],
+        "review_required_count": 0,
+        "source_identity": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage7_region_verification\\converted_dxfs\\Example2\\175551M\\top_view.dxf",
+        "source_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage7_region_verification\\converted_dxfs\\Example2\\175551M\\top_view.dxf",
+        "source_sha256": "0ca2a923784e88ace2e54b72d630f6b0f43061d9ab9486f4cfef3e9e28ec8063",
+        "tolerance": 1e-06
+      },
+      "stage7_output_entity_counts": null,
+      "stage7_output_extents": null,
+      "stage7_output_path": null,
+      "success": true
+    },
+    {
+      "dxf_checksum_preserved": true,
+      "dxf_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage7_region_verification\\converted_dxfs\\Example3\\104310M\\top_view.dxf",
+      "dxf_sha256_after_stage7_read_only": "9109eec0e4025e189cfefb79de31410595f62dfe4361a95473f0c7c0972c27a8",
+      "dxf_sha256_before_stage7": "9109eec0e4025e189cfefb79de31410595f62dfe4361a95473f0c7c0972c27a8",
+      "entity_counts_after_read_only": {
+        "3DFACE": 5,
+        "ACAD_PROXY_ENTITY": 1,
+        "ARC": 58,
+        "ATTDEF": 1,
+        "DIMENSION": 6,
+        "INSERT": 11,
+        "LINE": 309,
+        "LWPOLYLINE": 1,
+        "MTEXT": 6,
+        "POINT": 18,
+        "REGION": 3,
+        "SOLID": 12,
+        "SPLINE": 16,
+        "TEXT": 4,
+        "VIEWPORT": 1
+      },
+      "entity_counts_before": {
+        "3DFACE": 5,
+        "ACAD_PROXY_ENTITY": 1,
+        "ARC": 58,
+        "ATTDEF": 1,
+        "DIMENSION": 6,
+        "INSERT": 11,
+        "LINE": 309,
+        "LWPOLYLINE": 1,
+        "MTEXT": 6,
+        "POINT": 18,
+        "REGION": 3,
+        "SOLID": 12,
+        "SPLINE": 16,
+        "TEXT": 4,
+        "VIEWPORT": 1
+      },
+      "entity_counts_preserved_read_only": true,
+      "extents_after_read_only": {
+        "max_x": 10000.0,
+        "max_y": 10000.0,
+        "max_z": 0.0,
+        "min_x": -10000.0,
+        "min_y": -10000.0,
+        "min_z": -2000.0
+      },
+      "extents_before": {
+        "max_x": 10000.0,
+        "max_y": 10000.0,
+        "max_z": 0.0,
+        "min_x": -10000.0,
+        "min_y": -10000.0,
+        "min_z": -2000.0
+      },
+      "extents_preserved_read_only": true,
+      "oda_elapsed_seconds": 0.313,
+      "oda_output_size_bytes": 375438,
+      "region_count": 3,
+      "regions": [
+        {
+          "acis_evidence": {
+            "byte_count": 4806,
+            "is_opaque_to_stage7": true,
+            "keywords": [
+              "ACIS BinaryFile",
+              "body",
+              "coedge",
+              "edge",
+              "ellipse",
+              "face",
+              "loop",
+              "lump",
+              "plane",
+              "shell",
+              "vertex"
+            ],
+            "sat_string_count": 0,
+            "sha256": "ee34e6ce39db2549b63ac6199ab6e951e7163021d0cf2d0fdad45b1091050d47",
+            "storage": "binary_acis"
+          },
+          "boundary_evidence": {
+            "has_supported_xdata": false,
+            "loop_count": null,
+            "loop_roles": [],
+            "payload_bytes": 0,
+            "supported_appid": "GEBAL_REGION_BOUNDARY"
+          },
+          "color": 52,
+          "conversion_status": "failed",
+          "extents": null,
+          "handle": "5E75",
+          "index": 0,
+          "issue_codes": [
+            "region_conversion_failed"
+          ],
+          "layer": "Lg_area",
+          "linetype": null,
+          "loops": [],
+          "reason": "ODA preserved the REGION as binary ACIS body data only; no supported boundary-loop evidence is available.",
+          "representation": "opaque_acis_region"
+        },
+        {
+          "acis_evidence": {
+            "byte_count": 4740,
+            "is_opaque_to_stage7": true,
+            "keywords": [
+              "ACIS BinaryFile",
+              "body",
+              "coedge",
+              "edge",
+              "ellipse",
+              "face",
+              "loop",
+              "lump",
+              "plane",
+              "shell",
+              "vertex"
+            ],
+            "sat_string_count": 0,
+            "sha256": "4cd5869b855206494fbcae61eaac506640ac0ce45fa0eae8c62042af482700fd",
+            "storage": "binary_acis"
+          },
+          "boundary_evidence": {
+            "has_supported_xdata": false,
+            "loop_count": null,
+            "loop_roles": [],
+            "payload_bytes": 0,
+            "supported_appid": "GEBAL_REGION_BOUNDARY"
+          },
+          "color": 4,
+          "conversion_status": "failed",
+          "extents": null,
+          "handle": "5E76",
+          "index": 1,
+          "issue_codes": [
+            "region_conversion_failed"
+          ],
+          "layer": "Lg_area",
+          "linetype": null,
+          "loops": [],
+          "reason": "ODA preserved the REGION as binary ACIS body data only; no supported boundary-loop evidence is available.",
+          "representation": "opaque_acis_region"
+        },
+        {
+          "acis_evidence": {
+            "byte_count": 4740,
+            "is_opaque_to_stage7": true,
+            "keywords": [
+              "ACIS BinaryFile",
+              "body",
+              "coedge",
+              "edge",
+              "ellipse",
+              "face",
+              "loop",
+              "lump",
+              "plane",
+              "shell",
+              "vertex"
+            ],
+            "sat_string_count": 0,
+            "sha256": "38673ea831ed13ddbb13bdc902f4c13d4b52ebead91cba7efd09af3c7e836fd3",
+            "storage": "binary_acis"
+          },
+          "boundary_evidence": {
+            "has_supported_xdata": false,
+            "loop_count": null,
+            "loop_roles": [],
+            "payload_bytes": 0,
+            "supported_appid": "GEBAL_REGION_BOUNDARY"
+          },
+          "color": 4,
+          "conversion_status": "failed",
+          "extents": null,
+          "handle": "5E77",
+          "index": 2,
+          "issue_codes": [
+            "region_conversion_failed"
+          ],
+          "layer": "Lg_area",
+          "linetype": null,
+          "loops": [],
+          "reason": "ODA preserved the REGION as binary ACIS body data only; no supported boundary-loop evidence is available.",
+          "representation": "opaque_acis_region"
+        }
+      ],
+      "source_checksum_preserved": true,
+      "source_path": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example3\\104310M\\top_view.dwg",
+      "source_sha256_after": "27afec17b8105f0c153b672b48afb9f7f7ff20b6a6083948ba294f436677510b",
+      "source_sha256_before": "27afec17b8105f0c153b672b48afb9f7f7ff20b6a6083948ba294f436677510b",
+      "stage7": {
+        "approximated_count": 0,
+        "converted_count": 0,
+        "counts_by_status": {
+          "failed": 3
+        },
+        "dxf_version": "AC1027",
+        "failed_count": 3,
+        "issues": [
+          {
+            "code": "region_conversion_failed",
+            "evidence": {
+              "supported_evidence_appid": "GEBAL_REGION_BOUNDARY"
+            },
+            "layer": "Lg_area",
+            "message": "REGION boundary loops are unavailable; opaque ACIS data was not guessed.",
+            "severity": "fail",
+            "source_handle": "5E75"
+          },
+          {
+            "code": "region_conversion_failed",
+            "evidence": {
+              "supported_evidence_appid": "GEBAL_REGION_BOUNDARY"
+            },
+            "layer": "Lg_area",
+            "message": "REGION boundary loops are unavailable; opaque ACIS data was not guessed.",
+            "severity": "fail",
+            "source_handle": "5E76"
+          },
+          {
+            "code": "region_conversion_failed",
+            "evidence": {
+              "supported_evidence_appid": "GEBAL_REGION_BOUNDARY"
+            },
+            "layer": "Lg_area",
+            "message": "REGION boundary loops are unavailable; opaque ACIS data was not guessed.",
+            "severity": "fail",
+            "source_handle": "5E77"
+          }
+        ],
+        "loop_count": 0,
+        "output_path": null,
+        "region_count": 3,
+        "regions": [
+          {
+            "area_deviation": null,
+            "color": 52,
+            "conversion_evidence": {},
+            "converted_area": null,
+            "converted_perimeter": null,
+            "elevation": 0.0,
+            "issue_codes": [
+              "region_conversion_failed"
+            ],
+            "layer": "Lg_area",
+            "linetype": null,
+            "loops": [],
+            "order_index": 0,
+            "perimeter_deviation": null,
+            "source_area": null,
+            "source_handle": "5E75",
+            "source_perimeter": null,
+            "status": "failed"
+          },
+          {
+            "area_deviation": null,
+            "color": 4,
+            "conversion_evidence": {},
+            "converted_area": null,
+            "converted_perimeter": null,
+            "elevation": 0.0,
+            "issue_codes": [
+              "region_conversion_failed"
+            ],
+            "layer": "Lg_area",
+            "linetype": null,
+            "loops": [],
+            "order_index": 1,
+            "perimeter_deviation": null,
+            "source_area": null,
+            "source_handle": "5E76",
+            "source_perimeter": null,
+            "status": "failed"
+          },
+          {
+            "area_deviation": null,
+            "color": 4,
+            "conversion_evidence": {},
+            "converted_area": null,
+            "converted_perimeter": null,
+            "elevation": 0.0,
+            "issue_codes": [
+              "region_conversion_failed"
+            ],
+            "layer": "Lg_area",
+            "linetype": null,
+            "loops": [],
+            "order_index": 2,
+            "perimeter_deviation": null,
+            "source_area": null,
+            "source_handle": "5E77",
+            "source_perimeter": null,
+            "status": "failed"
+          }
+        ],
+        "review_required_count": 0,
+        "source_identity": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage7_region_verification\\converted_dxfs\\Example3\\104310M\\top_view.dxf",
+        "source_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage7_region_verification\\converted_dxfs\\Example3\\104310M\\top_view.dxf",
+        "source_sha256": "9109eec0e4025e189cfefb79de31410595f62dfe4361a95473f0c7c0972c27a8",
+        "tolerance": 1e-06
+      },
+      "stage7_output_entity_counts": null,
+      "stage7_output_extents": null,
+      "stage7_output_path": null,
+      "success": true
+    },
+    {
+      "dxf_checksum_preserved": true,
+      "dxf_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage7_region_verification\\converted_dxfs\\Example3\\137019M\\top_view.dxf",
+      "dxf_sha256_after_stage7_read_only": "1e00ad2438bc42f12352a0ced7b25f7820aa2169f79a27c85c3a23c033ca0820",
+      "dxf_sha256_before_stage7": "1e00ad2438bc42f12352a0ced7b25f7820aa2169f79a27c85c3a23c033ca0820",
+      "entity_counts_after_read_only": {
+        "ACAD_PROXY_ENTITY": 1,
+        "ARC": 4,
+        "ATTDEF": 1,
+        "DIMENSION": 4,
+        "INSERT": 10,
+        "LINE": 217,
+        "LWPOLYLINE": 1,
+        "MTEXT": 4,
+        "POINT": 12,
+        "POLYLINE": 2,
+        "REGION": 2,
+        "SOLID": 8,
+        "SPLINE": 40,
+        "TEXT": 4,
+        "VIEWPORT": 1
+      },
+      "entity_counts_before": {
+        "ACAD_PROXY_ENTITY": 1,
+        "ARC": 4,
+        "ATTDEF": 1,
+        "DIMENSION": 4,
+        "INSERT": 10,
+        "LINE": 217,
+        "LWPOLYLINE": 1,
+        "MTEXT": 4,
+        "POINT": 12,
+        "POLYLINE": 2,
+        "REGION": 2,
+        "SOLID": 8,
+        "SPLINE": 40,
+        "TEXT": 4,
+        "VIEWPORT": 1
+      },
+      "entity_counts_preserved_read_only": true,
+      "extents_after_read_only": {
+        "max_x": 5632.883255575595,
+        "max_y": 4055.143299556614,
+        "max_z": 0.0,
+        "min_x": -4694.285786767321,
+        "min_y": -2924.17609110585,
+        "min_z": 0.0
+      },
+      "extents_before": {
+        "max_x": 5632.883255575595,
+        "max_y": 4055.143299556614,
+        "max_z": 0.0,
+        "min_x": -4694.285786767321,
+        "min_y": -2924.17609110585,
+        "min_z": 0.0
+      },
+      "extents_preserved_read_only": true,
+      "oda_elapsed_seconds": 0.297,
+      "oda_output_size_bytes": 372906,
+      "region_count": 2,
+      "regions": [
+        {
+          "acis_evidence": {
+            "byte_count": 6308,
+            "is_opaque_to_stage7": true,
+            "keywords": [
+              "ACIS BinaryFile",
+              "body",
+              "coedge",
+              "edge",
+              "ellipse",
+              "face",
+              "loop",
+              "lump",
+              "plane",
+              "shell",
+              "vertex"
+            ],
+            "sat_string_count": 0,
+            "sha256": "2431bf60a7c673c29e48d5d7b6d4480dc3be4e7f8def66519441f0d4d649fa97",
+            "storage": "binary_acis"
+          },
+          "boundary_evidence": {
+            "has_supported_xdata": false,
+            "loop_count": null,
+            "loop_roles": [],
+            "payload_bytes": 0,
+            "supported_appid": "GEBAL_REGION_BOUNDARY"
+          },
+          "color": null,
+          "conversion_status": "failed",
+          "extents": null,
+          "handle": "6029",
+          "index": 0,
+          "issue_codes": [
+            "region_conversion_failed"
+          ],
+          "layer": "Lg_area",
+          "linetype": "Continuous",
+          "loops": [],
+          "reason": "ODA preserved the REGION as binary ACIS body data only; no supported boundary-loop evidence is available.",
+          "representation": "opaque_acis_region"
+        },
+        {
+          "acis_evidence": {
+            "byte_count": 6364,
+            "is_opaque_to_stage7": true,
+            "keywords": [
+              "ACIS BinaryFile",
+              "body",
+              "coedge",
+              "edge",
+              "ellipse",
+              "face",
+              "loop",
+              "lump",
+              "plane",
+              "shell",
+              "vertex"
+            ],
+            "sat_string_count": 0,
+            "sha256": "29c13a03036219eee74bc1fedd400d38ec724da1a48be24cebc214bbee6217ff",
+            "storage": "binary_acis"
+          },
+          "boundary_evidence": {
+            "has_supported_xdata": false,
+            "loop_count": null,
+            "loop_roles": [],
+            "payload_bytes": 0,
+            "supported_appid": "GEBAL_REGION_BOUNDARY"
+          },
+          "color": null,
+          "conversion_status": "failed",
+          "extents": null,
+          "handle": "602A",
+          "index": 1,
+          "issue_codes": [
+            "region_conversion_failed"
+          ],
+          "layer": "Lg_falling",
+          "linetype": "Continuous",
+          "loops": [],
+          "reason": "ODA preserved the REGION as binary ACIS body data only; no supported boundary-loop evidence is available.",
+          "representation": "opaque_acis_region"
+        }
+      ],
+      "source_checksum_preserved": true,
+      "source_path": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example3\\137019M\\top_view.dwg",
+      "source_sha256_after": "8aece9d7b17f3db40a25edd0370f659ca0756cf3c85596e891d958bbc0b48c9a",
+      "source_sha256_before": "8aece9d7b17f3db40a25edd0370f659ca0756cf3c85596e891d958bbc0b48c9a",
+      "stage7": {
+        "approximated_count": 0,
+        "converted_count": 0,
+        "counts_by_status": {
+          "failed": 2
+        },
+        "dxf_version": "AC1027",
+        "failed_count": 2,
+        "issues": [
+          {
+            "code": "region_conversion_failed",
+            "evidence": {
+              "supported_evidence_appid": "GEBAL_REGION_BOUNDARY"
+            },
+            "layer": "Lg_area",
+            "message": "REGION boundary loops are unavailable; opaque ACIS data was not guessed.",
+            "severity": "fail",
+            "source_handle": "6029"
+          },
+          {
+            "code": "region_conversion_failed",
+            "evidence": {
+              "supported_evidence_appid": "GEBAL_REGION_BOUNDARY"
+            },
+            "layer": "Lg_falling",
+            "message": "REGION boundary loops are unavailable; opaque ACIS data was not guessed.",
+            "severity": "fail",
+            "source_handle": "602A"
+          }
+        ],
+        "loop_count": 0,
+        "output_path": null,
+        "region_count": 2,
+        "regions": [
+          {
+            "area_deviation": null,
+            "color": null,
+            "conversion_evidence": {},
+            "converted_area": null,
+            "converted_perimeter": null,
+            "elevation": 0.0,
+            "issue_codes": [
+              "region_conversion_failed"
+            ],
+            "layer": "Lg_area",
+            "linetype": "Continuous",
+            "loops": [],
+            "order_index": 0,
+            "perimeter_deviation": null,
+            "source_area": null,
+            "source_handle": "6029",
+            "source_perimeter": null,
+            "status": "failed"
+          },
+          {
+            "area_deviation": null,
+            "color": null,
+            "conversion_evidence": {},
+            "converted_area": null,
+            "converted_perimeter": null,
+            "elevation": 0.0,
+            "issue_codes": [
+              "region_conversion_failed"
+            ],
+            "layer": "Lg_falling",
+            "linetype": "Continuous",
+            "loops": [],
+            "order_index": 1,
+            "perimeter_deviation": null,
+            "source_area": null,
+            "source_handle": "602A",
+            "source_perimeter": null,
+            "status": "failed"
+          }
+        ],
+        "review_required_count": 0,
+        "source_identity": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage7_region_verification\\converted_dxfs\\Example3\\137019M\\top_view.dxf",
+        "source_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage7_region_verification\\converted_dxfs\\Example3\\137019M\\top_view.dxf",
+        "source_sha256": "1e00ad2438bc42f12352a0ced7b25f7820aa2169f79a27c85c3a23c033ca0820",
+        "tolerance": 1e-06
+      },
+      "stage7_output_entity_counts": null,
+      "stage7_output_extents": null,
+      "stage7_output_path": null,
+      "success": true
+    },
+    {
+      "dxf_checksum_preserved": true,
+      "dxf_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage7_region_verification\\converted_dxfs\\Example5\\175020\\top_view.dxf",
+      "dxf_sha256_after_stage7_read_only": "ff8d877ba97056c3b6b49bbf7156c89b18693f06e10bf271f9a65849a9ba1b5d",
+      "dxf_sha256_before_stage7": "ff8d877ba97056c3b6b49bbf7156c89b18693f06e10bf271f9a65849a9ba1b5d",
+      "entity_counts_after_read_only": {
+        "3DFACE": 5,
+        "ACAD_PROXY_ENTITY": 1,
+        "ATTDEF": 1,
+        "DIMENSION": 4,
+        "INSERT": 10,
+        "LINE": 634,
+        "MTEXT": 4,
+        "POINT": 12,
+        "POLYLINE": 1,
+        "REGION": 2,
+        "SOLID": 8,
+        "TEXT": 3,
+        "VIEWPORT": 1
+      },
+      "entity_counts_before": {
+        "3DFACE": 5,
+        "ACAD_PROXY_ENTITY": 1,
+        "ATTDEF": 1,
+        "DIMENSION": 4,
+        "INSERT": 10,
+        "LINE": 634,
+        "MTEXT": 4,
+        "POINT": 12,
+        "POLYLINE": 1,
+        "REGION": 2,
+        "SOLID": 8,
+        "TEXT": 3,
+        "VIEWPORT": 1
+      },
+      "entity_counts_preserved_read_only": true,
+      "extents_after_read_only": {
+        "max_x": 10000.0,
+        "max_y": 10000.0,
+        "max_z": 0.0,
+        "min_x": -10000.0,
+        "min_y": -10000.0,
+        "min_z": -2000.0
+      },
+      "extents_before": {
+        "max_x": 10000.0,
+        "max_y": 10000.0,
+        "max_z": 0.0,
+        "min_x": -10000.0,
+        "min_y": -10000.0,
+        "min_z": -2000.0
+      },
+      "extents_preserved_read_only": true,
+      "oda_elapsed_seconds": 0.313,
+      "oda_output_size_bytes": 334375,
+      "region_count": 2,
+      "regions": [
+        {
+          "acis_evidence": {
+            "byte_count": 2489,
+            "is_opaque_to_stage7": true,
+            "keywords": [
+              "ACIS BinaryFile",
+              "body",
+              "coedge",
+              "edge",
+              "face",
+              "loop",
+              "lump",
+              "plane",
+              "shell",
+              "vertex"
+            ],
+            "sat_string_count": 0,
+            "sha256": "cd3fb7ac2db425f7368023eb3e650d34e1d27c812012cd0083d5349f1d136615",
+            "storage": "binary_acis"
+          },
+          "boundary_evidence": {
+            "has_supported_xdata": false,
+            "loop_count": null,
+            "loop_roles": [],
+            "payload_bytes": 0,
+            "supported_appid": "GEBAL_REGION_BOUNDARY"
+          },
+          "color": null,
+          "conversion_status": "failed",
+          "extents": null,
+          "handle": "B68",
+          "index": 0,
+          "issue_codes": [
+            "region_conversion_failed"
+          ],
+          "layer": "Lg_prod",
+          "linetype": null,
+          "loops": [],
+          "reason": "ODA preserved the REGION as binary ACIS body data only; no supported boundary-loop evidence is available.",
+          "representation": "opaque_acis_region"
+        },
+        {
+          "acis_evidence": {
+            "byte_count": 4017,
+            "is_opaque_to_stage7": true,
+            "keywords": [
+              "ACIS BinaryFile",
+              "body",
+              "coedge",
+              "edge",
+              "ellipse",
+              "face",
+              "loop",
+              "lump",
+              "plane",
+              "shell",
+              "vertex"
+            ],
+            "sat_string_count": 0,
+            "sha256": "076103f248ac163e4d4e532112d5fe24378b27e5800ec130853b3e298bc3d93b",
+            "storage": "binary_acis"
+          },
+          "boundary_evidence": {
+            "has_supported_xdata": false,
+            "loop_count": null,
+            "loop_roles": [],
+            "payload_bytes": 0,
+            "supported_appid": "GEBAL_REGION_BOUNDARY"
+          },
+          "color": null,
+          "conversion_status": "failed",
+          "extents": null,
+          "handle": "B69",
+          "index": 1,
+          "issue_codes": [
+            "region_conversion_failed"
+          ],
+          "layer": "Lg_area",
+          "linetype": null,
+          "loops": [],
+          "reason": "ODA preserved the REGION as binary ACIS body data only; no supported boundary-loop evidence is available.",
+          "representation": "opaque_acis_region"
+        }
+      ],
+      "source_checksum_preserved": true,
+      "source_path": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples\\Example5\\175020\\top_view.dwg",
+      "source_sha256_after": "eb85b8dad32c29f9d6c824cc908f5d42f012408a2e2aa5bfe6510a64619a184d",
+      "source_sha256_before": "eb85b8dad32c29f9d6c824cc908f5d42f012408a2e2aa5bfe6510a64619a184d",
+      "stage7": {
+        "approximated_count": 0,
+        "converted_count": 0,
+        "counts_by_status": {
+          "failed": 2
+        },
+        "dxf_version": "AC1027",
+        "failed_count": 2,
+        "issues": [
+          {
+            "code": "region_conversion_failed",
+            "evidence": {
+              "supported_evidence_appid": "GEBAL_REGION_BOUNDARY"
+            },
+            "layer": "Lg_prod",
+            "message": "REGION boundary loops are unavailable; opaque ACIS data was not guessed.",
+            "severity": "fail",
+            "source_handle": "B68"
+          },
+          {
+            "code": "region_conversion_failed",
+            "evidence": {
+              "supported_evidence_appid": "GEBAL_REGION_BOUNDARY"
+            },
+            "layer": "Lg_area",
+            "message": "REGION boundary loops are unavailable; opaque ACIS data was not guessed.",
+            "severity": "fail",
+            "source_handle": "B69"
+          }
+        ],
+        "loop_count": 0,
+        "output_path": null,
+        "region_count": 2,
+        "regions": [
+          {
+            "area_deviation": null,
+            "color": null,
+            "conversion_evidence": {},
+            "converted_area": null,
+            "converted_perimeter": null,
+            "elevation": 0.0,
+            "issue_codes": [
+              "region_conversion_failed"
+            ],
+            "layer": "Lg_prod",
+            "linetype": null,
+            "loops": [],
+            "order_index": 0,
+            "perimeter_deviation": null,
+            "source_area": null,
+            "source_handle": "B68",
+            "source_perimeter": null,
+            "status": "failed"
+          },
+          {
+            "area_deviation": null,
+            "color": null,
+            "conversion_evidence": {},
+            "converted_area": null,
+            "converted_perimeter": null,
+            "elevation": 0.0,
+            "issue_codes": [
+              "region_conversion_failed"
+            ],
+            "layer": "Lg_area",
+            "linetype": null,
+            "loops": [],
+            "order_index": 1,
+            "perimeter_deviation": null,
+            "source_area": null,
+            "source_handle": "B69",
+            "source_perimeter": null,
+            "status": "failed"
+          }
+        ],
+        "review_required_count": 0,
+        "source_identity": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage7_region_verification\\converted_dxfs\\Example5\\175020\\top_view.dxf",
+        "source_path": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage7_region_verification\\converted_dxfs\\Example5\\175020\\top_view.dxf",
+        "source_sha256": "ff8d877ba97056c3b6b49bbf7156c89b18693f06e10bf271f9a65849a9ba1b5d",
+        "tolerance": 1e-06
+      },
+      "stage7_output_entity_counts": null,
+      "stage7_output_extents": null,
+      "stage7_output_path": null,
+      "success": true
+    }
+  ],
+  "generated_at": "2026-07-22T16:43:18+0400",
+  "oda_executable": "E:\\ODA\\ODAFileConverter.exe",
+  "output_root": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage7_region_verification",
+  "source_root": "C:\\Users\\jvsin\\Documents\\DrafterMath Archive\\CAD_Examples\\Test_Examples",
+  "summary": {
+    "all_dxf_checksums_preserved_read_only": true,
+    "all_entity_counts_preserved_read_only": true,
+    "all_extents_preserved_read_only": true,
+    "all_source_checksums_preserved": true,
+    "counts_by_representation": {
+      "opaque_acis_region": 9
+    },
+    "counts_by_status": {
+      "failed": 9
+    },
+    "files_verified": 4,
+    "output_root": "C:\\Users\\jvsin\\Documents\\GitHub\\Gebal_Hub_CAD\\tests\\output\\stage7_region_verification",
+    "region_count": 9,
+    "runtime_seconds": 2.6669,
+    "stage7_outputs_written": 0
+  },
+  "target_version": "ACAD2013",
+  "tolerance": 1e-06
+}

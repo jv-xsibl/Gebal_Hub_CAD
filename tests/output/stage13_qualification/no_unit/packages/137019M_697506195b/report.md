@@ -1,0 +1,310 @@
+# CAD Normalization Package
+
+- Occurrence: `137019M_697506195b`
+- SKU: `137019M`
+- Overall status: `fail`
+- Source JSON: `C:\Users\jvsin\Documents\DrafterMath Archive\CAD_Examples\Test_Examples\Example3\137019M\137019M.json`
+- Source CAD: `C:\Users\jvsin\Documents\DrafterMath Archive\CAD_Examples\Test_Examples\Example3\137019M\top_view.dwg`
+- Source checksums unchanged: `True`
+- Filename/SKU mismatch: `False`
+
+## Stages
+- `canonicalization`: `pass_with_warnings` (0.91025s)
+- `classification`: `pass_with_warnings` (0.003904s)
+- `dwg_export`: `pass` (1.098385s)
+- `input_conversion`: `pass` (1.237923s)
+- `inventory`: `pass_with_warnings` (0.143318s)
+- `measurement`: `pass_with_warnings` (1.055908s)
+- `region_conversion`: `fail` (0.957137s)
+- `rewrite`: `pass_with_warnings` (0.349302s)
+- `svg_export`: `pass_with_warnings` (1.189007s)
+- `validation`: `fail` (0.001278s)
+
+## Artifacts
+- `canonical_json`: `reports/canonical.json`
+- `classification_json`: `reports/classification.json`
+- `combined_svg`: `svg/combined.svg`
+- `inventory_json`: `reports/inventory.json`
+- `measurement_json`: `reports/measurement.json`
+- `normalized_dwg`: `normalized/137019M_normalized.dwg`
+- `normalized_dxf`: `normalized/137019M_normalized.dxf`
+- `region_conversion_json`: `reports/region_conversion.json`
+- `rewrite_json`: `reports/rewrite.json`
+- `svg_manifest`: `svg/manifest.json`
+- `validation_json`: `reports/validation.json`
+
+## Issues
+### Source Data
+- `fail` `missing_top_view_cad`: Top-view CAD asset is missing.
+- `fail` `missing_sku`: Bluestone payload has no first product in results.
+### Cad
+- `warning` `contains_external_reference`: DXF contains external-reference indicators.
+- `warning` `contains_proxy_entity`: DXF contains ACAD_PROXY_ENTITY entities.
+- `warning` `contains_region`: DXF contains REGION entities.
+- `warning` `units_unknown`: DXF header $INSUNITS is not recognized: 0
+- `warning` `unsupported_entity_type`: DXF contains entity types outside the current audit category map.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: TEXT.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: TEXT.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: TEXT.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: ATTDEF.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: TEXT.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: DIMENSION.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: DIMENSION.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: DIMENSION.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: DIMENSION.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: REGION.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: REGION.
+- `fail` `region_conversion_failed`: REGION boundary loops are unavailable; opaque ACIS data was not guessed.
+- `fail` `region_conversion_failed`: REGION boundary loops are unavailable; opaque ACIS data was not guessed.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `info` `svg_text_fallback`: Text rendered with generic SVG text fallback.
+- `info` `svg_text_fallback`: Text rendered with generic SVG text fallback.
+- `info` `svg_text_fallback`: Text rendered with generic SVG text fallback.
+- `info` `svg_text_fallback`: Text rendered with generic SVG text fallback.
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: DIMENSION
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: DIMENSION
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: DIMENSION
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: DIMENSION
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: REGION
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: REGION
+### Classification
+- `warning` `mixed_operational_content`: Layer mixes operational geometry with annotation, dimension, or hatch content.
+- `warning` `mixed_operational_content`: Layer mixes operational geometry with annotation, dimension, or hatch content.
+- `warning` `mixed_operational_content`: Layer mixes operational geometry with annotation, dimension, or hatch content.
+- `warning` `proxy_content`: Layer contains proxy content.
+- `warning` `unknown_units`: Drawing units are missing or unknown; classification does not infer millimetres.
+- `warning` `vendor_alias_conflict`: Layer-name or vendor alias evidence conflicts with entity or geometry evidence.
+### Measurement
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_multiple_candidates`: Multiple plausible measurement candidates were retained.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_opaque_region`: Opaque REGION/ACIS-style geometry is not reconstructed by measurement.
+- `warning` `measurement_opaque_region`: Opaque REGION/ACIS-style entity is not measurable without deterministic boundaries.
+- `warning` `measurement_opaque_region`: Opaque REGION/ACIS-style entity is not measurable without deterministic boundaries.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_self_intersection`: Self-intersecting loop was retained for review but area confidence is reduced.
+- `warning` `measurement_self_intersection`: Self-intersecting loop was retained for review but area confidence is reduced.
+- `warning` `measurement_self_intersection`: Self-intersecting loop was retained for review but area confidence is reduced.
+- `warning` `measurement_units_unknown`: Drawing units are unknown; raw drawing-unit measurements are preserved.
+- `warning` `measurement_unsupported_geometry`: External-reference indicators are not authoritative measurement geometry.
+- `warning` `measurement_unsupported_geometry`: Proxy, XREF, raster, or underlay content is not authoritative measurement geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+### Validation
+- `fail` `validation_missing_cad_candidate`: No CAD safety zone candidate was available.
+- `fail` `validation_missing_cad_candidate`: No CAD safety zone candidate was available.
+- `not_verifiable` `validation_missing_cad_candidate`: Product-inside-safety containment needs product and safety CAD candidates.
+- `not_verifiable` `validation_missing_json_value`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `validation_missing_json_value`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_units_unknown`: CAD units are not authoritative for JSON comparison.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `not_verifiable` `validation_units_unknown`: CAD units are unknown; millimetre comparison is not authoritative.
+- `warning` `validation_ambiguous_candidates`: Multiple CAD candidates have equivalent validation rank.
+- `warning` `validation_ambiguous_candidates`: Multiple CAD candidates have equivalent validation rank.
+- `warning` `validation_cad_risk_evidence`: CAD measurement includes evidence that prevents forced pass decisions.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `not_verifiable` `unverifiable_field`: Product-inside-safety containment needs product and safety CAD candidates.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: Best CAD product footprint candidate compared against JSON.
+- `not_verifiable` `unverifiable_field`: Best CAD product footprint candidate compared against JSON.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+
+## Candidate Evidence
+### CAD Selection
+- Selected: `C:\Users\jvsin\Documents\DrafterMath Archive\CAD_Examples\Test_Examples\Example3\137019M\top_view.dwg`
+
+## Explicit Review Notes
+- Unknown or missing CAD units are listed under CAD, measurement, and validation issues when present.
+- Height, free-fall height, and other non-top-view fields are reported as unverifiable by Stage 11 when present.

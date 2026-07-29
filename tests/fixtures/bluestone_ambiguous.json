@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "productNumber": "137132M",
+      "name": "Climbing Unit",
+      "length": 4140,
+      "width": 4680,
+      "media": [
+        {
+          "id": "top-1",
+          "assetName": "TOP VIEW",
+          "fileName": "137132M_top_view.dwg",
+          "url": "https://example.invalid/137132M_top_view.dwg",
+          "contentType": "application/acad",
+          "classification": "2dModel"
+        },
+        {
+          "id": "top-2",
+          "assetName": "TOP VIEW alternate",
+          "fileName": "137132M_plan.dwg",
+          "url": "https://example.invalid/137132M_plan.dwg",
+          "contentType": "application/acad",
+          "classification": "2dModel"
+        }
+      ]
+    }
+  ]
+}

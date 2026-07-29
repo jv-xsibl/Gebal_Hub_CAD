@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 690.55018 812" fill="none" stroke-linecap="round" stroke-linejoin="round" style="background:transparent" data-source-layer="Lg_prod">
+
+
+<g vector-effect="non-scaling-stroke" stroke-width="1.5" transform="translate(286.659159 406.552677) scale(1 -1)">
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="31.300201" y1="-47.422323" x2="31.300201" y2="-48.947323" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-33.699799" y1="-48.947323" x2="31.300201" y2="-48.947323" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-33.699799" y1="-47.422323" x2="-33.699799" y2="-48.947323" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-49.174799" y1="-47.422323" x2="46.775201" y2="-47.422323" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="SPLINE"><path d="M 42.164331 -42.811453 L 42.172084 -42.819206 L 42.179832 -42.826955 L 42.187576 -42.834699 L 42.195316 -42.842438 L 42.597878 -43.245 L 42.987764 -43.634887 L 43.364151 -44.011273 L 43.726213 -44.373336 L 44.517361 -45.164483 L 45.198852 -45.845975 L 45.765615 -46.412737 L 46.212575 -46.859697 L 46.457789 -47.104911 L 46.633713 -47.280835 L 46.739725 -47.386847 L 46.775201 -47.422323" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="46.775201" y1="-47.422323" x2="46.775201" y2="48.527677" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="SPLINE"><path d="M 42.164331 43.916807 L 42.172084 43.92456 L 42.179832 43.932309 L 42.187576 43.940053 L 42.195316 43.947792 L 42.597878 44.350354 L 42.987764 44.740241 L 43.364151 45.116627 L 43.726213 45.47869 L 44.517361 46.269837 L 45.198852 46.951329 L 45.765615 47.518091 L 46.212575 47.965051 L 46.457789 48.210265 L 46.633713 48.386189 L 46.739725 48.492201 L 46.775201 48.527677" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="46.775201" y1="48.527677" x2="-49.174799" y2="48.527677" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="SPLINE"><path d="M -44.56393 43.916807 L -44.571683 43.92456 L -44.579431 43.932309 L -44.587175 43.940053 L -44.594914 43.947792 L -44.997477 44.350354 L -45.387363 44.740241 L -45.763749 45.116627 L -46.125812 45.47869 L -46.916959 46.269837 L -47.598451 46.951329 L -48.165214 47.518091 L -48.612173 47.965051 L -48.857387 48.210265 L -49.033312 48.386189 L -49.139323 48.492201 L -49.174799 48.527677" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="Lg_prod" data-entity-type="SPLINE"><path d="M -49.174799 -47.422323 L -49.139323 -47.386847 L -49.033312 -47.280835 L -48.857387 -47.104911 L -48.612173 -46.859697 L -48.165214 -46.412737 L -47.598451 -45.845975 L -46.916959 -45.164483 L -46.125812 -44.373336 L -45.763749 -44.011273 L -45.387363 -43.634887 L -44.997477 -43.245 L -44.594914 -42.842438 L -44.587175 -42.834699 L -44.579431 -42.826955 L -44.571683 -42.819206 L -44.56393 -42.811453" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-49.174799" y1="48.527677" x2="-49.174799" y2="-47.422323" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="ARC"><path d="M -1.199799 390.552677 A 390 390 0 0 1 -1.199799 -389.447323" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="ARC"><path d="M -1.199799 -389.447323 A 390 390 0 0 1 -1.199799 390.552677" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="ARC"><path d="M 53.969028 44.667579 A 11 11 0 0 1 42.969028 55.667579" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="ARC"><path d="M 48.969028 44.667579 A 6 6 0 0 1 42.969028 50.667579" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="30.969028" y1="50.667579" x2="42.969028" y2="50.667579" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="30.969028" y1="55.667579" x2="42.969028" y2="55.667579" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="25.969028" y1="55.667579" x2="30.969028" y2="55.667579" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="25.969028" y1="50.667579" x2="30.969028" y2="50.667579" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="25.969028" y1="50.667579" x2="25.969028" y2="55.667579" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="53.969028" y1="32.667579" x2="53.969028" y2="27.667579" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="48.969028" y1="27.667579" x2="53.969028" y2="27.667579" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="48.969028" y1="32.667579" x2="48.969028" y2="27.667579" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="53.969028" y1="44.667579" x2="53.969028" y2="32.667579" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="48.969028" y1="44.667579" x2="48.969028" y2="32.667579" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="ELLIPSE"><path d="M 267.072154 270.184918 L 266.47335 270.755372 L 265.847638 271.296102 L 265.196526 271.805804 L 264.521582 272.283251 L 263.824432 272.727292 L 263.106756 273.136859 L 262.370283 273.510964 L 261.616787 273.848705 L 260.848082 274.149271 L 260.066022 274.411935 L 259.27249 274.636066 L 258.469398 274.821123 L 257.658681 274.966661 L 256.842291 275.072329 L 256.022195 275.137873 L 255.200369 275.163134 L 254.378793 275.148052 L 253.559447 275.092663 L 252.744303 274.9971 L 251.935326 274.861595 L 251.134465 274.686472 L 250.343649 274.472155 L 249.564783 274.219159 L 248.799743 273.928094 L 248.050373 273.599661 L 247.318478 273.234651 L 246.605821 272.833944 L 245.914119 272.398505 L 245.245038 271.929383 L 244.60019 271.427708 L 243.981129 270.894688 L 243.389346 270.331609" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="141.617184" y1="120.90045" x2="55.308042" y2="34.591308" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="31.478543" y1="58.420806" x2="34.23177" y2="55.667579" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="39.23177" y1="50.667579" x2="41.371672" y2="48.527677" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="46.775201" y1="43.124148" x2="48.969028" y2="40.930321" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="53.969028" y1="35.930321" x2="55.308042" y2="34.591308" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="117.787685" y1="144.729948" x2="31.478543" y2="58.420806" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="ELLIPSE"><path d="M 267.218844 246.50211 L 267.781924 247.093893 L 268.314943 247.712955 L 268.816618 248.357802 L 269.28574 249.026883 L 269.721179 249.718585 L 270.121886 250.431243 L 270.486896 251.163138 L 270.815329 251.912508 L 271.106394 252.677547 L 271.35939 253.456413 L 271.573708 254.24723 L 271.74883 255.048091 L 271.884336 255.857068 L 271.979898 256.672211 L 272.035287 257.491558 L 272.050369 258.313134 L 272.025108 259.13496 L 271.959564 259.955055 L 271.853896 260.771445 L 271.708358 261.582163 L 271.523301 262.385255 L 271.29917 263.178787 L 271.036506 263.960847 L 270.735941 264.729551 L 270.398199 265.483047 L 270.024094 266.219521 L 269.614528 266.937197 L 269.170486 267.634346 L 268.693039 268.30929 L 268.183337 268.960402 L 267.642608 269.586114 L 267.072154 270.184918" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="Lg_prod" data-entity-type="ARC"><path d="M -45.314702 55.721504 A 11 11 0 0 1 -56.314702 44.721504" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="ARC"><path d="M -45.314702 50.721504 A 6 6 0 0 1 -51.314702 44.721504" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-51.314702" y1="32.721504" x2="-51.314702" y2="44.721504" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-56.314702" y1="32.721504" x2="-56.314702" y2="44.721504" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-56.314702" y1="27.721504" x2="-56.314702" y2="32.721504" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-51.314702" y1="27.721504" x2="-51.314702" y2="32.721504" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-51.314702" y1="27.721504" x2="-56.314702" y2="27.721504" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-33.314702" y1="55.721504" x2="-28.314702" y2="55.721504" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-28.314702" y1="50.721504" x2="-28.314702" y2="55.721504" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-33.314702" y1="50.721504" x2="-28.314702" y2="50.721504" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-45.314702" y1="55.721504" x2="-33.314702" y2="55.721504" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-45.314702" y1="50.721504" x2="-33.314702" y2="50.721504" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-121.547572" y1="143.36966" x2="-35.23843" y2="57.060518" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-59.067929" y1="33.231019" x2="-56.314702" y2="35.984246" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-51.314702" y1="40.984246" x2="-49.174799" y2="43.124148" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-43.771271" y1="48.527677" x2="-41.577443" y2="50.721504" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-36.577443" y1="55.721504" x2="-35.23843" y2="57.060518" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-145.377071" y1="119.540161" x2="-59.067929" y2="33.231019" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="ARC"><path d="M -56.368627 -43.562225 A 11 11 0 0 1 -45.368627 -54.562225" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="ARC"><path d="M -51.368627 -43.562225 A 6 6 0 0 1 -45.368627 -49.562225" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-33.368627" y1="-49.562225" x2="-45.368627" y2="-49.562225" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-33.368627" y1="-54.562225" x2="-45.368627" y2="-54.562225" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-28.368627" y1="-54.562225" x2="-33.368627" y2="-54.562225" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-28.368627" y1="-49.562225" x2="-33.368627" y2="-49.562225" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-28.368627" y1="-49.562225" x2="-28.368627" y2="-54.562225" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-56.368627" y1="-31.562225" x2="-56.368627" y2="-26.562225" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-51.368627" y1="-26.562225" x2="-56.368627" y2="-26.562225" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-51.368627" y1="-31.562225" x2="-51.368627" y2="-26.562225" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-56.368627" y1="-43.562225" x2="-56.368627" y2="-31.562225" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-51.368627" y1="-43.562225" x2="-51.368627" y2="-31.562225" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-144.016782" y1="-119.795096" x2="-57.70764" y2="-33.485954" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-33.878142" y1="-57.315452" x2="-36.631368" y2="-54.562225" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-41.631368" y1="-49.562225" x2="-43.771271" y2="-47.422323" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-49.174799" y1="-42.018795" x2="-51.368627" y2="-39.824967" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-56.368627" y1="-34.824967" x2="-57.70764" y2="-33.485954" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-120.187284" y1="-143.624595" x2="-33.878142" y2="-57.315452" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="ARC"><path d="M 42.915103 -54.61615 A 11 11 0 0 1 53.915103 -43.61615" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="ARC"><path d="M 42.915103 -49.61615 A 6 6 0 0 1 48.915103 -43.61615" fill="none" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="48.915103" y1="-31.61615" x2="48.915103" y2="-43.61615" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="53.915103" y1="-31.61615" x2="53.915103" y2="-43.61615" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="53.915103" y1="-26.61615" x2="53.915103" y2="-31.61615" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="48.915103" y1="-26.61615" x2="48.915103" y2="-31.61615" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="48.915103" y1="-26.61615" x2="53.915103" y2="-26.61615" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="30.915103" y1="-54.61615" x2="25.915103" y2="-54.61615" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="25.915103" y1="-49.61615" x2="25.915103" y2="-54.61615" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="30.915103" y1="-49.61615" x2="25.915103" y2="-49.61615" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="42.915103" y1="-54.61615" x2="30.915103" y2="-54.61615" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="42.915103" y1="-49.61615" x2="30.915103" y2="-49.61615" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="ELLIPSE"><path d="M 268.432442 -267.719276 L 269.002896 -267.120472 L 269.543625 -266.49476 L 270.053328 -265.843648 L 270.530775 -265.168704 L 270.974816 -264.471554 L 271.384383 -263.753878 L 271.758488 -263.017405 L 272.096229 -262.263909 L 272.396794 -261.495205 L 272.659459 -260.713145 L 272.883589 -259.919613 L 273.068647 -259.116521 L 273.214185 -258.305803 L 273.319853 -257.489413 L 273.385396 -256.669317 L 273.410658 -255.847491 L 273.395576 -255.025916 L 273.340187 -254.206569 L 273.244624 -253.391425 L 273.109119 -252.582448 L 272.933996 -251.781587 L 272.719679 -250.990771 L 272.466683 -250.211905 L 272.175618 -249.446865 L 271.847184 -248.697495 L 271.482175 -247.9656 L 271.081468 -247.252943 L 270.646028 -246.561241 L 270.176906 -245.89216 L 269.675231 -245.247312 L 269.142212 -244.628251 L 268.579133 -244.036468" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="119.147974" y1="-142.264306" x2="32.838831" y2="-55.955164" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="56.66833" y1="-32.125665" x2="53.915103" y2="-34.878892" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="48.915103" y1="-39.878892" x2="46.775201" y2="-42.018795" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="41.371672" y1="-47.422323" x2="39.177845" y2="-49.61615" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="34.177845" y1="-54.61615" x2="32.838831" y2="-55.955164" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="142.977472" y1="-118.434808" x2="56.66833" y2="-32.125665" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="ELLIPSE"><path d="M 244.749634 -267.865966 L 245.341417 -268.429046 L 245.960478 -268.962065 L 246.605326 -269.46374 L 247.274407 -269.932862 L 247.966109 -270.368301 L 248.678766 -270.769009 L 249.410662 -271.134018 L 250.160032 -271.462451 L 250.925071 -271.753516 L 251.703937 -272.006512 L 252.494753 -272.22083 L 253.295615 -272.395952 L 254.104592 -272.531458 L 254.919735 -272.62702 L 255.739082 -272.682409 L 256.560658 -272.697491 L 257.382483 -272.67223 L 258.202579 -272.606687 L 259.018969 -272.501019 L 259.829687 -272.355481 L 260.632779 -272.170423 L 261.426311 -271.946292 L 262.208371 -271.683628 L 262.977075 -271.383063 L 263.730571 -271.045321 L 264.467044 -270.671217 L 265.18472 -270.26165 L 265.88187 -269.817608 L 266.556814 -269.340161 L 267.207926 -268.830459 L 267.833638 -268.28973 L 268.432442 -267.719276" fill="none" stroke="#ffbf00" data-closed="false" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="190.505262" y1="169.788529" x2="141.617184" y2="120.90045" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="166.675764" y1="193.618027" x2="243.389346" y2="270.331609" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="190.505262" y1="169.788529" x2="267.218844" y2="246.50211" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="117.787685" y1="144.729948" x2="166.675764" y2="193.618027" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-170.435651" y1="192.257739" x2="-121.547572" y2="143.36966" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-194.265149" y1="168.42824" x2="-270.659159" y2="244.82225" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-170.435651" y1="192.257739" x2="-246.82966" y2="268.651748" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-145.377071" y1="119.540161" x2="-194.265149" y2="168.42824" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-192.904861" y1="-168.683175" x2="-144.016782" y2="-119.795096" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-169.075362" y1="-192.512673" x2="-245.469372" y2="-268.906683" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-192.904861" y1="-168.683175" x2="-269.29887" y2="-245.077184" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="-120.187284" y1="-143.624595" x2="-169.075362" y2="-192.512673" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="168.036052" y1="-191.152385" x2="119.147974" y2="-142.264306" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="191.865551" y1="-167.322886" x2="268.579133" y2="-244.036468" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="168.036052" y1="-191.152385" x2="244.749634" y2="-267.865966" stroke="#ffbf00" /></g>
+<g data-layer="Lg_prod" data-entity-type="LINE"><line x1="142.977472" y1="-118.434808" x2="191.865551" y2="-167.322886" stroke="#ffbf00" /></g>
+</g>
+</svg>

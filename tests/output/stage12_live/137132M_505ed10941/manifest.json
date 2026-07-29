@@ -1,0 +1,5586 @@
+{
+  "ai_used": false,
+  "artifacts": {
+    "canonical_json": {
+      "path": "reports/canonical.json",
+      "sha256": "1abee29db0c8d90f3e8c2595020fd40e118f2a97d4135a5e71d5526ad2e3f0d3"
+    },
+    "classification_json": {
+      "path": "reports/classification.json",
+      "sha256": "83ccf48c0763a47c3845e7c6e82a67e6da0b920c9d4a4b0002bb1e8a7c14d043"
+    },
+    "combined_svg": {
+      "path": "svg/combined.svg",
+      "sha256": "8d6760a7628c95ce8d40f420b9b439744a8450bec2024ffc9281a7147bd83f96"
+    },
+    "inventory_json": {
+      "path": "reports/inventory.json",
+      "sha256": "fbc7c4c60d2d1c7f4b1c4f062683247a7c84468c56513565d96bc73462b7d150"
+    },
+    "measurement_json": {
+      "path": "reports/measurement.json",
+      "sha256": "53654d03a49b1f6b8a36809d6ff72fe5cb58dfd02746ce7e7ef0bedb8e49a346"
+    },
+    "normalized_dxf": {
+      "path": "normalized/137132M_normalized.dxf",
+      "sha256": "2789565470498203b4a5820114c84a7282a47bd4c6087cdf2b9c837c58ac1c04"
+    },
+    "region_conversion_json": {
+      "path": "reports/region_conversion.json",
+      "sha256": "8c133bc2a4a950169a756f4aba60d252cbca1dfe5ff76a1eeaab15c92d8ba534"
+    },
+    "rewrite_json": {
+      "path": "reports/rewrite.json",
+      "sha256": "c3cc87b8b7a5a90687bf45c9cee26aceba85417a5dbd3082492c2c7f68dbb451"
+    },
+    "svg_manifest": {
+      "path": "svg/manifest.json",
+      "sha256": "bef1adfdd2fee4f9b36872422547cd4addd43dc4084d2c1cd8090cb5b29d8d51"
+    },
+    "validation_json": {
+      "path": "reports/validation.json",
+      "sha256": "6f95d6c4a9064f8831533c58439b35a3c86f2a5324f5e4775f3bd26d858e52fb"
+    }
+  },
+  "cad_selection": {
+    "alternatives": [
+      "137132M:137132M_LimeGreen_NEW_001.png",
+      "137132M:137132m_lime_green_holland_9.jpg",
+      "137132M_product-card_20260413_231809.pdf",
+      "137132M:MERGED_170075.pdf",
+      "137132M:137132M.DWG",
+      "137132M:Finno.eng.pdf",
+      "137132M:137132M_Unpainted_NEW_001.png",
+      "137132M:137132MSI-Model.png",
+      "137132M:137132M_CandyFuchsia_NEW_001.png",
+      "137132M:137132M_LiquoriceGrey_NEW_001.png",
+      "137132M:137132M_SWITCHIT_steel.jpg",
+      "137132M:137132MPL-Model.png",
+      "137132M:137132MSI.DWG",
+      "137132M:137132M_TuttiFrutti_UPDATE_001.png",
+      "137132M:137132M_AppleRed_NEW_001.png"
+    ],
+    "decision": "selected",
+    "evaluations": [
+      {
+        "candidate": {
+          "attributes": [
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6915a6d9b44c9b356f287e3d",
+              "name": "Aton Document Info",
+              "number": "ATON_DOC_INFO",
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e3f",
+                  "number": "10310",
+                  "value": "Visualized"
+                }
+              ],
+              "values": [
+                "Visualized"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "name": "Aton Document Code",
+              "number": "ATON_DOC_CODE",
+              "values": [
+                "254569"
+              ]
+            },
+            {
+              "dataType": "decimal",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bed8139e6688fa25ed8",
+              "name": "Aton Document Revision",
+              "number": "ATON_DOC_REV",
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6911d2fec3f670a73515361b",
+              "name": "Preset Color Combination",
+              "number": "PRESET_CC",
+              "select": [
+                {
+                  "id": "6911d313a91f77c22f934d6d",
+                  "number": "01",
+                  "value": "Lime green"
+                }
+              ],
+              "values": [
+                "Lime green"
+              ]
+            },
+            {
+              "dataType": "date_time",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6932e667ed4e394bee654977",
+              "name": "Aton Last Modified",
+              "number": "ATON_LAST_MODIFIED",
+              "values": [
+                "2023-04-12 05:22"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Internal",
+              "groupNumber": "INTERNAL",
+              "id": "690b7c618139e6688fa25f0b",
+              "name": "Item Desc 2",
+              "number": "ITEM_DESC_2",
+              "values": [
+                "137132M"
+              ]
+            }
+          ],
+          "contentType": "image/png",
+          "createdAt": 1776837761070,
+          "description": "IMAGE 137132M",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/cee46622-c64c-4d7c-9cfb-e82d938aa3d1/9yjdD10cD5bcJ3NNmdYaGJtJV/SPTDUEwqaRqhHuCVpQA6RnRHf.png",
+          "fileName": "137132M:137132M_LimeGreen_NEW_001.png",
+          "id": "cee46622-c64c-4d7c-9cfb-e82d938aa3d1",
+          "labels": [
+            "Default"
+          ],
+          "name": "IMAGE 137132M",
+          "number": "137132M:137132M_LimeGreen_NEW_001.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/cee46622-c64c-4d7c-9cfb-e82d938aa3d1/9yjdD10cD5bcJ3NNmdYaGJtJV/SPTDUEwqaRqhHuCVpQA6RnRHf.png?f=jpg&w=400",
+          "updatedAt": 1776837761070
+        },
+        "candidate_identifier": "cee46622-c64c-4d7c-9cfb-e82d938aa3d1",
+        "reasons": [
+          "rejected: image asset",
+          "rejected: image content type",
+          "rejected: metadata contains image"
+        ],
+        "score": -300,
+        "status": "rejected"
+      },
+      {
+        "candidate": {
+          "attributes": [
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6915a6d9b44c9b356f287e3d",
+              "name": "Aton Document Info",
+              "number": "ATON_DOC_INFO",
+              "select": [
+                {
+                  "id": "6918a4dbad5108c4750b8a23",
+                  "number": "01",
+                  "value": "PIM"
+                }
+              ],
+              "values": [
+                "PIM"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "name": "Aton Document Code",
+              "number": "ATON_DOC_CODE",
+              "values": []
+            },
+            {
+              "dataType": "decimal",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bed8139e6688fa25ed8",
+              "name": "Aton Document Revision",
+              "number": "ATON_DOC_REV",
+              "values": []
+            }
+          ],
+          "contentType": "image/jpeg",
+          "createdAt": 1763197510922,
+          "description": "PHOTO",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/c47d4f55-b3c0-4f39-a170-0f064311f5a9/sBZjKpYdClwRELyAveYh08DLZ/TmhVmSKstyWisjJQPi8GgrU86.jpg",
+          "fileName": "137132M:137132m_lime_green_holland_9.jpg",
+          "id": "c47d4f55-b3c0-4f39-a170-0f064311f5a9",
+          "labels": [],
+          "name": "PHOTO",
+          "number": "137132M:137132m_lime_green_holland_9.jpg",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/c47d4f55-b3c0-4f39-a170-0f064311f5a9/sBZjKpYdClwRELyAveYh08DLZ/TmhVmSKstyWisjJQPi8GgrU86.jpg?f=jpg&w=400",
+          "updatedAt": 1763226888482
+        },
+        "candidate_identifier": "c47d4f55-b3c0-4f39-a170-0f064311f5a9",
+        "reasons": [
+          "rejected: image asset",
+          "rejected: image content type"
+        ],
+        "score": -200,
+        "status": "rejected"
+      },
+      {
+        "candidate": {
+          "attributes": [],
+          "contentType": "application/pdf",
+          "createdAt": 1776127167206,
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/b59850d1-252a-4eb9-b955-f52db516a4b6/lVK3ofa3c4rWNkRhUj4owBK7n/RHBgflst0HrlZezzFQ3CDRBdd.pdf",
+          "fileName": "137132M_product-card_20260413_231809.pdf",
+          "id": "b59850d1-252a-4eb9-b955-f52db516a4b6",
+          "labels": [
+            "product-card"
+          ],
+          "name": "137132M_product-card_20260413_231809.pdf",
+          "number": "b59850d1-252a-4eb9-b955-f52db516a4b6",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/b59850d1-252a-4eb9-b955-f52db516a4b6/lVK3ofa3c4rWNkRhUj4owBK7n/RHBgflst0HrlZezzFQ3CDRBdd.pdf?f=jpg&w=400",
+          "updatedAt": 1776127167335
+        },
+        "candidate_identifier": "b59850d1-252a-4eb9-b955-f52db516a4b6",
+        "reasons": [
+          "rejected: PDF asset",
+          "rejected: PDF content type",
+          "rejected: metadata contains pdf"
+        ],
+        "score": -300,
+        "status": "rejected"
+      },
+      {
+        "candidate": {
+          "attributes": [
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6915a6d9b44c9b356f287e3d",
+              "name": "Aton Document Info",
+              "number": "ATON_DOC_INFO",
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e42",
+                  "number": "107",
+                  "value": "2dModel"
+                }
+              ],
+              "values": [
+                "2dModel"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "name": "Aton Document Code",
+              "number": "ATON_DOC_CODE",
+              "values": [
+                "139575"
+              ]
+            },
+            {
+              "dataType": "decimal",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bed8139e6688fa25ed8",
+              "name": "Aton Document Revision",
+              "number": "ATON_DOC_REV",
+              "values": [
+                "4.1"
+              ]
+            },
+            {
+              "dataType": "date_time",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6932e667ed4e394bee654977",
+              "name": "Aton Last Modified",
+              "number": "ATON_LAST_MODIFIED",
+              "values": [
+                "2016-10-25 06:00"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Internal",
+              "groupNumber": "INTERNAL",
+              "id": "690b7c618139e6688fa25f0b",
+              "name": "Item Desc 2",
+              "number": "ITEM_DESC_2",
+              "values": [
+                "137132M"
+              ]
+            }
+          ],
+          "contentType": "image/dwg",
+          "createdAt": 1776837754032,
+          "description": "TOP VIEW 137132M",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/8341f099-ed96-4293-9576-7eed7068539e/oxbGlur6ccJ9RNixKRWvpyLBX/7iinxX5VofJFHrCxfZcWfluF0.DWG",
+          "fileName": "137132M:137132MPL.DWG",
+          "id": "8341f099-ed96-4293-9576-7eed7068539e",
+          "labels": [],
+          "name": "TOP VIEW 137132M",
+          "number": "137132M:137132MPL.DWG",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/8341f099-ed96-4293-9576-7eed7068539e/oxbGlur6ccJ9RNixKRWvpyLBX/7iinxX5VofJFHrCxfZcWfluF0.DWG?f=jpg&w=400",
+          "updatedAt": 1776837754032
+        },
+        "candidate_identifier": "8341f099-ed96-4293-9576-7eed7068539e",
+        "reasons": [
+          "accepted: .dwg extension",
+          "accepted: DWG content type",
+          "accepted: name or description indicates top view"
+        ],
+        "score": 70,
+        "status": "accepted"
+      },
+      {
+        "candidate": {
+          "attributes": [
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6915a6d9b44c9b356f287e3d",
+              "name": "Aton Document Info",
+              "number": "ATON_DOC_INFO",
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e3e",
+                  "number": "101",
+                  "value": "InstallationInstructions"
+                }
+              ],
+              "values": [
+                "InstallationInstructions"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "name": "Aton Document Code",
+              "number": "ATON_DOC_CODE",
+              "values": [
+                "258124"
+              ]
+            },
+            {
+              "dataType": "decimal",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bed8139e6688fa25ed8",
+              "name": "Aton Document Revision",
+              "number": "ATON_DOC_REV",
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "dataType": "date_time",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6932e667ed4e394bee654977",
+              "name": "Aton Last Modified",
+              "number": "ATON_LAST_MODIFIED",
+              "values": [
+                "2025-12-19 19:21"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Internal",
+              "groupNumber": "INTERNAL",
+              "id": "690b7c618139e6688fa25f0b",
+              "name": "Item Desc 2",
+              "number": "ITEM_DESC_2",
+              "values": []
+            }
+          ],
+          "contentType": "application/pdf",
+          "createdAt": 1776837760556,
+          "description": "InstallationInstructions",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/c1ae3ad9-6432-4708-9c66-41b2d37a7115/xDc2ocEHPUjFKtb2sQdWE3JyM/a95EY2N4FCgK4f6bY2T4IsdGW.pdf",
+          "fileName": "137132M:MERGED_170075.pdf",
+          "id": "c1ae3ad9-6432-4708-9c66-41b2d37a7115",
+          "labels": [],
+          "name": "InstallationInstructions",
+          "number": "137132M:MERGED_170075.pdf",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/c1ae3ad9-6432-4708-9c66-41b2d37a7115/xDc2ocEHPUjFKtb2sQdWE3JyM/a95EY2N4FCgK4f6bY2T4IsdGW.pdf?f=jpg&w=400",
+          "updatedAt": 1776837760556
+        },
+        "candidate_identifier": "c1ae3ad9-6432-4708-9c66-41b2d37a7115",
+        "reasons": [
+          "rejected: PDF asset",
+          "rejected: PDF content type",
+          "rejected: metadata contains pdf"
+        ],
+        "score": -300,
+        "status": "rejected"
+      },
+      {
+        "candidate": {
+          "attributes": [
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6915a6d9b44c9b356f287e3d",
+              "name": "Aton Document Info",
+              "number": "ATON_DOC_INFO",
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e43",
+                  "number": "114",
+                  "value": "3dDwg"
+                }
+              ],
+              "values": [
+                "3dDwg"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "name": "Aton Document Code",
+              "number": "ATON_DOC_CODE",
+              "values": [
+                "139573"
+              ]
+            },
+            {
+              "dataType": "decimal",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bed8139e6688fa25ed8",
+              "name": "Aton Document Revision",
+              "number": "ATON_DOC_REV",
+              "values": [
+                "4.3"
+              ]
+            },
+            {
+              "dataType": "date_time",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6932e667ed4e394bee654977",
+              "name": "Aton Last Modified",
+              "number": "ATON_LAST_MODIFIED",
+              "values": [
+                "2018-01-18 06:03"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Internal",
+              "groupNumber": "INTERNAL",
+              "id": "690b7c618139e6688fa25f0b",
+              "name": "Item Desc 2",
+              "number": "ITEM_DESC_2",
+              "values": [
+                "137132M"
+              ]
+            }
+          ],
+          "contentType": "image/dwg",
+          "createdAt": 1776837763123,
+          "description": "PRODUCT MODEL 137132M",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/9eb12c16-5f8d-4cba-ad6e-ce1bd97795b5/wNyE0qHkadvtxDgkBqflKlzln/aB91oGceRPmfWWqfWrmVuS6hq.DWG",
+          "fileName": "137132M:137132M.DWG",
+          "id": "9eb12c16-5f8d-4cba-ad6e-ce1bd97795b5",
+          "labels": [],
+          "name": "PRODUCT MODEL 137132M",
+          "number": "137132M:137132M.DWG",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/9eb12c16-5f8d-4cba-ad6e-ce1bd97795b5/wNyE0qHkadvtxDgkBqflKlzln/aB91oGceRPmfWWqfWrmVuS6hq.DWG?f=jpg&w=400",
+          "updatedAt": 1776837763123
+        },
+        "candidate_identifier": "9eb12c16-5f8d-4cba-ad6e-ce1bd97795b5",
+        "reasons": [
+          "accepted: .dwg extension",
+          "accepted: DWG content type",
+          "rejected: metadata contains product model"
+        ],
+        "score": -60,
+        "status": "rejected"
+      },
+      {
+        "candidate": {
+          "attributes": [
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6915a6d9b44c9b356f287e3d",
+              "name": "Aton Document Info",
+              "number": "ATON_DOC_INFO",
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e46",
+                  "number": "11012",
+                  "value": "ProductCertificates"
+                }
+              ],
+              "values": [
+                "ProductCertificates"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "name": "Aton Document Code",
+              "number": "ATON_DOC_CODE",
+              "values": [
+                "017214"
+              ]
+            },
+            {
+              "dataType": "decimal",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bed8139e6688fa25ed8",
+              "name": "Aton Document Revision",
+              "number": "ATON_DOC_REV",
+              "values": [
+                "12"
+              ]
+            },
+            {
+              "dataType": "date_time",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6932e667ed4e394bee654977",
+              "name": "Aton Last Modified",
+              "number": "ATON_LAST_MODIFIED",
+              "values": [
+                "2022-12-27 13:32"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Internal",
+              "groupNumber": "INTERNAL",
+              "id": "690b7c618139e6688fa25f0b",
+              "name": "Item Desc 2",
+              "number": "ITEM_DESC_2",
+              "values": [
+                "Finno"
+              ]
+            }
+          ],
+          "contentType": "application/pdf",
+          "createdAt": 1776837757038,
+          "description": "CERTIFICATE Finno",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/d4f2f397-92b1-4d05-a05b-d25657a11aae/6Rme8ddcSV3ln1i152o9Ana0C/MGdLoubDnBgDSpyVPN4fla1K6.pdf",
+          "fileName": "137132M:Finno.eng.pdf",
+          "id": "d4f2f397-92b1-4d05-a05b-d25657a11aae",
+          "labels": [
+            "TUV SUD"
+          ],
+          "name": "CERTIFICATE Finno",
+          "number": "137132M:Finno.eng.pdf",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/d4f2f397-92b1-4d05-a05b-d25657a11aae/6Rme8ddcSV3ln1i152o9Ana0C/MGdLoubDnBgDSpyVPN4fla1K6.pdf?f=jpg&w=400",
+          "updatedAt": 1776837757038
+        },
+        "candidate_identifier": "d4f2f397-92b1-4d05-a05b-d25657a11aae",
+        "reasons": [
+          "rejected: PDF asset",
+          "rejected: PDF content type",
+          "rejected: metadata contains pdf"
+        ],
+        "score": -300,
+        "status": "rejected"
+      },
+      {
+        "candidate": {
+          "attributes": [
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6915a6d9b44c9b356f287e3d",
+              "name": "Aton Document Info",
+              "number": "ATON_DOC_INFO",
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e3f",
+                  "number": "10310",
+                  "value": "Visualized"
+                }
+              ],
+              "values": [
+                "Visualized"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "name": "Aton Document Code",
+              "number": "ATON_DOC_CODE",
+              "values": [
+                "254572"
+              ]
+            },
+            {
+              "dataType": "decimal",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bed8139e6688fa25ed8",
+              "name": "Aton Document Revision",
+              "number": "ATON_DOC_REV",
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "dataType": "date_time",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6932e667ed4e394bee654977",
+              "name": "Aton Last Modified",
+              "number": "ATON_LAST_MODIFIED",
+              "values": [
+                "2023-04-12 05:22"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Internal",
+              "groupNumber": "INTERNAL",
+              "id": "690b7c618139e6688fa25f0b",
+              "name": "Item Desc 2",
+              "number": "ITEM_DESC_2",
+              "values": [
+                "137132M"
+              ]
+            }
+          ],
+          "contentType": "image/png",
+          "createdAt": 1776837756081,
+          "description": "IMAGE 137132M",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/e41e425d-2edd-4115-8f21-b3ce6d82aed8/QhdTkuDZnO1tlkTCVckaKLCzv/ROlLVlOjklO7njeom20PAK9jh.png",
+          "fileName": "137132M:137132M_Unpainted_NEW_001.png",
+          "id": "e41e425d-2edd-4115-8f21-b3ce6d82aed8",
+          "labels": [],
+          "name": "IMAGE 137132M",
+          "number": "137132M:137132M_Unpainted_NEW_001.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/e41e425d-2edd-4115-8f21-b3ce6d82aed8/QhdTkuDZnO1tlkTCVckaKLCzv/ROlLVlOjklO7njeom20PAK9jh.png?f=jpg&w=400",
+          "updatedAt": 1776837756081
+        },
+        "candidate_identifier": "e41e425d-2edd-4115-8f21-b3ce6d82aed8",
+        "reasons": [
+          "rejected: image asset",
+          "rejected: image content type",
+          "rejected: metadata contains image"
+        ],
+        "score": -300,
+        "status": "rejected"
+      },
+      {
+        "candidate": {
+          "attributes": [
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6915a6d9b44c9b356f287e3d",
+              "name": "Aton Document Info",
+              "number": "ATON_DOC_INFO",
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e40",
+                  "number": "10313",
+                  "value": "SalesPictures"
+                }
+              ],
+              "values": [
+                "SalesPictures"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "name": "Aton Document Code",
+              "number": "ATON_DOC_CODE",
+              "values": [
+                "160742"
+              ]
+            },
+            {
+              "dataType": "decimal",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bed8139e6688fa25ed8",
+              "name": "Aton Document Revision",
+              "number": "ATON_DOC_REV",
+              "values": [
+                "4"
+              ]
+            },
+            {
+              "dataType": "date_time",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6932e667ed4e394bee654977",
+              "name": "Aton Last Modified",
+              "number": "ATON_LAST_MODIFIED",
+              "values": [
+                "2016-10-13 05:50"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Internal",
+              "groupNumber": "INTERNAL",
+              "id": "690b7c618139e6688fa25f0b",
+              "name": "Item Desc 2",
+              "number": "ITEM_DESC_2",
+              "values": [
+                "137132M"
+              ]
+            }
+          ],
+          "contentType": "image/png",
+          "createdAt": 1776837800537,
+          "description": "SIDE VIEW 137132M",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/09e02e07-a60c-4dc0-8ddc-7e626d5341cb/d4CwcHRK2LWc0Bafc3aV8sbKK/P66goLDb2Y5XQEMh1eSescTiA.png",
+          "fileName": "137132M:137132MSI-Model.png",
+          "id": "09e02e07-a60c-4dc0-8ddc-7e626d5341cb",
+          "labels": [],
+          "name": "SIDE VIEW 137132M",
+          "number": "137132M:137132MSI-Model.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/09e02e07-a60c-4dc0-8ddc-7e626d5341cb/d4CwcHRK2LWc0Bafc3aV8sbKK/P66goLDb2Y5XQEMh1eSescTiA.png?f=jpg&w=400",
+          "updatedAt": 1776837800537
+        },
+        "candidate_identifier": "09e02e07-a60c-4dc0-8ddc-7e626d5341cb",
+        "reasons": [
+          "rejected: image asset",
+          "rejected: image content type",
+          "rejected: metadata contains side view"
+        ],
+        "score": -300,
+        "status": "rejected"
+      },
+      {
+        "candidate": {
+          "attributes": [
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6915a6d9b44c9b356f287e3d",
+              "name": "Aton Document Info",
+              "number": "ATON_DOC_INFO",
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e3f",
+                  "number": "10310",
+                  "value": "Visualized"
+                }
+              ],
+              "values": [
+                "Visualized"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "name": "Aton Document Code",
+              "number": "ATON_DOC_CODE",
+              "values": [
+                "254568"
+              ]
+            },
+            {
+              "dataType": "decimal",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bed8139e6688fa25ed8",
+              "name": "Aton Document Revision",
+              "number": "ATON_DOC_REV",
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6911d2fec3f670a73515361b",
+              "name": "Preset Color Combination",
+              "number": "PRESET_CC",
+              "select": [
+                {
+                  "id": "6911d313a91f77c22f934d71",
+                  "number": "05",
+                  "value": "Candy Fuchsia"
+                }
+              ],
+              "values": [
+                "Candy Fuchsia"
+              ]
+            },
+            {
+              "dataType": "date_time",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6932e667ed4e394bee654977",
+              "name": "Aton Last Modified",
+              "number": "ATON_LAST_MODIFIED",
+              "values": [
+                "2023-04-12 05:22"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Internal",
+              "groupNumber": "INTERNAL",
+              "id": "690b7c618139e6688fa25f0b",
+              "name": "Item Desc 2",
+              "number": "ITEM_DESC_2",
+              "values": [
+                "137132M"
+              ]
+            }
+          ],
+          "contentType": "image/png",
+          "createdAt": 1776837759037,
+          "description": "IMAGE 137132M",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/7c137b0e-05ea-4bfa-89a1-07a620c9bf92/USIFnKoBYSKoo9dk0Au4Aotxn/DX4sDrlT9qWHMn3fLRzkUv0I3.png",
+          "fileName": "137132M:137132M_CandyFuchsia_NEW_001.png",
+          "id": "7c137b0e-05ea-4bfa-89a1-07a620c9bf92",
+          "labels": [],
+          "name": "IMAGE 137132M",
+          "number": "137132M:137132M_CandyFuchsia_NEW_001.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/7c137b0e-05ea-4bfa-89a1-07a620c9bf92/USIFnKoBYSKoo9dk0Au4Aotxn/DX4sDrlT9qWHMn3fLRzkUv0I3.png?f=jpg&w=400",
+          "updatedAt": 1776837759037
+        },
+        "candidate_identifier": "7c137b0e-05ea-4bfa-89a1-07a620c9bf92",
+        "reasons": [
+          "rejected: image asset",
+          "rejected: image content type",
+          "rejected: metadata contains image"
+        ],
+        "score": -300,
+        "status": "rejected"
+      },
+      {
+        "candidate": {
+          "attributes": [
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6915a6d9b44c9b356f287e3d",
+              "name": "Aton Document Info",
+              "number": "ATON_DOC_INFO",
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e3f",
+                  "number": "10310",
+                  "value": "Visualized"
+                }
+              ],
+              "values": [
+                "Visualized"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "name": "Aton Document Code",
+              "number": "ATON_DOC_CODE",
+              "values": [
+                "254570"
+              ]
+            },
+            {
+              "dataType": "decimal",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bed8139e6688fa25ed8",
+              "name": "Aton Document Revision",
+              "number": "ATON_DOC_REV",
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6911d2fec3f670a73515361b",
+              "name": "Preset Color Combination",
+              "number": "PRESET_CC",
+              "select": [
+                {
+                  "id": "6911d313a91f77c22f934d6f",
+                  "number": "03",
+                  "value": "Liquorice Grey"
+                }
+              ],
+              "values": [
+                "Liquorice Grey"
+              ]
+            },
+            {
+              "dataType": "date_time",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6932e667ed4e394bee654977",
+              "name": "Aton Last Modified",
+              "number": "ATON_LAST_MODIFIED",
+              "values": [
+                "2023-04-12 05:22"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Internal",
+              "groupNumber": "INTERNAL",
+              "id": "690b7c618139e6688fa25f0b",
+              "name": "Item Desc 2",
+              "number": "ITEM_DESC_2",
+              "values": [
+                "137132M"
+              ]
+            }
+          ],
+          "contentType": "image/png",
+          "createdAt": 1776837756541,
+          "description": "IMAGE 137132M",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/88e77762-2764-4962-b76f-1865abc87002/ENsofxjj1gjvaMG3BaFgUQrRs/SmobcY8jUTcrd44aMPBZOa3rD.png",
+          "fileName": "137132M:137132M_LiquoriceGrey_NEW_001.png",
+          "id": "88e77762-2764-4962-b76f-1865abc87002",
+          "labels": [],
+          "name": "IMAGE 137132M",
+          "number": "137132M:137132M_LiquoriceGrey_NEW_001.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/88e77762-2764-4962-b76f-1865abc87002/ENsofxjj1gjvaMG3BaFgUQrRs/SmobcY8jUTcrd44aMPBZOa3rD.png?f=jpg&w=400",
+          "updatedAt": 1776837756541
+        },
+        "candidate_identifier": "88e77762-2764-4962-b76f-1865abc87002",
+        "reasons": [
+          "rejected: image asset",
+          "rejected: image content type",
+          "rejected: metadata contains image"
+        ],
+        "score": -300,
+        "status": "rejected"
+      },
+      {
+        "candidate": {
+          "attributes": [
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6915a6d9b44c9b356f287e3d",
+              "name": "Aton Document Info",
+              "number": "ATON_DOC_INFO",
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e41",
+                  "number": "10318",
+                  "value": "SwitchitPicture"
+                }
+              ],
+              "values": [
+                "SwitchitPicture"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "name": "Aton Document Code",
+              "number": "ATON_DOC_CODE",
+              "values": [
+                "232724"
+              ]
+            },
+            {
+              "dataType": "decimal",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bed8139e6688fa25ed8",
+              "name": "Aton Document Revision",
+              "number": "ATON_DOC_REV",
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "dataType": "date_time",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6932e667ed4e394bee654977",
+              "name": "Aton Last Modified",
+              "number": "ATON_LAST_MODIFIED",
+              "values": [
+                "2021-08-25 07:35"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Internal",
+              "groupNumber": "INTERNAL",
+              "id": "690b7c618139e6688fa25f0b",
+              "name": "Item Desc 2",
+              "number": "ITEM_DESC_2",
+              "values": [
+                "137132M"
+              ]
+            }
+          ],
+          "contentType": "image/jpeg",
+          "createdAt": 1776837761558,
+          "description": "CONFIGURATIONS 137132M",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/499600e3-95ce-4c00-83e5-f30209218703/XC1BufqDcTQA2u3RR5TtGz1h3/kC31vuCN7P9B8km326N4MQ766.jpg",
+          "fileName": "137132M:137132M_SWITCHIT_steel.jpg",
+          "id": "499600e3-95ce-4c00-83e5-f30209218703",
+          "labels": [],
+          "name": "CONFIGURATIONS 137132M",
+          "number": "137132M:137132M_SWITCHIT_steel.jpg",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/499600e3-95ce-4c00-83e5-f30209218703/XC1BufqDcTQA2u3RR5TtGz1h3/kC31vuCN7P9B8km326N4MQ766.jpg?f=jpg&w=400",
+          "updatedAt": 1776837761558
+        },
+        "candidate_identifier": "499600e3-95ce-4c00-83e5-f30209218703",
+        "reasons": [
+          "rejected: image asset",
+          "rejected: image content type"
+        ],
+        "score": -200,
+        "status": "rejected"
+      },
+      {
+        "candidate": {
+          "attributes": [
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6915a6d9b44c9b356f287e3d",
+              "name": "Aton Document Info",
+              "number": "ATON_DOC_INFO",
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e40",
+                  "number": "10313",
+                  "value": "SalesPictures"
+                }
+              ],
+              "values": [
+                "SalesPictures"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "name": "Aton Document Code",
+              "number": "ATON_DOC_CODE",
+              "values": [
+                "160741"
+              ]
+            },
+            {
+              "dataType": "decimal",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bed8139e6688fa25ed8",
+              "name": "Aton Document Revision",
+              "number": "ATON_DOC_REV",
+              "values": [
+                "4"
+              ]
+            },
+            {
+              "dataType": "date_time",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6932e667ed4e394bee654977",
+              "name": "Aton Last Modified",
+              "number": "ATON_LAST_MODIFIED",
+              "values": [
+                "2016-10-13 05:52"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Internal",
+              "groupNumber": "INTERNAL",
+              "id": "690b7c618139e6688fa25f0b",
+              "name": "Item Desc 2",
+              "number": "ITEM_DESC_2",
+              "values": [
+                "137132M"
+              ]
+            }
+          ],
+          "contentType": "image/png",
+          "createdAt": 1776837814624,
+          "description": "TOP VIEW 137132M",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/523c16f6-0963-434c-a047-468ff7e378e9/0wJKHrKQpuLKo87WqCrplmPLa/PC4HbIuhDbSb8cP8pGrwRyQtI.png",
+          "fileName": "137132M:137132MPL-Model.png",
+          "id": "523c16f6-0963-434c-a047-468ff7e378e9",
+          "labels": [],
+          "name": "TOP VIEW 137132M",
+          "number": "137132M:137132MPL-Model.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/523c16f6-0963-434c-a047-468ff7e378e9/0wJKHrKQpuLKo87WqCrplmPLa/PC4HbIuhDbSb8cP8pGrwRyQtI.png?f=jpg&w=400",
+          "updatedAt": 1776837814624
+        },
+        "candidate_identifier": "523c16f6-0963-434c-a047-468ff7e378e9",
+        "reasons": [
+          "accepted: name or description indicates top view",
+          "rejected: image asset",
+          "rejected: image content type"
+        ],
+        "score": -170,
+        "status": "rejected"
+      },
+      {
+        "candidate": {
+          "attributes": [
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6915a6d9b44c9b356f287e3d",
+              "name": "Aton Document Info",
+              "number": "ATON_DOC_INFO",
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e42",
+                  "number": "107",
+                  "value": "2dModel"
+                }
+              ],
+              "values": [
+                "2dModel"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "name": "Aton Document Code",
+              "number": "ATON_DOC_CODE",
+              "values": [
+                "139576"
+              ]
+            },
+            {
+              "dataType": "decimal",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bed8139e6688fa25ed8",
+              "name": "Aton Document Revision",
+              "number": "ATON_DOC_REV",
+              "values": [
+                "4.1"
+              ]
+            },
+            {
+              "dataType": "date_time",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6932e667ed4e394bee654977",
+              "name": "Aton Last Modified",
+              "number": "ATON_LAST_MODIFIED",
+              "values": [
+                "2016-10-24 10:52"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Internal",
+              "groupNumber": "INTERNAL",
+              "id": "690b7c618139e6688fa25f0b",
+              "name": "Item Desc 2",
+              "number": "ITEM_DESC_2",
+              "values": [
+                "137132M"
+              ]
+            }
+          ],
+          "contentType": "image/dwg",
+          "createdAt": 1776837762091,
+          "description": "SIDE VIEW 137132M",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/af4f794b-c79b-49cf-833b-bbaa1112fe71/BMBnQW5Qp9dqPA2JwcGTQKRd8/nxGfk2I4CB8smIdYcqM30DK0N.DWG",
+          "fileName": "137132M:137132MSI.DWG",
+          "id": "af4f794b-c79b-49cf-833b-bbaa1112fe71",
+          "labels": [],
+          "name": "SIDE VIEW 137132M",
+          "number": "137132M:137132MSI.DWG",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/af4f794b-c79b-49cf-833b-bbaa1112fe71/BMBnQW5Qp9dqPA2JwcGTQKRd8/nxGfk2I4CB8smIdYcqM30DK0N.DWG?f=jpg&w=400",
+          "updatedAt": 1776837762091
+        },
+        "candidate_identifier": "af4f794b-c79b-49cf-833b-bbaa1112fe71",
+        "reasons": [
+          "accepted: .dwg extension",
+          "accepted: DWG content type",
+          "rejected: metadata contains side view"
+        ],
+        "score": -60,
+        "status": "rejected"
+      },
+      {
+        "candidate": {
+          "attributes": [
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6915a6d9b44c9b356f287e3d",
+              "name": "Aton Document Info",
+              "number": "ATON_DOC_INFO",
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e3f",
+                  "number": "10310",
+                  "value": "Visualized"
+                }
+              ],
+              "values": [
+                "Visualized"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "name": "Aton Document Code",
+              "number": "ATON_DOC_CODE",
+              "values": [
+                "254571"
+              ]
+            },
+            {
+              "dataType": "decimal",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bed8139e6688fa25ed8",
+              "name": "Aton Document Revision",
+              "number": "ATON_DOC_REV",
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6911d2fec3f670a73515361b",
+              "name": "Preset Color Combination",
+              "number": "PRESET_CC",
+              "select": [
+                {
+                  "id": "6911d313a91f77c22f934d70",
+                  "number": "04",
+                  "value": "Tuttifrutti"
+                }
+              ],
+              "values": [
+                "Tuttifrutti"
+              ]
+            },
+            {
+              "dataType": "date_time",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6932e667ed4e394bee654977",
+              "name": "Aton Last Modified",
+              "number": "ATON_LAST_MODIFIED",
+              "values": [
+                "2024-09-16 14:46"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Internal",
+              "groupNumber": "INTERNAL",
+              "id": "690b7c618139e6688fa25f0b",
+              "name": "Item Desc 2",
+              "number": "ITEM_DESC_2",
+              "values": [
+                "137132M"
+              ]
+            }
+          ],
+          "contentType": "image/png",
+          "createdAt": 1776837754528,
+          "description": "IMAGE 137132M",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/96765579-321d-4022-8ade-1165a7f0d7b7/KslQhZKx5cy2otuToRRcpHVc0/1l2PpcArsa3lz0OeX9X2WYot7.png",
+          "fileName": "137132M:137132M_TuttiFrutti_UPDATE_001.png",
+          "id": "96765579-321d-4022-8ade-1165a7f0d7b7",
+          "labels": [],
+          "name": "IMAGE 137132M",
+          "number": "137132M:137132M_TuttiFrutti_UPDATE_001.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/96765579-321d-4022-8ade-1165a7f0d7b7/KslQhZKx5cy2otuToRRcpHVc0/1l2PpcArsa3lz0OeX9X2WYot7.png?f=jpg&w=400",
+          "updatedAt": 1776837754528
+        },
+        "candidate_identifier": "96765579-321d-4022-8ade-1165a7f0d7b7",
+        "reasons": [
+          "rejected: image asset",
+          "rejected: image content type",
+          "rejected: metadata contains image"
+        ],
+        "score": -300,
+        "status": "rejected"
+      },
+      {
+        "candidate": {
+          "attributes": [
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6915a6d9b44c9b356f287e3d",
+              "name": "Aton Document Info",
+              "number": "ATON_DOC_INFO",
+              "select": [
+                {
+                  "id": "6915a6d9b44c9b356f287e3f",
+                  "number": "10310",
+                  "value": "Visualized"
+                }
+              ],
+              "values": [
+                "Visualized"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bef106fe7b0bbb67fd8",
+              "name": "Aton Document Code",
+              "number": "ATON_DOC_CODE",
+              "values": [
+                "254567"
+              ]
+            },
+            {
+              "dataType": "decimal",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "690b7bed8139e6688fa25ed8",
+              "name": "Aton Document Revision",
+              "number": "ATON_DOC_REV",
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "dataType": "single_select",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6911d2fec3f670a73515361b",
+              "name": "Preset Color Combination",
+              "number": "PRESET_CC",
+              "select": [
+                {
+                  "id": "6911d313a91f77c22f934d6e",
+                  "number": "02",
+                  "value": "Apple Red"
+                }
+              ],
+              "values": [
+                "Apple Red"
+              ]
+            },
+            {
+              "dataType": "date_time",
+              "groupName": "Asset Attributes",
+              "groupNumber": "ASSET_ATTRIBUTES",
+              "id": "6932e667ed4e394bee654977",
+              "name": "Aton Last Modified",
+              "number": "ATON_LAST_MODIFIED",
+              "values": [
+                "2023-04-12 05:22"
+              ]
+            },
+            {
+              "dataType": "text",
+              "groupName": "Internal",
+              "groupNumber": "INTERNAL",
+              "id": "690b7c618139e6688fa25f0b",
+              "name": "Item Desc 2",
+              "number": "ITEM_DESC_2",
+              "values": [
+                "137132M"
+              ]
+            }
+          ],
+          "contentType": "image/png",
+          "createdAt": 1776837759131,
+          "description": "IMAGE 137132M",
+          "downloadUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/42f4da9d-be3f-4427-9064-bf1087e52eb7/HuykFkIFfj7NGDbvlXlLhOYUX/V610ZnO1hrm5PW2DIh5StkaLy.png",
+          "fileName": "137132M:137132M_AppleRed_NEW_001.png",
+          "id": "42f4da9d-be3f-4427-9064-bf1087e52eb7",
+          "labels": [],
+          "name": "IMAGE 137132M",
+          "number": "137132M:137132M_AppleRed_NEW_001.png",
+          "previewUri": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/42f4da9d-be3f-4427-9064-bf1087e52eb7/HuykFkIFfj7NGDbvlXlLhOYUX/V610ZnO1hrm5PW2DIh5StkaLy.png?f=jpg&w=400",
+          "updatedAt": 1776837759131
+        },
+        "candidate_identifier": "42f4da9d-be3f-4427-9064-bf1087e52eb7",
+        "reasons": [
+          "rejected: image asset",
+          "rejected: image content type",
+          "rejected: metadata contains image"
+        ],
+        "score": -300,
+        "status": "rejected"
+      }
+    ],
+    "selected": "137132M:137132MPL.DWG"
+  },
+  "elapsed_seconds": 8.415892,
+  "filename_mismatch_evidence": {
+    "filename": "top_view_104512M.dxf",
+    "mismatch": true,
+    "sku": "137132M",
+    "sku_tokens_in_filename": [
+      "104512M"
+    ]
+  },
+  "files": [
+    {
+      "path": "normalized/137132M_normalized.dxf",
+      "sha256": "2789565470498203b4a5820114c84a7282a47bd4c6087cdf2b9c837c58ac1c04",
+      "size_bytes": 400606
+    },
+    {
+      "path": "normalized/137132M_regions.dxf",
+      "sha256": "2f30d8bb0e1d55f0b7a9ab39ab5ac3a0da343fd38974ce8c6d1db4e566c2cc71",
+      "size_bytes": 334471
+    },
+    {
+      "path": "reports/canonical.json",
+      "sha256": "1abee29db0c8d90f3e8c2595020fd40e118f2a97d4135a5e71d5526ad2e3f0d3",
+      "size_bytes": 266641
+    },
+    {
+      "path": "reports/classification.json",
+      "sha256": "83ccf48c0763a47c3845e7c6e82a67e6da0b920c9d4a4b0002bb1e8a7c14d043",
+      "size_bytes": 14414
+    },
+    {
+      "path": "reports/inventory.json",
+      "sha256": "fbc7c4c60d2d1c7f4b1c4f062683247a7c84468c56513565d96bc73462b7d150",
+      "size_bytes": 6277
+    },
+    {
+      "path": "reports/measurement.json",
+      "sha256": "53654d03a49b1f6b8a36809d6ff72fe5cb58dfd02746ce7e7ef0bedb8e49a346",
+      "size_bytes": 85974
+    },
+    {
+      "path": "reports/region_conversion.json",
+      "sha256": "8c133bc2a4a950169a756f4aba60d252cbca1dfe5ff76a1eeaab15c92d8ba534",
+      "size_bytes": 622
+    },
+    {
+      "path": "reports/rewrite.json",
+      "sha256": "c3cc87b8b7a5a90687bf45c9cee26aceba85417a5dbd3082492c2c7f68dbb451",
+      "size_bytes": 11697
+    },
+    {
+      "path": "reports/validation.json",
+      "sha256": "6f95d6c4a9064f8831533c58439b35a3c86f2a5324f5e4775f3bd26d858e52fb",
+      "size_bytes": 143409
+    },
+    {
+      "path": "svg/combined.svg",
+      "sha256": "8d6760a7628c95ce8d40f420b9b439744a8450bec2024ffc9281a7147bd83f96",
+      "size_bytes": 66943
+    },
+    {
+      "path": "svg/layers/001_0.svg",
+      "sha256": "9db1a3b0ab723bbf445db31fd3c1a76b0c11f2f641f52ef0ceab92da3c355319",
+      "size_bytes": 348
+    },
+    {
+      "path": "svg/layers/002_ASHADE.svg",
+      "sha256": "bcdee7575a65a0ea94bc1402700dbc832c4c81ee2e3cfed425a8a6b19e066d54",
+      "size_bytes": 353
+    },
+    {
+      "path": "svg/layers/003_Defpoints.svg",
+      "sha256": "a6a37c73470ebecb0d8747f8a92b8075fb71ca4df793d61ec0aedb6d7078ee9f",
+      "size_bytes": 356
+    },
+    {
+      "path": "svg/layers/004_DIMENSIONS.svg",
+      "sha256": "9c2102876794eb5166bdd847cbee83fa0a599efcc7c063b6e1adac2e32c3d4e8",
+      "size_bytes": 357
+    },
+    {
+      "path": "svg/layers/005_EXTERNAL.svg",
+      "sha256": "949152420950d7f8fd68dff8413cdbccacfe36991a9c699f3bffb69cc491c197",
+      "size_bytes": 355
+    },
+    {
+      "path": "svg/layers/006_FOUNDATION.svg",
+      "sha256": "c166205b9ff7378549adb1d63fd3d6f63cc81e3156c117b23a29d34c0eaf176f",
+      "size_bytes": 357
+    },
+    {
+      "path": "svg/layers/007_HATCH.svg",
+      "sha256": "7509772a87a7c9567acc14bc561f64cc55ba4c76653d1d38b553bdeef05584f4",
+      "size_bytes": 352
+    },
+    {
+      "path": "svg/layers/008_lc_ground.svg",
+      "sha256": "f4dc9f8f08f1d4074bdd9c23d6820b1cd99edf1f46f8e8ba17d434e841a2b958",
+      "size_bytes": 356
+    },
+    {
+      "path": "svg/layers/009_Lg_area.svg",
+      "sha256": "fc15ecf8588a560048dda3de2d2e95d03e2e58131ea7ea164dc2e12ac8600ceb",
+      "size_bytes": 354
+    },
+    {
+      "path": "svg/layers/010_Lg_boundary.svg",
+      "sha256": "a963186204f635006737abfbe3be13db00f33ba4dcf06f286d11584d7d28a6ed",
+      "size_bytes": 358
+    },
+    {
+      "path": "svg/layers/011_Lg_dim.svg",
+      "sha256": "8ee1af10a1a06bf80684c7e3bb44dc4ec545f8fe928f43948feff41637665445",
+      "size_bytes": 353
+    },
+    {
+      "path": "svg/layers/012_Lg_prod.svg",
+      "sha256": "7af15087bd37b5fc1921dadb7f3a401e7c1870eded025eed4185b3e2113078b0",
+      "size_bytes": 354
+    },
+    {
+      "path": "svg/layers/013_Lg_txt.svg",
+      "sha256": "39cf1739705998f8edc069690df71d7fe524f9b2bbc15fdc489a79487cded90f",
+      "size_bytes": 353
+    },
+    {
+      "path": "svg/layers/014_NON_OPERATIONAL.svg",
+      "sha256": "2e19dfb72baee3fd5ee3013866d3ac63f0132ae7761c83fac8001d23547ca227",
+      "size_bytes": 362
+    },
+    {
+      "path": "svg/layers/015_PRODUCT.svg",
+      "sha256": "18e8cc928cc86d402eff6333a62b62ab5d0611ffa28ca1d60b7bb0224cb4e66b",
+      "size_bytes": 63634
+    },
+    {
+      "path": "svg/layers/016_REFERENCE.svg",
+      "sha256": "79bb06abbd45dfd867b643d22eece8fb735cf11b288a9c18915b7895fa5bb72f",
+      "size_bytes": 356
+    },
+    {
+      "path": "svg/layers/017_REVIEW_REQUIRED.svg",
+      "sha256": "6bd74c6b6689b4bdd4fa135aa97ca579dbbe23ba0eee92f82b687b0ce14ddf25",
+      "size_bytes": 362
+    },
+    {
+      "path": "svg/layers/018_SAFETY_ZONE.svg",
+      "sha256": "88cd6a3df1885deca1acd27308839f63aeb3380e7b5f059f803e5f31bddaa931",
+      "size_bytes": 3688
+    },
+    {
+      "path": "svg/layers/019_TEXT.svg",
+      "sha256": "c7d6e326edd02d5621a5d75a55a1b2cc679a1970c323ac2387a513692f557670",
+      "size_bytes": 351
+    }
+  ],
+  "issue_counts": {
+    "cad": {
+      "ambiguous_layer_mapping": 5,
+      "contains_3d_geometry": 1,
+      "contains_external_reference": 1,
+      "contains_proxy_entity": 1,
+      "mixed_content_preserved": 32,
+      "proxy_entity_preserved": 2,
+      "svg_entity_unsupported": 9,
+      "units_unknown": 1,
+      "unsupported_3d_geometry": 5,
+      "unsupported_entity_type": 5
+    },
+    "classification": {
+      "mixed_operational_content": 1,
+      "proxy_content": 1,
+      "unknown_units": 1,
+      "vendor_alias_conflict": 1
+    },
+    "measurement": {
+      "measurement_curve_approximated": 24,
+      "measurement_gap_too_large": 48,
+      "measurement_hole_relationship_uncertain": 4,
+      "measurement_multiple_candidates": 1,
+      "measurement_open_geometry": 61,
+      "measurement_self_intersection": 1,
+      "measurement_unit_override_applied": 1,
+      "measurement_units_unknown": 1,
+      "measurement_unsupported_geometry": 11
+    },
+    "source_data": {},
+    "validation": {
+      "unverifiable_field": 7,
+      "validation_ambiguous_candidates": 2,
+      "validation_cad_risk_evidence": 36,
+      "validation_dimension_mismatch": 35,
+      "validation_missing_cad_candidate": 5,
+      "validation_top_view_not_verifiable": 6,
+      "validation_unit_override_used": 36
+    }
+  },
+  "issues": {
+    "cad": [
+      {
+        "code": "contains_3d_geometry",
+        "evidence": {},
+        "message": "DXF contains 3D geometry indicators.",
+        "severity": "warning",
+        "stage": "inventory"
+      },
+      {
+        "code": "contains_external_reference",
+        "evidence": {
+          "indicators": [
+            "AVE_RENDER:AVE_RENDER",
+            "AVE_GLOBAL:AVE_GLOBAL"
+          ]
+        },
+        "message": "DXF contains external-reference indicators.",
+        "severity": "warning",
+        "stage": "inventory"
+      },
+      {
+        "code": "contains_proxy_entity",
+        "evidence": {
+          "count": 1
+        },
+        "message": "DXF contains ACAD_PROXY_ENTITY entities.",
+        "severity": "warning",
+        "stage": "inventory"
+      },
+      {
+        "code": "units_unknown",
+        "evidence": {
+          "insunits": 0
+        },
+        "message": "DXF header $INSUNITS is not recognized: 0",
+        "severity": "warning",
+        "stage": "inventory"
+      },
+      {
+        "code": "unsupported_entity_type",
+        "evidence": {
+          "entity_counts": {
+            "3DFACE": 5,
+            "SOLID": 8
+          }
+        },
+        "message": "DXF contains entity types outside the current audit category map.",
+        "severity": "warning",
+        "stage": "inventory"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_3d_geometry",
+        "evidence": {},
+        "message": "3D entity skipped: 3DFACE.",
+        "original_dxf_type": "3DFACE",
+        "severity": "warning",
+        "source_handle": "36E",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_3d_geometry",
+        "evidence": {},
+        "message": "3D entity skipped: 3DFACE.",
+        "original_dxf_type": "3DFACE",
+        "severity": "warning",
+        "source_handle": "36F",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_3d_geometry",
+        "evidence": {},
+        "message": "3D entity skipped: 3DFACE.",
+        "original_dxf_type": "3DFACE",
+        "severity": "warning",
+        "source_handle": "370",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_3d_geometry",
+        "evidence": {},
+        "message": "3D entity skipped: 3DFACE.",
+        "original_dxf_type": "3DFACE",
+        "severity": "warning",
+        "source_handle": "371",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_3d_geometry",
+        "evidence": {},
+        "message": "3D entity skipped: 3DFACE.",
+        "original_dxf_type": "3DFACE",
+        "severity": "warning",
+        "source_handle": "372",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: DIMENSION.",
+        "original_dxf_type": "DIMENSION",
+        "severity": "warning",
+        "source_handle": "5EA5",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: DIMENSION.",
+        "original_dxf_type": "DIMENSION",
+        "severity": "warning",
+        "source_handle": "5EB4",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: DIMENSION.",
+        "original_dxf_type": "DIMENSION",
+        "severity": "warning",
+        "source_handle": "60B9",
+        "stage": "canonicalization"
+      },
+      {
+        "ancestry": [],
+        "code": "unsupported_entity_type",
+        "evidence": {},
+        "message": "Unsupported entity type reported without conversion: DIMENSION.",
+        "original_dxf_type": "DIMENSION",
+        "severity": "warning",
+        "source_handle": "60C8",
+        "stage": "canonicalization"
+      },
+      {
+        "code": "ambiguous_layer_mapping",
+        "entity_handle": "36E",
+        "evidence": {},
+        "layer_name": "lc_ground",
+        "message": "Ambiguous or review-required classification is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "ambiguous_layer_mapping",
+        "entity_handle": "36F",
+        "evidence": {},
+        "layer_name": "lc_ground",
+        "message": "Ambiguous or review-required classification is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "ambiguous_layer_mapping",
+        "entity_handle": "370",
+        "evidence": {},
+        "layer_name": "lc_ground",
+        "message": "Ambiguous or review-required classification is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "ambiguous_layer_mapping",
+        "entity_handle": "371",
+        "evidence": {},
+        "layer_name": "lc_ground",
+        "message": "Ambiguous or review-required classification is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "ambiguous_layer_mapping",
+        "entity_handle": "372",
+        "evidence": {},
+        "layer_name": "lc_ground",
+        "message": "Ambiguous or review-required classification is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EA5",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EA9",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EAA",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EAB",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EAC",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EAD",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EAE",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EAF",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EB4",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EB8",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EB9",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EBA",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EBB",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EBC",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EBD",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "5EBE",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60B9",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60BD",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60BE",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60BF",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60C0",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60C1",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60C2",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60C3",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60C8",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60CC",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60CD",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60CE",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60CF",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60D0",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60D1",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "mixed_content_preserved",
+        "entity_handle": "60D2",
+        "evidence": {},
+        "layer_name": "Lg_dim",
+        "message": "Mixed operational/non-operational content is routed by uncertainty policy.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "proxy_entity_preserved",
+        "entity_handle": "139",
+        "evidence": {},
+        "layer_name": "0",
+        "message": "Proxy content is routed for review without geometry interpretation.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "proxy_entity_preserved",
+        "entity_handle": "22",
+        "evidence": {},
+        "layer_name": "0",
+        "message": "Proxy content is routed for review without geometry interpretation.",
+        "severity": "warning",
+        "stage": "rewrite"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "3DFACE",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: 3DFACE",
+        "severity": "warning",
+        "source_handle": "36E",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "3DFACE",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: 3DFACE",
+        "severity": "warning",
+        "source_handle": "36F",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "3DFACE",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: 3DFACE",
+        "severity": "warning",
+        "source_handle": "370",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "3DFACE",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: 3DFACE",
+        "severity": "warning",
+        "source_handle": "371",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "3DFACE",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: 3DFACE",
+        "severity": "warning",
+        "source_handle": "372",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "DIMENSION",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: DIMENSION",
+        "severity": "warning",
+        "source_handle": "5EA5",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "DIMENSION",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: DIMENSION",
+        "severity": "warning",
+        "source_handle": "5EB4",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "DIMENSION",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: DIMENSION",
+        "severity": "warning",
+        "source_handle": "60B9",
+        "stage": "svg_export"
+      },
+      {
+        "code": "svg_entity_unsupported",
+        "entity_type": "DIMENSION",
+        "evidence": {},
+        "layer_name": "REVIEW_REQUIRED",
+        "message": "Unsupported entity type skipped: DIMENSION",
+        "severity": "warning",
+        "source_handle": "60C8",
+        "stage": "svg_export"
+      }
+    ],
+    "classification": [
+      {
+        "code": "mixed_operational_content",
+        "evidence": {
+          "entity_counts": {
+            "DIMENSION": 4,
+            "LINE": 16,
+            "MTEXT": 4,
+            "SOLID": 8
+          }
+        },
+        "layer_name": "Lg_dim",
+        "message": "Layer mixes operational geometry with annotation, dimension, or hatch content.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "proxy_content",
+        "evidence": {
+          "entity_counts": {
+            "ACAD_PROXY_ENTITY": 1,
+            "VIEWPORT": 1
+          }
+        },
+        "layer_name": "0",
+        "message": "Layer contains proxy content.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "unknown_units",
+        "evidence": {
+          "drawing_units": "unknown",
+          "insunits": 0
+        },
+        "layer_name": null,
+        "message": "Drawing units are missing or unknown; classification does not infer millimetres.",
+        "severity": "warning",
+        "stage": "classification"
+      },
+      {
+        "code": "vendor_alias_conflict",
+        "evidence": {
+          "entity_counts": {
+            "3DFACE": 5
+          }
+        },
+        "layer_name": "lc_ground",
+        "message": "Layer-name or vendor alias evidence conflicts with entity or geometry evidence.",
+        "severity": "warning",
+        "stage": "classification"
+      }
+    ],
+    "measurement": [
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0001",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0003",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0008",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0009",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0010",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0011",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0015",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0016",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0017",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0018",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0020",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0021",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0022",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0023",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0024",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0025",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0026",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0027",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0028",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0029",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0030",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0031",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0032",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_curve_approximated",
+        "evidence": {
+          "candidate_id": "MC0033",
+          "tolerance": 1.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Curved geometry was measured from deterministic flattened points.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_hole_relationship_uncertain",
+        "evidence": {
+          "candidate_id": "MC0008",
+          "hole_count": 3
+        },
+        "layer_name": "Lg_prod",
+        "message": "Multiple inner loops were treated as holes based on containment.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_hole_relationship_uncertain",
+        "evidence": {
+          "candidate_id": "MC0009",
+          "hole_count": 3
+        },
+        "layer_name": "Lg_prod",
+        "message": "Multiple inner loops were treated as holes based on containment.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_hole_relationship_uncertain",
+        "evidence": {
+          "candidate_id": "MC0010",
+          "hole_count": 3
+        },
+        "layer_name": "Lg_prod",
+        "message": "Multiple inner loops were treated as holes based on containment.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_hole_relationship_uncertain",
+        "evidence": {
+          "candidate_id": "MC0011",
+          "hole_count": 3
+        },
+        "layer_name": "Lg_prod",
+        "message": "Multiple inner loops were treated as holes based on containment.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_multiple_candidates",
+        "evidence": {
+          "count": 33
+        },
+        "layer_name": null,
+        "message": "Multiple plausible measurement candidates were retained.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.9
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.9
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.9
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            10.0,
+            10.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.1
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.1
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.1
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.1
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            3.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            3.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            3.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            3.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            1.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            0.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            0.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            0.5,
+            0.5,
+            1.0,
+            3.16227766,
+            3.16227766,
+            8.062257748,
+            9.055385138
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.123105626,
+            4.123105626
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            4.0
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            0.5,
+            0.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            0.5,
+            0.5
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {
+          "gaps": [
+            2.9
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Endpoint gaps within tolerance were joined for measurement evidence only.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unit_override_applied",
+        "evidence": {
+          "scale_to_mm": 1.0,
+          "unit": "mm"
+        },
+        "layer_name": null,
+        "message": "Explicit unit override was applied.",
+        "severity": "info",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 1503.0014670651524,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 703.0031365506134,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 705.6616132261572,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 25.0199920063927,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 70.00714249274765,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 70.25829334870835,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 12.5,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 12.5,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.76083876087827,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 36.513696060519536,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 58.508546384267675,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.38536596680971,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.760838760877206,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 36.513696060520445,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.37298334620573,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.760838760878684,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 36.513696060520445,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 98.14919298721405,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.17750387444079,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.17750387444077,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.17750387444118,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.760838760878684,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.760838760877206,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 70.25829334870845,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.385365966809935,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 36.5,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 70.25829334870839,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.385365966808344,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.7608387608789,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.76083876087753,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.760838760877554,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 70.25829334870839,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.38536596680983,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.760838760878116,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 68.95288246331654,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 70.25829334870839,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.38536596680971,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.760838760878194,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 68.95288246331658,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.76083876087837,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.38536596680979,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.76083876087751,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 53.76083876087794,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 40.38536596680997,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 704.5000000000002,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 669.9999999999997,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 65.0,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_gap_too_large",
+        "evidence": {
+          "gap": 45.0,
+          "max_join_gap": 10.0
+        },
+        "layer_name": "Lg_prod",
+        "message": "Line/arc chain gap exceeds configured maximum; closure was not invented.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60EB",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60EC",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60ED",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60EE",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60EF",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F0",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F1",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F2",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F3",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F4",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F5",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F6",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F7",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F8",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60F9",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60FA",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60FB",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_open_geometry",
+        "evidence": {},
+        "layer_name": "Lg_area",
+        "message": "Open polyline was not measured as a closed candidate.",
+        "severity": "warning",
+        "source_handle": "60FC",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_self_intersection",
+        "evidence": {
+          "source_handles": [
+            "5F91",
+            "5F92",
+            "5F93",
+            "5F94",
+            "5F95",
+            "5F96",
+            "5F97",
+            "5F98",
+            "5FB9",
+            "5FBA",
+            "5FBB",
+            "5FBC",
+            "5FBD",
+            "5FBE",
+            "5FBF",
+            "5FC0",
+            "5FDD",
+            "5FDE",
+            "5FDF",
+            "5FE0",
+            "5FED",
+            "5FEE",
+            "5FEF",
+            "5FF0",
+            "5FF1",
+            "5FF2",
+            "5FF3",
+            "5FF4",
+            "600F",
+            "6015"
+          ]
+        },
+        "layer_name": "Lg_prod",
+        "message": "Self-intersecting loop was retained for review but area confidence is reduced.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_units_unknown",
+        "evidence": {
+          "drawing_units": "unknown",
+          "insunits": 0
+        },
+        "layer_name": null,
+        "message": "Drawing units are unknown; raw drawing-unit measurements are preserved.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "xref_indicators": [
+            "AVE_GLOBAL:AVE_GLOBAL",
+            "AVE_RENDER:AVE_RENDER"
+          ]
+        },
+        "layer_name": null,
+        "message": "External-reference indicators are not authoritative measurement geometry.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "count": 1,
+          "entity_type": "ACAD_PROXY_ENTITY"
+        },
+        "layer_name": null,
+        "message": "Proxy, XREF, raster, or underlay content is not authoritative measurement geometry.",
+        "severity": "warning",
+        "source_handle": null,
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "DIMENSION"
+        },
+        "layer_name": "Lg_dim",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5EA5",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "DIMENSION"
+        },
+        "layer_name": "Lg_dim",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "5EB4",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "DIMENSION"
+        },
+        "layer_name": "Lg_dim",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "60B9",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "DIMENSION"
+        },
+        "layer_name": "Lg_dim",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "60C8",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "3DFACE"
+        },
+        "layer_name": "lc_ground",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "36E",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "3DFACE"
+        },
+        "layer_name": "lc_ground",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "36F",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "3DFACE"
+        },
+        "layer_name": "lc_ground",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "370",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "3DFACE"
+        },
+        "layer_name": "lc_ground",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "371",
+        "stage": "measurement"
+      },
+      {
+        "code": "measurement_unsupported_geometry",
+        "evidence": {
+          "original_dxf_type": "3DFACE"
+        },
+        "layer_name": "lc_ground",
+        "message": "Unsupported entity is not measured as authoritative geometry.",
+        "severity": "warning",
+        "source_handle": "372",
+        "stage": "measurement"
+      }
+    ],
+    "source_data": [],
+    "validation": [
+      {
+        "candidate_id": "MC0001",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0002",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0003",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0004",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0005",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0006",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0007",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0008",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0008",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0008",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0009",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0010",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0011",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0012",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0013",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0014",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0015",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0016",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0017",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0018",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0019",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0020",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0021",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0022",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0023",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0024",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0025",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0026",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0027",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0028",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0029",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0030",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0031",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0032",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0033",
+        "code": "validation_dimension_mismatch",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD dimensions differ from JSON beyond configured tolerance.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_missing_cad_candidate",
+        "evidence": {},
+        "field_path": "safety.falling_space_area_m2",
+        "message": "No CAD safety-zone area candidate was available.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_missing_cad_candidate",
+        "evidence": {},
+        "field_path": "safety.impact_area_m2",
+        "message": "No CAD safety-zone area candidate was available.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_missing_cad_candidate",
+        "evidence": {},
+        "field_path": "safety.safety_zone.length_mm",
+        "message": "No CAD safety zone candidate was available.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_missing_cad_candidate",
+        "evidence": {},
+        "field_path": "safety.safety_zone.width_mm",
+        "message": "No CAD safety zone candidate was available.",
+        "severity": "fail",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_missing_cad_candidate",
+        "evidence": {},
+        "field_path": "cad.top_view.product_inside_safety",
+        "message": "Product-inside-safety containment needs product and safety CAD candidates.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {
+          "json_value_present": true
+        },
+        "field_path": "safety.cfh_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {
+          "json_value_present": true
+        },
+        "field_path": "safety.free_fall_height_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {},
+        "field_path": "technical.age_range",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {
+          "json_value_present": true
+        },
+        "field_path": "technical.dimensions.height_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {},
+        "field_path": "technical.materials",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_top_view_not_verifiable",
+        "evidence": {},
+        "field_path": "technical.weight",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0008",
+        "code": "validation_ambiguous_candidates",
+        "evidence": {},
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Multiple CAD candidates have equivalent validation rank.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0008",
+        "code": "validation_ambiguous_candidates",
+        "evidence": {},
+        "field_path": "technical.dimensions.width_mm",
+        "message": "Multiple CAD candidates have equivalent validation rank.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": null,
+        "message": "CAD measurement includes evidence that prevents forced pass decisions.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0001",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0002",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0003",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0004",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0005",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0006",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0007",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0008",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0008",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0008",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0009",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0010",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0011",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0012",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0013",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0014",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0015",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0016",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0017",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0018",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0019",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0020",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0021",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0022",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0023",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0024",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0025",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0026",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0027",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0028",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0029",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0030",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0031",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0032",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0033",
+        "code": "validation_cad_risk_evidence",
+        "evidence": {
+          "measurement_issue_codes": [
+            "measurement_unsupported_geometry"
+          ]
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "Measurement result contains CAD risk evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": null,
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": null,
+        "message": "CAD unit override was applied and recorded as evidence.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0001",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0002",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0003",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0004",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0005",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0006",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0007",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0008",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0008",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0008",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0009",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0010",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0011",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0012",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0013",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0014",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0015",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0016",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0017",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0018",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0019",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0020",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0021",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0022",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0023",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0024",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0025",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0026",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0027",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0028",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0029",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0030",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0031",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0032",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "candidate_id": "MC0033",
+        "code": "validation_unit_override_used",
+        "evidence": {
+          "source": "explicit_override",
+          "unit": "mm"
+        },
+        "field_path": "technical.dimensions.length_mm",
+        "message": "CAD units came from an explicit override.",
+        "severity": "warning",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "cad.top_view.product_inside_safety",
+        "message": "Product-inside-safety containment needs product and safety CAD candidates.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "safety.cfh_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "safety.free_fall_height_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.age_range",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.dimensions.height_mm",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.materials",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      },
+      {
+        "code": "unverifiable_field",
+        "field_path": "technical.weight",
+        "message": "Field is not verifiable from top-view CAD.",
+        "severity": "not_verifiable",
+        "stage": "validation"
+      }
+    ]
+  },
+  "occurrence_id": "137132M_505ed10941",
+  "overall_status": "fail",
+  "selected_source": {
+    "cad_path": "tests\\output\\cad_variation_audit\\converted_dxfs\\Example1\\104512M\\top_view_104512M.dxf",
+    "json_candidate": {
+      "asset_name": "TOP VIEW 137132M",
+      "content_type": "image/dwg",
+      "description": "TOP VIEW 137132M",
+      "document_information": "2dModel",
+      "file_name": "137132M:137132MPL.DWG",
+      "file_type": "dwg",
+      "local_path": null,
+      "media_id": "8341f099-ed96-4293-9576-7eed7068539e",
+      "purpose": null,
+      "url": "https://media.bluestonepim.com/b88ad392-18e6-47b6-aa20-d2ceb5d930ba/8341f099-ed96-4293-9576-7eed7068539e/oxbGlur6ccJ9RNixKRWvpyLBX/7iinxX5VofJFHrCxfZcWfluF0.DWG",
+      "vendor_asset_classification": "2dModel",
+      "vendor_revision": "4.1",
+      "vendor_updated_at": "2016-10-25 06:00"
+    }
+  },
+  "sku": "137132M",
+  "source_checksums": {
+    "cad_sha256": "3de99ad4b3a111d1b794a5cc6476501c4dabed66ff63c4e0ce9cab1fcf466678",
+    "json_sha256": "98479224f6b034bfc2eb4d22b8a866efa2abf2d77528f15bf90a6e4a655ca65b"
+  },
+  "source_checksums_unchanged": true,
+  "source_paths": {
+    "cad": "tests\\output\\cad_variation_audit\\converted_dxfs\\Example1\\104512M\\top_view_104512M.dxf",
+    "json": "tests\\fixtures\\137132M_raw.json"
+  },
+  "stage": "12",
+  "stage_statuses": {
+    "canonicalization": "pass_with_warnings",
+    "classification": "pass_with_warnings",
+    "input_conversion": "pass",
+    "inventory": "pass_with_warnings",
+    "measurement": "pass_with_warnings",
+    "region_conversion": "pass",
+    "rewrite": "pass_with_warnings",
+    "svg_export": "pass_with_warnings",
+    "validation": "fail"
+  },
+  "timings_seconds": {
+    "canonicalization": 0.065944,
+    "classification": 0.002949,
+    "input_conversion": 1.5e-05,
+    "inventory": 0.144444,
+    "measurement": 7.54885,
+    "region_conversion": 0.152154,
+    "rewrite": 0.341055,
+    "svg_export": 0.120728,
+    "validation": 0.001555
+  }
+}

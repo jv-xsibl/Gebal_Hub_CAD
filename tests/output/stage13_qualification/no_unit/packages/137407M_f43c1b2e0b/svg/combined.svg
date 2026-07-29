@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 4732 8912.003666" fill="none" stroke-linecap="round" stroke-linejoin="round" style="background:transparent" data-source-layer="combined">
+
+
+<g vector-effect="non-scaling-stroke" stroke-width="1.5" transform="translate(2366 5746.003666) scale(1 -1)">
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-813.5" y1="-1650" x2="-850" y2="-1650" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-850" y1="-1650" x2="-850" y2="-1613.5" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M -849 -1609.627017 A 8 8 0 0 1 -850 -1613.5" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M -850 -1591.5 A 8 8 0 0 1 -849 -1595.372983" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-850" y1="-1591.5" x2="-850" y2="-1555" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-850" y1="-1555" x2="-813.5" y2="-1555" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M -809.627017 -1556 A 8 8 0 0 1 -813.5 -1555" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M -791.5 -1555 A 8 8 0 0 1 -795.372983 -1556" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-791.5" y1="-1555" x2="-755" y2="-1555" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-755" y1="-1555" x2="-755" y2="-1591.5" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M -756 -1595.372983 A 8 8 0 0 1 -755 -1591.5" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M -755 -1613.5 A 8 8 0 0 1 -756 -1609.627017" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-755" y1="-1613.5" x2="-755" y2="-1650" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-755" y1="-1650" x2="-791.5" y2="-1650" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M -795.372983 -1649 A 8 8 0 0 1 -791.5 -1650" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M -813.5 -1650 A 8 8 0 0 1 -809.627017 -1649" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="786.5" y1="-1650" x2="750" y2="-1650" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="750" y1="-1650" x2="750" y2="-1613.5" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M 751 -1609.627017 A 8 8 0 0 1 750 -1613.5" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M 750 -1591.5 A 8 8 0 0 1 751 -1595.372983" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="750" y1="-1591.5" x2="750" y2="-1555" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="750" y1="-1555" x2="786.5" y2="-1555" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M 790.372983 -1556 A 8 8 0 0 1 786.5 -1555" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M 808.5 -1555 A 8 8 0 0 1 804.627017 -1556" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="808.5" y1="-1555" x2="845" y2="-1555" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="845" y1="-1555" x2="845" y2="-1591.5" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M 844 -1595.372983 A 8 8 0 0 1 845 -1591.5" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M 845 -1613.5 A 8 8 0 0 1 844 -1609.627017" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="845" y1="-1613.5" x2="845" y2="-1650" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="845" y1="-1650" x2="808.5" y2="-1650" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M 804.627017 -1649 A 8 8 0 0 1 808.5 -1650" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M 786.5 -1650 A 8 8 0 0 1 790.372983 -1649" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-755" y1="-1613.5" x2="-755" y2="-1591.5" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="749" y1="-1580" x2="747.5" y2="-1580" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-752.5" y1="-1580" x2="-755" y2="-1580" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="749" y1="-1625" x2="749" y2="-1617" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="749" y1="-1588" x2="749" y2="-1617" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="749" y1="-1588" x2="749" y2="-1580" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-755" y1="-1625" x2="-752.5" y2="-1625" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="747.5" y1="-1625" x2="749" y2="-1625" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M -849 -1641 A 8 8 0 0 1 -841 -1649" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M -764 -1649 A 8 8 0 0 1 -756 -1641" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M -756 -1564 A 8 8 0 0 1 -764 -1556" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M -841 -1556 A 8 8 0 0 1 -849 -1564" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-764" y1="-1649" x2="-841" y2="-1649" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-849" y1="-1641" x2="-849" y2="-1564" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-841" y1="-1556" x2="-764" y2="-1556" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-756" y1="-1564" x2="-756" y2="-1641" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M 751 -1641 A 8 8 0 0 1 759 -1649" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M 836 -1649 A 8 8 0 0 1 844 -1641" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M 844 -1564 A 8 8 0 0 1 836 -1556" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="ARC"><path d="M 759 -1556 A 8 8 0 0 1 751 -1564" fill="none" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="836" y1="-1649" x2="759" y2="-1649" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="751" y1="-1641" x2="751" y2="-1564" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="759" y1="-1556" x2="836" y2="-1556" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="844" y1="-1564" x2="844" y2="-1641" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-752.5" y1="-1649" x2="747.5" y2="-1649" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-752.5" y1="-1556" x2="-752.5" y2="-1649" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="747.5" y1="-1556" x2="-752.5" y2="-1556" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="747.5" y1="-1649" x2="747.5" y2="-1556" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="947.5" y1="622.033036" x2="-952.5" y2="622.033036" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-952.5" y1="1467.756395" x2="-952.5" y2="622.033036" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="947.5" y1="1467.756395" x2="-952.5" y2="1467.756395" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-952.5" y1="1472.886697" x2="-952.5" y2="1467.756395" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="947.5" y1="1472.886697" x2="-952.5" y2="1472.886697" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="947.5" y1="1467.756395" x2="947.5" y2="622.033036" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="947.5" y1="1472.886697" x2="947.5" y2="1467.756395" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="947.5" y1="1670.104076" x2="-952.5" y2="1670.104076" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="947.5" y1="1670.104076" x2="947.5" y2="1472.886697" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-952.5" y1="1670.104076" x2="-952.5" y2="1472.886697" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="820" y1="-1555" x2="820" y2="-1552.5" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="775" y1="-1552.5" x2="775" y2="-1555" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="808.5" y1="-1555" x2="786.5" y2="-1555" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-780" y1="-1555" x2="-780" y2="-1552.5" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-825" y1="-1552.5" x2="-825" y2="-1555" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-791.5" y1="-1555" x2="-813.5" y2="-1555" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="844" y1="-1552.5" x2="844" y2="622.033036" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="751" y1="622.033036" x2="751" y2="-1552.5" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="751" y1="-1552.5" x2="844" y2="-1552.5" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-756" y1="-1552.5" x2="-756" y2="622.033036" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-849" y1="622.033036" x2="-849" y2="-1552.5" stroke="#00ff00" /></g>
+<g data-layer="PRODUCT" data-entity-type="LINE"><line x1="-849" y1="-1552.5" x2="-756" y2="-1552.5" stroke="#00ff00" /></g>
+<g data-layer="REFERENCE" data-entity-type="LWPOLYLINE"><path d="M -2350 3145 L 2350 3145 L 2350 -3145 L -2350 -3145 L -2350 3145 Z" fill="none" stroke="#c0c0c0" data-closed="true" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-794.832185" y="5245.153152" fill="#ff7f00" font-family="sans-serif" font-size="185">EN Impact Area 0.0 m2</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-791.857676" y="5560.027741" fill="#ff7f00" font-family="sans-serif" font-size="175">LAPPSET</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="440.774116" y="5557.698409" fill="#ff7f00" font-family="sans-serif" font-size="60">®</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-795.997591" y="4922.441468" fill="#ff7f00" font-family="sans-serif" font-size="185">EN Falling space 27.6 m2 </text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M -926.63062 5338.805669 L -1488.950349 5338.805669" fill="none" stroke="#ff7f00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M -926.63062 5013.65034 L -1488.950349 5013.65034" fill="none" stroke="#ff7f00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="CIRCLE"><circle cx="1981.780711" cy="5639.397062" r="50.170049" fill="none" stroke="#000000" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M 1894.280711 5601.897062 L 1894.280711 5676.897062 A 50 50 0 0 0 1944.280711 5726.897062 L 2019.280711 5726.897062 A 50 50 0 0 0 2069.280711 5676.897062 L 2069.280711 5601.897062 A 50 50 0 0 0 2019.280711 5551.897062 L 1944.280711 5551.897062 A 50 50 0 0 0 1894.280711 5601.897062 Z" fill="none" stroke="#7ca500" data-closed="true" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="MTEXT"><text x="2124.751876" y="5730.003666" fill="#7ca500" font-family="sans-serif" font-size="2.5">LIME GREEN</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="CIRCLE"><circle cx="1981.780711" cy="5639.397062" r="50.170049" fill="none" stroke="#7f5f3f" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M 1894.280711 5601.897062 L 1894.280711 5676.897062 A 50 50 0 0 0 1944.280711 5726.897062 L 2019.280711 5726.897062 A 50 50 0 0 0 2069.280711 5676.897062 L 2069.280711 5601.897062 A 50 50 0 0 0 2019.280711 5551.897062 L 1944.280711 5551.897062 A 50 50 0 0 0 1894.280711 5601.897062 Z" fill="none" stroke="#a50000" data-closed="true" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="MTEXT"><text x="2124.751876" y="5730.003666" fill="#a50000" font-family="sans-serif" font-size="2.5">APPLE RED</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="CIRCLE"><circle cx="1981.780711" cy="5639.397062" r="50.170049" fill="none" stroke="#7f5f3f" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="MTEXT"><text x="2124.751876" y="5730.003666" fill="#007ca5" font-family="sans-serif" font-size="2.5">TUTTIFRUTTI</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="CIRCLE"><circle cx="1981.780711" cy="5639.397062" r="50.170049" fill="none" stroke="#666666" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M 1894.280711 5601.897062 L 1894.280711 5676.897062 A 50 50 0 0 0 1944.280711 5726.897062 L 2019.280711 5726.897062 A 50 50 0 0 0 2069.280711 5676.897062 L 2069.280711 5601.897062 A 50 50 0 0 0 2019.280711 5551.897062 L 1944.280711 5551.897062 A 50 50 0 0 0 1894.280711 5601.897062 Z" fill="none" stroke="#999999" data-closed="true" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="MTEXT"><text x="2124.751876" y="5730.003666" fill="#999999" font-family="sans-serif" font-size="2.5">LIQUORICE GREY</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="CIRCLE"><circle cx="1981.780711" cy="5639.397062" r="50.170049" fill="none" stroke="#000000" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M 1894.280711 5601.897062 L 1894.280711 5676.897062 A 50 50 0 0 0 1944.280711 5726.897062 L 2019.280711 5726.897062 A 50 50 0 0 0 2069.280711 5676.897062 L 2069.280711 5601.897062 A 50 50 0 0 0 2019.280711 5551.897062 L 1944.280711 5551.897062 A 50 50 0 0 0 1894.280711 5601.897062 Z" fill="none" stroke="#4c004c" data-closed="true" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="MTEXT"><text x="2124.751876" y="5730.003666" fill="#4c004c" font-family="sans-serif" font-size="2.5">CANDY FUCHSIA</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M 1894.280711 5639.397062 L 2069.280711 5639.397062 L 2069.280711 5676.897062 A 50 50 0 0 1 2019.280711 5726.897062 L 1944.280711 5726.897062 A 50 50 0 0 1 1894.280711 5676.897062 L 1894.280711 5639.397062 Z" fill="none" stroke="#007ca5" data-closed="true" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M 1894.280711 5639.397062 L 1894.280711 5601.897062 A 50 50 0 0 1 1944.280711 5551.897062 L 1981.780711 5551.897062 L 1981.780711 5639.397062 L 1894.280711 5639.397062 Z" fill="none" stroke="#ffbf00" data-closed="true" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M 2069.280711 5639.397062 L 2069.280711 5601.897062 A 50 50 0 0 0 2019.280711 5551.897062 L 1981.780711 5551.897062 L 1981.780711 5639.397062 L 2069.280711 5639.397062 Z" fill="none" stroke="#4c004c" data-closed="true" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="POLYLINE"><path d="M -2350 -132.600672 L -2350 -1650 A 1500 1500 0 0 1 -850 -3150 L 845.475 -3150 A 1500 1500 0 0 1 2345.475 -1650 L 2345.475 -132.600672 L 2345.475 1645 A 1500 1500 0 0 1 845.475 3145 L -850 3145 A 1500 1500 0 0 1 -2350 1645 L -2350 -132.600672 Z" fill="none" stroke="#ff0000" data-closed="true" /></g>
+</g>
+</svg>

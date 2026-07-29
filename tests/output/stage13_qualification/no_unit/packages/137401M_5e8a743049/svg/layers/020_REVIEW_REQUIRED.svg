@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3618.500306 841.664611" fill="none" stroke-linecap="round" stroke-linejoin="round" style="background:transparent" data-source-layer="REVIEW_REQUIRED">
+
+
+<g vector-effect="non-scaling-stroke" stroke-width="1.5" transform="translate(1816.870976 5643.923815) scale(1 -1)">
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-1106.752811" y="5140.970889" fill="#ff7f00" font-family="sans-serif" font-size="185">EN Impact Area 28.8 m2</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-1103.778303" y="5455.845478" fill="#ff7f00" font-family="sans-serif" font-size="175">LAPPSET</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="128.85349" y="5453.516146" fill="#ff7f00" font-family="sans-serif" font-size="60">®</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-1107.918217" y="4818.259204" fill="#67a552" font-family="sans-serif" font-size="185">EN Falling space 28.8 m2 </text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M -1238.551246 5234.623405 L -1800.870976 5234.623405" fill="none" stroke="#ff7f00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M -1238.551246 4909.468076 L -1800.870976 4909.468076" fill="none" stroke="#67a552" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="CIRCLE"><circle cx="1642.658165" cy="5537.317212" r="50.170049" fill="none" stroke="#000000" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M 1555.158165 5499.817212 L 1555.158165 5574.817212 A 50 50 0 0 0 1605.158165 5624.817212 L 1680.158165 5624.817212 A 50 50 0 0 0 1730.158165 5574.817212 L 1730.158165 5499.817212 A 50 50 0 0 0 1680.158165 5449.817212 L 1605.158165 5449.817212 A 50 50 0 0 0 1555.158165 5499.817212 Z" fill="none" stroke="#7ca500" data-closed="true" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="MTEXT"><text x="1785.629331" y="5627.923815" fill="#7ca500" font-family="sans-serif" font-size="2.5">LIME GREEN</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="CIRCLE"><circle cx="1642.658165" cy="5537.317212" r="50.170049" fill="none" stroke="#7f5f3f" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M 1555.158165 5499.817212 L 1555.158165 5574.817212 A 50 50 0 0 0 1605.158165 5624.817212 L 1680.158165 5624.817212 A 50 50 0 0 0 1730.158165 5574.817212 L 1730.158165 5499.817212 A 50 50 0 0 0 1680.158165 5449.817212 L 1605.158165 5449.817212 A 50 50 0 0 0 1555.158165 5499.817212 Z" fill="none" stroke="#a50000" data-closed="true" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="MTEXT"><text x="1785.629331" y="5627.923815" fill="#a50000" font-family="sans-serif" font-size="2.5">APPLE RED</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="CIRCLE"><circle cx="1642.658165" cy="5537.317212" r="50.170049" fill="none" stroke="#7f5f3f" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="MTEXT"><text x="1785.629331" y="5627.923815" fill="#007ca5" font-family="sans-serif" font-size="2.5">TUTTIFRUTTI</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="CIRCLE"><circle cx="1642.658165" cy="5537.317212" r="50.170049" fill="none" stroke="#666666" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M 1555.158165 5499.817212 L 1555.158165 5574.817212 A 50 50 0 0 0 1605.158165 5624.817212 L 1680.158165 5624.817212 A 50 50 0 0 0 1730.158165 5574.817212 L 1730.158165 5499.817212 A 50 50 0 0 0 1680.158165 5449.817212 L 1605.158165 5449.817212 A 50 50 0 0 0 1555.158165 5499.817212 Z" fill="none" stroke="#999999" data-closed="true" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="MTEXT"><text x="1785.629331" y="5627.923815" fill="#999999" font-family="sans-serif" font-size="2.5">LIQUORICE GREY</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="CIRCLE"><circle cx="1642.658165" cy="5537.317212" r="50.170049" fill="none" stroke="#000000" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M 1555.158165 5499.817212 L 1555.158165 5574.817212 A 50 50 0 0 0 1605.158165 5624.817212 L 1680.158165 5624.817212 A 50 50 0 0 0 1730.158165 5574.817212 L 1730.158165 5499.817212 A 50 50 0 0 0 1680.158165 5449.817212 L 1605.158165 5449.817212 A 50 50 0 0 0 1555.158165 5499.817212 Z" fill="none" stroke="#4c004c" data-closed="true" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="MTEXT"><text x="1785.629331" y="5627.923815" fill="#4c004c" font-family="sans-serif" font-size="2.5">CANDY FUCHSIA</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M 1555.158165 5537.317212 L 1730.158165 5537.317212 L 1730.158165 5574.817212 A 50 50 0 0 1 1680.158165 5624.817212 L 1605.158165 5624.817212 A 50 50 0 0 1 1555.158165 5574.817212 L 1555.158165 5537.317212 Z" fill="none" stroke="#007ca5" data-closed="true" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M 1555.158165 5537.317212 L 1555.158165 5499.817212 A 50 50 0 0 1 1605.158165 5449.817212 L 1642.658165 5449.817212 L 1642.658165 5537.317212 L 1555.158165 5537.317212 Z" fill="none" stroke="#ffbf00" data-closed="true" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M 1730.158165 5537.317212 L 1730.158165 5499.817212 A 50 50 0 0 0 1680.158165 5449.817212 L 1642.658165 5449.817212 L 1642.658165 5537.317212 L 1730.158165 5537.317212 Z" fill="none" stroke="#4c004c" data-closed="true" /></g>
+</g>
+</svg>

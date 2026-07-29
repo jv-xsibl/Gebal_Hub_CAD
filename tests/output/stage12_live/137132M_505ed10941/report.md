@@ -1,0 +1,408 @@
+# CAD Normalization Package
+
+- Occurrence: `137132M_505ed10941`
+- SKU: `137132M`
+- Overall status: `fail`
+- Source JSON: `tests\fixtures\137132M_raw.json`
+- Source CAD: `tests\output\cad_variation_audit\converted_dxfs\Example1\104512M\top_view_104512M.dxf`
+- Source checksums unchanged: `True`
+- Filename/SKU mismatch: `True`
+
+## Stages
+- `canonicalization`: `pass_with_warnings` (0.065944s)
+- `classification`: `pass_with_warnings` (0.002949s)
+- `input_conversion`: `pass` (1.5e-05s)
+- `inventory`: `pass_with_warnings` (0.144444s)
+- `measurement`: `pass_with_warnings` (7.54885s)
+- `region_conversion`: `pass` (0.152154s)
+- `rewrite`: `pass_with_warnings` (0.341055s)
+- `svg_export`: `pass_with_warnings` (0.120728s)
+- `validation`: `fail` (0.001555s)
+
+## Artifacts
+- `canonical_json`: `reports/canonical.json`
+- `classification_json`: `reports/classification.json`
+- `combined_svg`: `svg/combined.svg`
+- `inventory_json`: `reports/inventory.json`
+- `measurement_json`: `reports/measurement.json`
+- `normalized_dxf`: `normalized/137132M_normalized.dxf`
+- `region_conversion_json`: `reports/region_conversion.json`
+- `rewrite_json`: `reports/rewrite.json`
+- `svg_manifest`: `svg/manifest.json`
+- `validation_json`: `reports/validation.json`
+
+## Issues
+### Source Data
+- None
+### Cad
+- `warning` `contains_3d_geometry`: DXF contains 3D geometry indicators.
+- `warning` `contains_external_reference`: DXF contains external-reference indicators.
+- `warning` `contains_proxy_entity`: DXF contains ACAD_PROXY_ENTITY entities.
+- `warning` `units_unknown`: DXF header $INSUNITS is not recognized: 0
+- `warning` `unsupported_entity_type`: DXF contains entity types outside the current audit category map.
+- `warning` `unsupported_3d_geometry`: 3D entity skipped: 3DFACE.
+- `warning` `unsupported_3d_geometry`: 3D entity skipped: 3DFACE.
+- `warning` `unsupported_3d_geometry`: 3D entity skipped: 3DFACE.
+- `warning` `unsupported_3d_geometry`: 3D entity skipped: 3DFACE.
+- `warning` `unsupported_3d_geometry`: 3D entity skipped: 3DFACE.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: DIMENSION.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: DIMENSION.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: DIMENSION.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: DIMENSION.
+- `warning` `ambiguous_layer_mapping`: Ambiguous or review-required classification is routed by uncertainty policy.
+- `warning` `ambiguous_layer_mapping`: Ambiguous or review-required classification is routed by uncertainty policy.
+- `warning` `ambiguous_layer_mapping`: Ambiguous or review-required classification is routed by uncertainty policy.
+- `warning` `ambiguous_layer_mapping`: Ambiguous or review-required classification is routed by uncertainty policy.
+- `warning` `ambiguous_layer_mapping`: Ambiguous or review-required classification is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: 3DFACE
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: 3DFACE
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: 3DFACE
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: 3DFACE
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: 3DFACE
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: DIMENSION
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: DIMENSION
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: DIMENSION
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: DIMENSION
+### Classification
+- `warning` `mixed_operational_content`: Layer mixes operational geometry with annotation, dimension, or hatch content.
+- `warning` `proxy_content`: Layer contains proxy content.
+- `warning` `unknown_units`: Drawing units are missing or unknown; classification does not infer millimetres.
+- `warning` `vendor_alias_conflict`: Layer-name or vendor alias evidence conflicts with entity or geometry evidence.
+### Measurement
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_hole_relationship_uncertain`: Multiple inner loops were treated as holes based on containment.
+- `info` `measurement_hole_relationship_uncertain`: Multiple inner loops were treated as holes based on containment.
+- `info` `measurement_hole_relationship_uncertain`: Multiple inner loops were treated as holes based on containment.
+- `info` `measurement_hole_relationship_uncertain`: Multiple inner loops were treated as holes based on containment.
+- `info` `measurement_multiple_candidates`: Multiple plausible measurement candidates were retained.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_unit_override_applied`: Explicit unit override was applied.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_self_intersection`: Self-intersecting loop was retained for review but area confidence is reduced.
+- `warning` `measurement_units_unknown`: Drawing units are unknown; raw drawing-unit measurements are preserved.
+- `warning` `measurement_unsupported_geometry`: External-reference indicators are not authoritative measurement geometry.
+- `warning` `measurement_unsupported_geometry`: Proxy, XREF, raster, or underlay content is not authoritative measurement geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+### Validation
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_missing_cad_candidate`: No CAD safety-zone area candidate was available.
+- `fail` `validation_missing_cad_candidate`: No CAD safety-zone area candidate was available.
+- `fail` `validation_missing_cad_candidate`: No CAD safety zone candidate was available.
+- `fail` `validation_missing_cad_candidate`: No CAD safety zone candidate was available.
+- `not_verifiable` `validation_missing_cad_candidate`: Product-inside-safety containment needs product and safety CAD candidates.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `warning` `validation_ambiguous_candidates`: Multiple CAD candidates have equivalent validation rank.
+- `warning` `validation_ambiguous_candidates`: Multiple CAD candidates have equivalent validation rank.
+- `warning` `validation_cad_risk_evidence`: CAD measurement includes evidence that prevents forced pass decisions.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_cad_risk_evidence`: Measurement result contains CAD risk evidence.
+- `warning` `validation_unit_override_used`: CAD unit override was applied and recorded as evidence.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `not_verifiable` `unverifiable_field`: Product-inside-safety containment needs product and safety CAD candidates.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+
+## Candidate Evidence
+### CAD Selection
+- Selected: `137132M:137132MPL.DWG`
+- Alternative: `137132M:137132M_LimeGreen_NEW_001.png`
+- Alternative: `137132M:137132m_lime_green_holland_9.jpg`
+- Alternative: `137132M_product-card_20260413_231809.pdf`
+- Alternative: `137132M:MERGED_170075.pdf`
+- Alternative: `137132M:137132M.DWG`
+- Alternative: `137132M:Finno.eng.pdf`
+- Alternative: `137132M:137132M_Unpainted_NEW_001.png`
+- Alternative: `137132M:137132MSI-Model.png`
+- Alternative: `137132M:137132M_CandyFuchsia_NEW_001.png`
+- Alternative: `137132M:137132M_LiquoriceGrey_NEW_001.png`
+- Alternative: `137132M:137132M_SWITCHIT_steel.jpg`
+- Alternative: `137132M:137132MPL-Model.png`
+- Alternative: `137132M:137132MSI.DWG`
+- Alternative: `137132M:137132M_TuttiFrutti_UPDATE_001.png`
+- Alternative: `137132M:137132M_AppleRed_NEW_001.png`
+
+## Explicit Review Notes
+- Unknown or missing CAD units are listed under CAD, measurement, and validation issues when present.
+- Height, free-fall height, and other non-top-view fields are reported as unverifiable by Stage 11 when present.

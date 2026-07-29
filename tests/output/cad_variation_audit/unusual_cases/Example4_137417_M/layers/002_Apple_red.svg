@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 262.471165 210.106603" fill="none" stroke-linecap="round" stroke-linejoin="round" style="background:transparent" data-source-layer="Apple red">
+
+
+<g vector-effect="non-scaling-stroke" stroke-width="1.5" transform="translate(-1354.339288 5437.165161) scale(1 -1)">
+<g data-layer="Apple red" data-entity-type="CIRCLE"><circle cx="1457.839288" cy="5330.558558" r="50.170049" fill="none" stroke="#7f5f3f" /></g>
+<g data-layer="Apple red" data-entity-type="POLYLINE"><path d="M 1370.339288 5293.058558 L 1370.339288 5368.058558 A 50 50 0 0 0 1420.339288 5418.058558 L 1495.339288 5418.058558 A 50 50 0 0 0 1545.339288 5368.058558 L 1545.339288 5293.058558 A 50 50 0 0 0 1495.339288 5243.058558 L 1420.339288 5243.058558 A 50 50 0 0 0 1370.339288 5293.058558 Z" fill="none" stroke="#a50000" data-closed="true" /></g>
+<g data-layer="Apple red" data-entity-type="MTEXT"><text x="1600.810453" y="5421.165161" fill="#a50000" font-family="sans-serif" font-size="2.5">APPLE RED</text></g>
+</g>
+</svg>

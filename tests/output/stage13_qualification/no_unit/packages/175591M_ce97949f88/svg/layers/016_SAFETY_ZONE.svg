@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 6087.032151 3687.172226" fill="none" stroke-linecap="round" stroke-linejoin="round" style="background:transparent" data-source-layer="SAFETY_ZONE">
+
+
+<g vector-effect="non-scaling-stroke" stroke-width="1.5" transform="translate(2905.858497 1766.24429) scale(1 -1)">
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="-2416.401953" y1="814.698824" x2="-2450.227427" y2="780.87335" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -2450.227427 780.87335 A 1501 1501 0 0 1 -2450.227427 -1341.861208" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="-2450.227427" y1="-1341.861208" x2="-2419.821836" y2="-1372.266799" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -2419.821836 -1372.266799 A 1501 1501 0 0 1 -1052.987842 -1780.488268" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -1052.987842 -1780.488268 A 1501 1501 0 0 1 -1038.910308 -1780.554284" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="-1038.910308" y1="-1780.554284" x2="668.764983" y2="-1780.554284" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 668.764983 -1780.554284 A 1501 1501 0 0 1 1267.013173 -1904.927936" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="1267.013173" y1="-1904.927936" x2="1310.013173" y2="-1904.927936" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 1310.013173 -1904.927936 A 1501 1501 0 0 1 2789.821886 -655.258738" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 2789.821886 -655.258738 A 1501 1501 0 0 1 2631.032146 1280.304085" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="2631.032146" y1="1280.304085" x2="2600.626554" y2="1310.709676" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 2600.626554 1310.709676 A 1501 1501 0 0 1 1235.82628 1719.352404" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 1235.82628 1719.352404 A 1501 1501 0 0 1 1219.089692 1719.445716" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="1219.089692" y1="1719.445716" x2="-1038.910308" y2="1719.445716" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -1038.910308 1719.445716 A 1501 1501 0 0 1 -2416.401953 814.698824" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 2531.87085 -1275.744899 A 1501 1501 0 0 1 3165.173654 -50.958151" fill="none" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="3165.173654" y1="-50.958151" x2="3165.173654" y2="-7.958151" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 3165.173654 -7.958151 A 1501 1501 0 0 1 2997.872336 680.699111" fill="none" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 2997.872336 680.699111 A 1501 1501 0 0 1 2631.032146 1280.304085" fill="none" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="2631.032146" y1="1280.304085" x2="2600.626554" y2="1310.709676" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 2600.626554 1310.709676 A 1501 1501 0 0 1 1235.82628 1719.352404" fill="none" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 1235.82628 1719.352404 A 1501 1501 0 0 1 1219.089692 1719.445716" fill="none" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="1219.089692" y1="1719.445716" x2="-1038.910308" y2="1719.445716" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -1038.910308 1719.445716 A 1501 1501 0 0 1 -1055.059895 1719.358835" fill="none" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -1055.059895 1719.358835 A 1501 1501 0 0 1 -2419.821836 1310.708195" fill="none" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="-2419.821836" y1="1310.708195" x2="-2450.227427" y2="1280.302604" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -2450.227427 1280.302604 A 1501 1501 0 0 1 -2868.942445 -30.779302" fill="none" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -2868.942445 -30.779302 A 1501 1501 0 0 1 -2450.227427 -1341.861208" fill="none" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="-2450.227427" y1="-1341.861208" x2="-2419.821836" y2="-1372.266799" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -2419.821836 -1372.266799 A 1501 1501 0 0 1 -1052.987842 -1780.488268" fill="none" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -1052.987842 -1780.488268 A 1501 1501 0 0 1 -1038.910308 -1780.554284" fill="none" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="-1038.910308" y1="-1780.554284" x2="668.764983" y2="-1780.554284" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 668.764983 -1780.554284 A 1501 1501 0 0 1 1267.013173 -1904.927936" fill="none" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="1267.013173" y1="-1904.927936" x2="1310.013173" y2="-1904.927936" stroke="#67a552" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 1310.013173 -1904.927936 A 1501 1501 0 0 1 2531.87085 -1275.744899" fill="none" stroke="#67a552" /></g>
+</g>
+</svg>

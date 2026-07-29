@@ -1,0 +1,417 @@
+# CAD Normalization Package
+
+- Occurrence: `F24706M_a8366586bc`
+- SKU: `F24706M`
+- Overall status: `fail`
+- Source JSON: `tests\fixtures\F24706M.json`
+- Source CAD: `tests\output\cad_variation_audit\converted_dxfs\Example1\F24706M\F24706M_Top_View.dxf`
+- Source checksums unchanged: `True`
+- Filename/SKU mismatch: `False`
+
+## Stages
+- `canonicalization`: `pass` (0.116323s)
+- `classification`: `pass_with_warnings` (0.001872s)
+- `input_conversion`: `pass` (2.9e-05s)
+- `inventory`: `pass_with_warnings` (0.086637s)
+- `measurement`: `pass_with_warnings` (0.084971s)
+- `region_conversion`: `pass` (0.178206s)
+- `rewrite`: `pass_with_warnings` (0.315409s)
+- `svg_export`: `pass` (0.160485s)
+- `validation`: `fail` (0.000459s)
+
+## Artifacts
+- `canonical_json`: `reports/canonical.json`
+- `classification_json`: `reports/classification.json`
+- `combined_svg`: `svg/combined.svg`
+- `inventory_json`: `reports/inventory.json`
+- `measurement_json`: `reports/measurement.json`
+- `normalized_dxf`: `normalized/F24706M_normalized.dxf`
+- `region_conversion_json`: `reports/region_conversion.json`
+- `rewrite_json`: `reports/rewrite.json`
+- `svg_manifest`: `svg/manifest.json`
+- `validation_json`: `reports/validation.json`
+
+## Issues
+### Source Data
+- `fail` `invalid_safety_data`: Dimension must be greater than zero.
+- `fail` `invalid_safety_data`: Dimension must be greater than zero.
+### Cad
+- `warning` `units_unknown`: DXF header $INSUNITS is not recognized: 0
+- `warning` `ambiguous_layer_mapping`: Ambiguous or review-required classification is routed by uncertainty policy.
+### Classification
+- `warning` `insufficient_evidence`: No deterministic rule produced enough evidence for classification.
+- `warning` `unknown_units`: Drawing units are missing or unknown; classification does not infer millimetres.
+### Measurement
+- `info` `measurement_multiple_candidates`: Multiple plausible measurement candidates were retained.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_unit_override_applied`: Explicit unit override was applied.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_units_unknown`: Drawing units are unknown; raw drawing-unit measurements are preserved.
+### Validation
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `fail` `validation_dimension_mismatch`: CAD dimensions differ from JSON beyond configured tolerance.
+- `not_verifiable` `validation_missing_cad_candidate`: Product-inside-safety containment needs product and safety CAD candidates.
+- `not_verifiable` `validation_missing_json_value`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `validation_missing_json_value`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `validation_missing_json_value`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `validation_missing_json_value`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `warning` `validation_unit_override_used`: CAD unit override was applied and recorded as evidence.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `warning` `validation_unit_override_used`: CAD units came from an explicit override.
+- `not_verifiable` `unverifiable_field`: Product-inside-safety containment needs product and safety CAD candidates.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `unverifiable_field`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `unverifiable_field`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+
+## Candidate Evidence
+### CAD Selection
+- Selected: `F24706M_top_view.dwg`
+
+## Explicit Review Notes
+- Unknown or missing CAD units are listed under CAD, measurement, and validation issues when present.
+- Height, free-fall height, and other non-top-view fields are reported as unverifiable by Stage 11 when present.

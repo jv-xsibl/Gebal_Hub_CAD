@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 6222.374598 5126.443634" fill="none" stroke-linecap="round" stroke-linejoin="round" style="background:transparent" data-source-layer="REVIEW_REQUIRED">
+
+
+<g vector-effect="non-scaling-stroke" stroke-width="1.5" transform="translate(2796.417793 4419.487717) scale(1 -1)">
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-1628.216737" y="4142.07238" fill="#ff7f00" font-family="sans-serif" font-size="185">EN/AS Impact Area 26.3 m2 </text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-1346.014517" y="4403.487717" fill="#ff7f00" font-family="sans-serif" font-size="175">LAPPSET</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-113.382725" y="4401.158385" fill="#ff7f00" font-family="sans-serif" font-size="60">®</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-1628.216737" y="3894.887112" fill="#ff7f00" font-family="sans-serif" font-size="185">Falling Space Area 28.3 m2</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M -1925.960005 3961.380407 L -2780.417793 3961.380407" fill="none" stroke="#ff7f00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="1909.956805" y1="3102.789237" x2="1425.918423" y2="3102.789237" stroke="#ff7f00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 3409.956805 1602.789237 A 1500 1500 0 0 1 1909.956805 3102.789237" fill="none" stroke="#ff7f00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="3409.956805" y1="802.789237" x2="3409.956805" y2="1602.789237" stroke="#ff7f00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 2422.533756 -606.914587 A 1500 1500 0 0 1 3409.956805 802.789237" fill="none" stroke="#ff7f00" /></g>
+</g>
+</svg>

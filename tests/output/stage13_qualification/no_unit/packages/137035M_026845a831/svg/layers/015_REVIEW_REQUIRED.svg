@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 5529 5670.084751" fill="none" stroke-linecap="round" stroke-linejoin="round" style="background:transparent" data-source-layer="REVIEW_REQUIRED">
+
+
+<g vector-effect="non-scaling-stroke" stroke-width="1.5" transform="translate(2764.5 3705.584751) scale(1 -1)">
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-900.813839" y="3374.710162" fill="#ff7f00" font-family="sans-serif" font-size="185">EN/AS Impact Area 0.0 m2</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-897.83933" y="3689.584751" fill="#ff7f00" font-family="sans-serif" font-size="175">LAPPSET</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="334.792462" y="3687.255419" fill="#ff7f00" font-family="sans-serif" font-size="60">®</text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="TEXT"><text x="-901.979245" y="3051.998478" fill="#ff7f00" font-family="sans-serif" font-size="185">EN Falling space 19.5 m2 </text></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M -1032.612274 3468.362679 L -1594.932003 3468.362679" fill="none" stroke="#ff7f00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="POLYLINE"><path d="M -1032.612274 3143.20735 L -1594.932003 3143.20735" fill="none" stroke="#ff7f00" data-closed="false" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 2748.5 447.5 A 1501 1501 0 0 1 1247.5 1948.5" fill="none" stroke="#ff7f00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="2748.5" y1="-447.5" x2="2748.5" y2="447.5" stroke="#ff7f00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M 1247.5 -1948.5 A 1501 1501 0 0 1 2748.5 -447.5" fill="none" stroke="#ff7f00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-1247.5" y1="-1948.5" x2="1247.5" y2="-1948.5" stroke="#ff7f00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M -2748.5 -447.5 A 1501 1501 0 0 1 -1247.5 -1948.5" fill="none" stroke="#ff7f00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="-2748.5" y1="447.5" x2="-2748.5" y2="-447.5" stroke="#ff7f00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="ARC"><path d="M -1247.5 1948.5 A 1501 1501 0 0 1 -2748.5 447.5" fill="none" stroke="#ff7f00" /></g>
+<g data-layer="REVIEW_REQUIRED" data-entity-type="LINE"><line x1="1247.5" y1="1948.5" x2="-1247.5" y2="1948.5" stroke="#ff7f00" /></g>
+</g>
+</svg>

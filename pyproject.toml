@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gebal-cad-normalizer"
+version = "0.1.0"
+description = "Standalone CAD normalization and validation module for Gebal vendor top-view DWG assets."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Gebal" }
+]
+dependencies = [
+  "ezdxf>=1.4",
+  "httpx>=0.27",
+  "pydantic>=2",
+  "PySide6>=6.7",
+  "pytest>=8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+

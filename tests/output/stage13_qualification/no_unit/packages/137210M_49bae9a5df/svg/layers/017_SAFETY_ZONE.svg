@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 5392 3632" fill="none" stroke-linecap="round" stroke-linejoin="round" style="background:transparent" data-source-layer="SAFETY_ZONE">
+
+
+<g vector-effect="non-scaling-stroke" stroke-width="1.5" transform="translate(2696.999887 1816) scale(1 -1)">
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="-810.999887" y1="200" x2="-1150.999887" y2="200" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="1149.000113" y1="200" x2="809.000113" y2="200" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="-2680.999887" y1="200" x2="-2680.999887" y2="-200" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="2679.000113" y1="-200" x2="2679.000113" y2="200" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="-1180.999887" y1="-1800" x2="1179.000113" y2="-1800" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 1179.000113 -1800 A 1500 1500 0 0 1 2679.000113 -300" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="2679.000113" y1="-300" x2="2679.000113" y2="300" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M 2679.000113 300 A 1500 1500 0 0 1 1179.000113 1800" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="1179.000113" y1="1800" x2="-1180.999887" y2="1800" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -1180.999887 1800 A 1500 1500 0 0 1 -2680.999887 300" fill="none" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="LINE"><line x1="-2680.999887" y1="300" x2="-2680.999887" y2="-300" stroke="#ff0000" /></g>
+<g data-layer="SAFETY_ZONE" data-entity-type="ARC"><path d="M -2680.999887 -300 A 1500 1500 0 0 1 -1180.999887 -1800" fill="none" stroke="#ff0000" /></g>
+</g>
+</svg>

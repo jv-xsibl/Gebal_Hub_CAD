@@ -1,0 +1,1763 @@
+# CAD Normalization Package
+
+- Occurrence: `200230_69f8f19aa3`
+- SKU: `200230`
+- Overall status: `fail`
+- Source JSON: `C:\Users\jvsin\Documents\DrafterMath Archive\CAD_Examples\Test_Examples\Example5\200230\200230.json`
+- Source CAD: `C:\Users\jvsin\Documents\DrafterMath Archive\CAD_Examples\Test_Examples\Example5\200230\top_view.dwg`
+- Source checksums unchanged: `True`
+- Filename/SKU mismatch: `False`
+
+## Stages
+- `canonicalization`: `pass_with_warnings` (1.547278s)
+- `classification`: `pass_with_warnings` (0.005627s)
+- `dwg_export`: `pass` (1.068277s)
+- `input_conversion`: `pass` (1.078565s)
+- `inventory`: `pass_with_warnings` (0.501262s)
+- `measurement`: `fail` (5.725814s)
+- `region_conversion`: `pass` (1.199742s)
+- `rewrite`: `pass_with_warnings` (1.392627s)
+- `svg_export`: `pass_with_warnings` (1.178209s)
+- `validation`: `fail` (0.000348s)
+
+## Artifacts
+- `canonical_json`: `reports/canonical.json`
+- `classification_json`: `reports/classification.json`
+- `combined_svg`: `svg/combined.svg`
+- `inventory_json`: `reports/inventory.json`
+- `measurement_json`: `reports/measurement.json`
+- `normalized_dwg`: `normalized/200230_normalized.dwg`
+- `normalized_dxf`: `normalized/200230_normalized.dxf`
+- `region_conversion_json`: `reports/region_conversion.json`
+- `rewrite_json`: `reports/rewrite.json`
+- `svg_manifest`: `svg/manifest.json`
+- `validation_json`: `reports/validation.json`
+
+## Issues
+### Source Data
+- `fail` `missing_top_view_cad`: Top-view CAD asset is missing.
+- `fail` `missing_sku`: Bluestone payload has no first product in results.
+### Cad
+- `warning` `contains_proxy_entity`: DXF contains ACAD_PROXY_ENTITY entities.
+- `warning` `units_unknown`: DXF header $INSUNITS is not recognized: 0
+- `warning` `unsupported_entity_type`: DXF contains entity types outside the current audit category map.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: TEXT.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: TEXT.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: TEXT.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: ATTDEF.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: DIMENSION.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: DIMENSION.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: TEXT.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: DIMENSION.
+- `warning` `unsupported_entity_type`: Unsupported entity type reported without conversion: DIMENSION.
+- `warning` `ambiguous_layer_mapping`: Ambiguous or review-required classification is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `mixed_content_preserved`: Mixed operational/non-operational content is routed by uncertainty policy.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `warning` `proxy_entity_preserved`: Proxy content is routed for review without geometry interpretation.
+- `info` `svg_text_fallback`: Text rendered with generic SVG text fallback.
+- `info` `svg_text_fallback`: Text rendered with generic SVG text fallback.
+- `info` `svg_text_fallback`: Text rendered with generic SVG text fallback.
+- `info` `svg_text_fallback`: Text rendered with generic SVG text fallback.
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: DIMENSION
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: DIMENSION
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: DIMENSION
+- `warning` `svg_entity_unsupported`: Unsupported entity type skipped: DIMENSION
+### Classification
+- `warning` `insufficient_evidence`: Classification confidence is below assignment threshold.
+- `warning` `mixed_operational_content`: Layer mixes operational geometry with annotation, dimension, or hatch content.
+- `warning` `mixed_operational_content`: Layer mixes operational geometry with annotation, dimension, or hatch content.
+- `warning` `proxy_content`: Layer contains proxy content.
+- `warning` `unknown_units`: Drawing units are missing or unknown; classification does not infer millimetres.
+### Measurement
+- `fail` `measurement_failed`: Self-intersection processing exceeded the configured comparison cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `fail` `measurement_failed`: Self-intersection processing exceeded the configured comparison cap.
+- `fail` `measurement_failed`: Curve tessellation exceeded the configured point cap.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_curve_approximated`: Curved geometry was measured from deterministic flattened points.
+- `info` `measurement_hole_relationship_uncertain`: Multiple inner loops were treated as holes based on containment.
+- `info` `measurement_multiple_candidates`: Multiple plausible measurement candidates were retained.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `info` `measurement_open_geometry`: Endpoint gaps within tolerance were joined for measurement evidence only.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_gap_too_large`: Line/arc chain gap exceeds configured maximum; closure was not invented.
+- `warning` `measurement_low_confidence`: Measurement candidate is below the configured confidence threshold.
+- `warning` `measurement_low_confidence`: Measurement candidate is below the configured confidence threshold.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_open_geometry`: Open polyline was not measured as a closed candidate.
+- `warning` `measurement_units_unknown`: Drawing units are unknown; raw drawing-unit measurements are preserved.
+- `warning` `measurement_unsupported_geometry`: Proxy, XREF, raster, or underlay content is not authoritative measurement geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+- `warning` `measurement_unsupported_geometry`: Unsupported entity is not measured as authoritative geometry.
+### Validation
+- `fail` `validation_missing_cad_candidate`: No CAD safety zone candidate was available.
+- `fail` `validation_missing_cad_candidate`: No CAD safety zone candidate was available.
+- `fail` `validation_missing_cad_candidate`: No CAD product footprint candidate was available.
+- `fail` `validation_missing_cad_candidate`: No CAD product footprint candidate was available.
+- `not_verifiable` `validation_missing_cad_candidate`: Product-inside-safety containment needs product and safety CAD candidates.
+- `not_verifiable` `validation_missing_json_value`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `validation_missing_json_value`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_top_view_not_verifiable`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `validation_units_unknown`: CAD units are not authoritative for JSON comparison.
+- `warning` `validation_cad_risk_evidence`: CAD measurement includes evidence that prevents forced pass decisions.
+- `not_verifiable` `unverifiable_field`: Product-inside-safety containment needs product and safety CAD candidates.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: JSON value is missing; CAD comparison was not attempted.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+- `not_verifiable` `unverifiable_field`: Field is not verifiable from top-view CAD.
+
+## Candidate Evidence
+### CAD Selection
+- Selected: `C:\Users\jvsin\Documents\DrafterMath Archive\CAD_Examples\Test_Examples\Example5\200230\top_view.dwg`
+
+## Explicit Review Notes
+- Unknown or missing CAD units are listed under CAD, measurement, and validation issues when present.
+- Height, free-fall height, and other non-top-view fields are reported as unverifiable by Stage 11 when present.
