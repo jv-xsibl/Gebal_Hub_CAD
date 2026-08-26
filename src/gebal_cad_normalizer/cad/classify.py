@@ -203,10 +203,30 @@ BLUESTONE_PLAYGROUND_LAYER_PROFILE = VendorLayerProfile(
         VendorLayerAlias(alias="lc_ground", role="foundation_or_installation", reason="bluestone_playground alias lc_ground indicates foundation or installation"),
         VendorLayerAlias(alias="Defpoints", role="non_operational", reason="bluestone_playground alias Defpoints indicates non-operational CAD layer"),
         VendorLayerAlias(alias="ASHADE", role="hatch_or_fill", reason="bluestone_playground alias ASHADE indicates hatch/fill candidate"),
+        VendorLayerAlias(alias="LC_FALLINGSPACE", role="safety_zone", reason="bluestone_playground alias LC_FALLINGSPACE indicates safety zone"),
+        VendorLayerAlias(alias="LC_FOUNDATION", role="foundation_or_installation", reason="bluestone_playground alias LC_FOUNDATION indicates foundation or installation"),
+        VendorLayerAlias(alias="lc_ensafetyregion", role="safety_zone", reason="bluestone_playground alias lc_ensafetyregion indicates safety zone"),
+        VendorLayerAlias(alias="LCPROD_FALLINGSPACETEXT", role="text_annotation", reason="bluestone_playground alias LCPROD_FALLINGSPACETEXT indicates text annotation"),
+        VendorLayerAlias(alias="Lg_base", role="product_geometry", weight=0.5, reason="bluestone_playground alias Lg_base likely indicates product geometry; semantics unconfirmed, flagged for review"),
+        VendorLayerAlias(alias="Lg_space", role="safety_zone", weight=0.5, reason="bluestone_playground alias Lg_space likely indicates safety zone; semantics unconfirmed, flagged for review"),
     ),
 )
 
-BUILT_IN_VENDOR_LAYER_PROFILES = {BLUESTONE_PLAYGROUND_LAYER_PROFILE.name: BLUESTONE_PLAYGROUND_LAYER_PROFILE}
+VINCI_DEFAULT_LAYER_PROFILE = VendorLayerProfile(
+    name="vinci_default",
+    aliases=(
+        VendorLayerAlias(alias="VP-DIM", role="dimensions", reason="vinci_default alias VP-DIM indicates dimensions"),
+        VendorLayerAlias(alias="VP-EQ", role="product_geometry", reason="vinci_default alias VP-EQ indicates product geometry"),
+        VendorLayerAlias(alias="VP-HIC", role="safety_zone", reason="vinci_default alias VP-HIC indicates safety zone"),
+        VendorLayerAlias(alias="VP-SIDE", role="ambiguous", weight=0.5, reason="vinci_default alias VP-SIDE has unconfirmed semantics; do not auto-classify"),
+        VendorLayerAlias(alias="VP-USE", role="ambiguous", weight=0.5, reason="vinci_default alias VP-USE has unconfirmed semantics; do not auto-classify"),
+    ),
+)
+
+BUILT_IN_VENDOR_LAYER_PROFILES = {
+    BLUESTONE_PLAYGROUND_LAYER_PROFILE.name: BLUESTONE_PLAYGROUND_LAYER_PROFILE,
+    VINCI_DEFAULT_LAYER_PROFILE.name: VINCI_DEFAULT_LAYER_PROFILE,
+}
 
 
 def classify_layers(

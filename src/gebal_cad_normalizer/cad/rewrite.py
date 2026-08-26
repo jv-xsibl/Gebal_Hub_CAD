@@ -13,6 +13,7 @@ from typing import Any, Literal
 import ezdxf
 from ezdxf import bbox
 from ezdxf.entities import DXFEntity
+from ezdxf.tools.standards import linetypes as standard_linetypes
 from pydantic import Field
 
 from gebal_cad_normalizer.cad.classify import ClassificationResult, LayerClassification
@@ -104,6 +105,38 @@ class LayerRewriteConfig(StrictModel):
     preserve_original_layer_xdata: bool = True
     extents_tolerance: float = Field(default=1e-6, gt=0.0)
     allow_overwrite_input: bool = False
+    create_unused_target_layers: bool = False
+    purge_emptied_source_layers: bool = True
+    # Also drop layers that were already empty on input. A layer that never held
+    # an entity carries no information and is pure clutter in the output.
+    purge_all_empty_layers: bool = False
+    # Roles for which an unsupported entity type is still routed to its target
+    # layer. A vendor-confirmed safety region drawn as a 3DSOLID cannot be
+    # measured, but its meaning is known and sending it to review loses the
+    # only boundary in the drawing. The warning is still recorded either way.
+    unsupported_type_review_exempt_roles: tuple[str, ...] = ()
+    # Drop LAYER_INDEX cache objects that still name pre-rewrite layers. They
+    # are a regeneratable demand-load cache, but AutoCAD recreates any layer
+    # they name, which undoes the purge.
+    purge_stale_layer_index: bool = False
+    # Pin individual entities to a target layer by handle. Needed when one
+    # entity on a layer must go somewhere other than its layer's role sends it -
+    # e.g. an INSERT placing the product block that the vendor drew on the
+    # dimension layer. Empty dict keeps pure layer/type routing.
+    entity_handle_layer_overrides: dict[str, str] = {}
+    # Route specific DXF entity types to a fixed target layer regardless of the
+    # role assigned to their source layer. Empty dict keeps role-only routing.
+    entity_type_layer_overrides: dict[str, str] = {}
+    # Entities on layer "0" inside a block definition inherit the INSERT's layer
+    # at render time. Moving them off "0" hard-codes them and breaks that idiom.
+    preserve_block_internal_layer_zero: bool = False
+    # Source layers whose entities are left exactly where they are. Intended for
+    # special layers such as Defpoints, which is non-plotting infrastructure for
+    # dimension definition points and is recreated automatically on save.
+    preserve_source_layers: tuple[str, ...] = ()
+    # "layer": any proxy evidence sends every entity on that layer to review.
+    # "entity": only the proxy entities themselves are routed for review.
+    proxy_routing_scope: Literal["layer", "entity"] = "layer"
 
 
 class LayerRewriteMapping(StrictModel):
@@ -187,7 +220,6 @@ def rewrite_layers(
     before_totals = _entity_totals(doc)
     before_extents = _modelspace_extents(doc)
     classification_by_layer = {layer.original_layer_name: layer for layer in classification.layers}
-    _ensure_target_layers(doc, cfg)
     if cfg.preserve_original_layer_xdata and REWRITE_XDATA_APPID not in doc.appids:
         doc.appids.add(REWRITE_XDATA_APPID)
 
@@ -196,11 +228,23 @@ def rewrite_layers(
     review_by_source: Counter[str] = Counter()
     issues: list[LayerRewriteIssue] = []
 
-    for entity in _all_rewrite_entities(doc):
+    # Decide every entity's destination before creating any target layer, so
+    # that only layers which actually receive geometry are added to the LAYER
+    # table. Creating all eleven target layers unconditionally left real
+    # drawings cluttered with empty layers that carry no information.
+    populated_before = {layer for layer in (_entity_layer(entity) for entity in _all_rewrite_entities(doc))}
+    decisions: list[tuple[DXFEntity, str, LayerRewriteAction, str]] = []
+    for entity, in_block in _rewrite_entities_with_scope(doc):
         original_layer = _entity_layer(entity)
         layer_classification = classification_by_layer.get(original_layer)
-        action, target_layer, reason, decision_issues = _mapping_decision(original_layer, layer_classification, entity, cfg)
+        action, target_layer, reason, decision_issues = _mapping_decision(original_layer, layer_classification, entity, cfg, in_block)
         issues.extend(decision_issues)
+        decisions.append((entity, original_layer, action, target_layer))
+
+    used_targets = {target for _entity, _original, action, target in decisions if action != "preserve"}
+    _ensure_target_layers(doc, cfg, used_targets if not cfg.create_unused_target_layers else None)
+
+    for entity, original_layer, action, target_layer in decisions:
         if action == "preserve":
             unchanged_by_source[original_layer] += 1
             continue
@@ -214,6 +258,13 @@ def rewrite_layers(
                 review_by_source[original_layer] -= 1
             else:
                 moved_by_source[original_layer] -= 1
+
+    if cfg.purge_emptied_source_layers:
+        _purge_emptied_layers(cfg, doc, populated_before, issues)
+    if cfg.purge_stale_layer_index:
+        _purge_stale_layer_index(doc, issues)
+    _repair_sub_entity_layers(doc, issues)
+    _repair_current_layer(doc, issues)
 
     mappings = _build_mappings(classification.layers, cfg, moved_by_source, unchanged_by_source, review_by_source)
     _write_validated_copy(doc, source, destination, before_totals, before_extents, before_sha, cfg, issues)
@@ -290,7 +341,19 @@ def _mapping_decision(
     classification: LayerClassification | None,
     entity: DXFEntity,
     config: LayerRewriteConfig,
+    in_block_definition: bool = False,
 ) -> tuple[LayerRewriteAction, str, str, list[LayerRewriteIssue]]:
+    if config.entity_handle_layer_overrides:
+        pinned = config.entity_handle_layer_overrides.get(str(_handle(entity)))
+        if pinned:
+            return "move", pinned, "entity pinned to target layer by handle", []
+    if original_layer.casefold() in {name.casefold() for name in config.preserve_source_layers}:
+        return "preserve", original_layer, "source layer preserved by configuration", []
+    if config.preserve_block_internal_layer_zero and in_block_definition and original_layer == "0":
+        return "preserve", original_layer, "block-internal layer 0 retained for INSERT layer inheritance", []
+    override_target = config.entity_type_layer_overrides.get(_entity_type(entity))
+    if override_target:
+        return "move", override_target, "entity type routed by explicit override", []
     if classification is None:
         target = config.target_layers["review_required"]
         return "review_required", target, "missing Stage 8 classification", [
@@ -302,15 +365,26 @@ def _mapping_decision(
     entity_type = _entity_type(entity)
     codes = {issue.code for issue in classification.issues}
 
-    if entity_type == "ACAD_PROXY_ENTITY" or classification.evidence.has_proxy:
+    if entity_type == "ACAD_PROXY_ENTITY" or (classification.evidence.has_proxy and config.proxy_routing_scope == "layer"):
         issues.append(_issue(LayerRewriteIssueCode.PROXY_ENTITY_PRESERVED, "warning", "Proxy content is routed for review without geometry interpretation.", original_layer, entity))
         return _uncertain_action(config), config.target_layers["review_required"], "proxy content requires review", issues
     if classification.evidence.has_external_reference:
         issues.append(_issue(LayerRewriteIssueCode.EXTERNAL_REFERENCE_PRESERVED, "warning", "External reference evidence is preserved.", original_layer, entity))
         return "move", config.target_layers.get("external_or_proxy", "EXTERNAL"), "external reference layer preserved as external", issues
     if entity_type in _UNSUPPORTED_OR_REVIEW_TYPES:
-        issues.append(_issue(LayerRewriteIssueCode.UNSUPPORTED_ENTITY_PRESERVED, "warning", "Unsupported or review-required entity is routed for review.", original_layer, entity, {"dxf_type": entity_type}))
-        return _uncertain_action(config), config.target_layers["review_required"], "unsupported entity requires review", issues
+        exempt = classification.assigned_role in config.unsupported_type_review_exempt_roles
+        issues.append(
+            _issue(
+                LayerRewriteIssueCode.UNSUPPORTED_ENTITY_PRESERVED,
+                "warning",
+                "Unsupported entity kept on its role's target layer." if exempt else "Unsupported or review-required entity is routed for review.",
+                original_layer,
+                entity,
+                {"dxf_type": entity_type},
+            )
+        )
+        if not exempt:
+            return _uncertain_action(config), config.target_layers["review_required"], "unsupported entity requires review", issues
     if "mixed_operational_content" in codes:
         issues.append(_issue(LayerRewriteIssueCode.MIXED_CONTENT_PRESERVED, "warning", "Mixed operational/non-operational content is routed by uncertainty policy.", original_layer, entity))
         return _uncertain_action(config), config.target_layers["review_required"], "mixed content requires review", issues
@@ -325,6 +399,153 @@ def _mapping_decision(
 
 def _uncertain_action(config: LayerRewriteConfig) -> LayerRewriteAction:
     return "preserve" if config.uncertain_layer_action == "preserve" else "review_required"
+
+
+def _repair_current_layer(doc: ezdxf.document.Drawing, issues: list[LayerRewriteIssue]) -> bool:
+    """Point $CLAYER at a layer that exists.
+
+    The header's current-layer variable survives the rewrite naming a purged
+    source layer. AutoCAD recreates whatever layer it names when the file is
+    opened, so a stale $CLAYER resurrects a vendor layer on its own.
+    """
+
+    try:
+        current = str(doc.header.get("$CLAYER", "0"))
+    except Exception:
+        return False
+    if current in {str(layer.dxf.name) for layer in doc.layers}:
+        return False
+    try:
+        doc.header["$CLAYER"] = "0"
+    except Exception:
+        return False
+    issues.append(
+        _global_issue(
+            LayerRewriteIssueCode.AMBIGUOUS_LAYER_MAPPING,
+            "warning",
+            f"Reset $CLAYER from removed layer {current!r} to '0'.",
+            {"previous_current_layer": current},
+        )
+    )
+    return True
+
+
+def _purge_stale_layer_index(doc: ezdxf.document.Drawing, issues: list[LayerRewriteIssue]) -> int:
+    """Remove LAYER_INDEX objects that still name layers no longer in the table.
+
+    LAYER_INDEX is a demand-loading cache for xrefs, regenerated by AutoCAD when
+    it is wanted. A stale one keeps the pre-rewrite layer names alive in the
+    file, and AutoCAD recreates every layer it names on open - so the purged
+    vendor layers reappear and the rewrite looks like it never happened.
+    """
+
+    existing = {str(layer.dxf.name).casefold() for layer in doc.layers}
+    removed = 0
+    for obj in list(doc.objects):
+        if obj.dxftype() != "LAYER_INDEX":
+            continue
+        tags = getattr(obj, "xtags", None)
+        if tags is None:
+            continue
+        names = [str(tag.value) for subclass in tags.subclasses for tag in subclass if tag.code == 8]
+        if all(name.casefold() in existing for name in names):
+            continue
+        owner = doc.entitydb.get(obj.dxf.owner)
+        if owner is not None and owner.dxftype() == "DICTIONARY":
+            for key, value in list(owner.items()):
+                if getattr(value, "dxf", None) is not None and value.dxf.handle == obj.dxf.handle:
+                    owner.discard(key)
+        try:
+            doc.objects.delete_entity(obj)
+        except Exception:
+            continue
+        removed += 1
+    if removed:
+        issues.append(
+            _global_issue(
+                LayerRewriteIssueCode.AMBIGUOUS_LAYER_MAPPING,
+                "warning",
+                f"Removed {removed} stale LAYER_INDEX cache object(s) naming purged layers.",
+                {"removed_count": removed},
+            )
+        )
+    return removed
+
+
+def _repair_sub_entity_layers(doc: ezdxf.document.Drawing, issues: list[LayerRewriteIssue]) -> int:
+    """Point any sub-entity at a layer that still exists.
+
+    Catches sub-entities whose owner was preserved rather than moved, and any
+    the move path could not reach. Runs after purging, so the layer table is
+    final. A sub-entity referencing a purged layer would otherwise make AutoCAD
+    recreate that layer on open.
+    """
+
+    existing = {str(layer.dxf.name) for layer in doc.layers}
+    repaired = 0
+    for entity in _all_rewrite_entities(doc):
+        owner_layer = _entity_layer(entity)
+        for sub in _sub_entities(entity):
+            try:
+                if str(sub.dxf.layer) not in existing:
+                    sub.dxf.layer = owner_layer
+                    repaired += 1
+            except Exception:
+                continue
+    # The BLOCK and ENDBLK records that bracket a block definition carry their
+    # own layer attribute and are not yielded by block iteration either.
+    for block in doc.blocks:
+        for record in (getattr(block, "block", None), getattr(block, "endblk", None)):
+            if record is None:
+                continue
+            try:
+                if str(record.dxf.layer) not in existing:
+                    record.dxf.layer = "0"
+                    repaired += 1
+            except Exception:
+                continue
+    if repaired:
+        issues.append(
+            _global_issue(
+                LayerRewriteIssueCode.AMBIGUOUS_LAYER_MAPPING,
+                "warning",
+                f"Repaired {repaired} sub-entity layer reference(s) left pointing at a removed layer.",
+                {"repaired_count": repaired},
+            )
+        )
+    return repaired
+
+
+def _sub_entities(entity: DXFEntity) -> list[DXFEntity]:
+    """Owned sub-entities that carry their own layer attribute.
+
+    A POLYLINE owns its VERTEX list and a SEQEND; an INSERT owns its ATTRIB list
+    and a SEQEND. Layout and block iteration yields only the owner, so these are
+    never visited by the rewrite loop and keep their original layer. Once the
+    source layer is purged from the table that becomes a dangling reference, and
+    AutoCAD silently recreates the old layer on open.
+    """
+
+    subs: list[DXFEntity] = []
+    for attribute in ("vertices", "attribs"):
+        owned = getattr(entity, attribute, None)
+        if owned:
+            try:
+                subs.extend(list(owned))
+            except Exception:
+                continue
+    seqend = getattr(entity, "seqend", None)
+    if seqend is not None:
+        subs.append(seqend)
+    return subs
+
+
+def _move_sub_entities(entity: DXFEntity, target_layer: str) -> None:
+    for sub in _sub_entities(entity):
+        try:
+            sub.dxf.layer = target_layer
+        except Exception:
+            continue
 
 
 def _move_entity(entity: DXFEntity, target_layer: str, original_layer: str, config: LayerRewriteConfig, issues: list[LayerRewriteIssue]) -> bool:
@@ -344,6 +565,7 @@ def _move_entity(entity: DXFEntity, target_layer: str, original_layer: str, conf
                 ],
             )
         entity.dxf.layer = target_layer
+        _move_sub_entities(entity, target_layer)
         return True
     except Exception as exc:
         issues.append(
@@ -436,9 +658,124 @@ def _write_validated_copy(
         raise OutputWriteError(f"Failed to write Stage 9 normalized DXF: {destination}") from exc
 
 
-def _ensure_target_layers(doc: ezdxf.document.Drawing, config: LayerRewriteConfig) -> None:
+def _ensure_target_linetypes(doc: ezdxf.document.Drawing, config: LayerRewriteConfig) -> dict[str, str]:
+    """Define any linetype a target layer references but the document lacks.
+
+    A layer whose linetype is absent from the LTYPE table is a dangling
+    reference: ezdxf writes it without complaint and its auditor does not flag
+    it, but AutoCAD-family readers reject the whole file as invalid. The
+    default target styles use DASHED and CENTER, which real vendor drawings
+    frequently do not define (they commonly ship only CONTINUOUS plus their own
+    custom linetypes), so the definition is added here from ezdxf's standard
+    pattern table.
+
+    Returns the substitutions to apply to layer styles: any linetype with no
+    known standard pattern cannot be defined and is downgraded to CONTINUOUS
+    rather than written as a dangling reference. The mapping is returned rather
+    than written back into the config because target_layer_styles may be the
+    shared module-level default dict.
+    """
+
+    required = {
+        str(style["linetype"])
+        for style in config.target_layer_styles.values()
+        if style.get("linetype")
+    }
+    missing = {name for name in required if name not in doc.linetypes}
+    if not missing:
+        return {}
+    patterns = {name: (description, pattern) for name, description, pattern in standard_linetypes()}
+    substitutions: dict[str, str] = {}
+    for name in sorted(missing):
+        definition = patterns.get(name) or patterns.get(name.upper())
+        if definition is None:
+            substitutions[name] = "CONTINUOUS"
+            continue
+        description, pattern = definition
+        doc.linetypes.add(name, pattern=pattern, description=description)
+    return substitutions
+
+
+def _referenced_layer_names(doc: ezdxf.document.Drawing) -> set[str]:
+    """Layer names referenced by something other than an entity's own layer attribute.
+
+    A LAYER table entry can be pointed at by viewport frozen-layer lists and by
+    layer-index/id-buffer objects. Removing an entry that is still referenced
+    would leave exactly the kind of dangling reference that makes AutoCAD
+    reject a file, so these names are never purged.
+    """
+
+    referenced: set[str] = set()
+    handle_to_name = {layer.dxf.handle: layer.dxf.name for layer in doc.layers}
+    for layout in doc.layouts:
+        for viewport in layout.query("VIEWPORT"):
+            try:
+                referenced.update(str(name) for name in viewport.frozen_layers)
+            except Exception:
+                continue
+    for obj in doc.objects:
+        for attribute in ("handles", "layers"):
+            values = getattr(obj, attribute, None)
+            if not values:
+                continue
+            try:
+                for value in values:
+                    # These attributes hold handles. A handle that does not
+                    # resolve to a LAYER table entry is not a layer reference,
+                    # and adding the raw handle would protect layers by
+                    # coincidence of name.
+                    name = handle_to_name.get(str(value))
+                    if name is not None:
+                        referenced.add(name)
+            except Exception:
+                continue
+    return referenced
+
+
+def _purge_emptied_layers(
+    config: LayerRewriteConfig | None,
+    doc: ezdxf.document.Drawing,
+    populated_before: set[str],
+    issues: list[LayerRewriteIssue],
+) -> list[str]:
+    """Remove source layers that this rewrite emptied.
+
+    Only layers that held entities before the rewrite and hold none after are
+    removed, so layers the source deliberately shipped empty are left as-is.
+    Layer "0" is never removed: DXF requires it.
+    """
+
+    still_populated = {_entity_layer(entity) for entity in _all_rewrite_entities(doc)}
+    protected = _referenced_layer_names(doc)
+    candidates = set(populated_before)
+    if config is not None and config.purge_all_empty_layers:
+        candidates.update(str(layer.dxf.name) for layer in doc.layers)
+    removed: list[str] = []
+    for name in sorted(candidates):
+        if name == "0" or name in still_populated or name in protected:
+            continue
+        if name not in doc.layers:
+            continue
+        try:
+            doc.layers.remove(name)
+        except Exception:
+            continue
+        removed.append(name)
+    return removed
+
+
+def _ensure_target_layers(
+    doc: ezdxf.document.Drawing,
+    config: LayerRewriteConfig,
+    only_layers: set[str] | None = None,
+) -> None:
+    linetype_substitutions = _ensure_target_linetypes(doc, config)
     for name in sorted(set(config.target_layers.values()), key=str.casefold):
+        if only_layers is not None and name not in only_layers:
+            continue
         style = dict(config.target_layer_styles.get(name, {}))
+        if "linetype" in style:
+            style["linetype"] = linetype_substitutions.get(str(style["linetype"]), style["linetype"])
         if name in doc.layers:
             layer = doc.layers.get(name)
             for key, value in style.items():
@@ -448,16 +785,22 @@ def _ensure_target_layers(doc: ezdxf.document.Drawing, config: LayerRewriteConfi
         doc.layers.new(name, dxfattribs={key: value for key, value in style.items() if key in {"color", "linetype", "plot"}})
 
 
-def _all_rewrite_entities(doc: ezdxf.document.Drawing) -> list[DXFEntity]:
-    entities: list[DXFEntity] = []
+def _rewrite_entities_with_scope(doc: ezdxf.document.Drawing) -> list[tuple[DXFEntity, bool]]:
+    """Every rewritable entity paired with whether it lives in a block definition."""
+
+    items: list[tuple[DXFEntity, bool]] = []
     for layout in doc.layouts:
-        entities.extend(list(layout))
+        items.extend((entity, False) for entity in layout)
     for block in doc.blocks:
         name = str(getattr(block, "name", "")).upper()
         if name.startswith("*MODEL_SPACE") or name.startswith("*PAPER_SPACE"):
             continue
-        entities.extend(list(block))
-    return entities
+        items.extend((entity, True) for entity in block)
+    return items
+
+
+def _all_rewrite_entities(doc: ezdxf.document.Drawing) -> list[DXFEntity]:
+    return [entity for entity, _in_block in _rewrite_entities_with_scope(doc)]
 
 
 def _entity_totals(doc: ezdxf.document.Drawing) -> EntityTotals:
